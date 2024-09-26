@@ -1,0 +1,36 @@
+{
+  "header": {
+    "greeting": "Xin chào, ",
+    "home": "TRANG CHỦ",
+    "introduction": "GIỚI THIỆU",
+    "product": "SẢN PHẨM",
+    "news": "TIN TỨC",
+    "map": "BẢN ĐỒ",
+    "contact": "LIÊN HỆ"
+  },
+
+  "footer": {
+    "contact_us": "LIÊN HỆ VỚI CHÚNG TÔI",
+    "address": "Tầng 4, Tòa nhà Haux Group. 56 442 Đội Cấn, P. Cống Vị, Q. Ba Đình, Hà Nội",
+    "shipping": "CHUYỂN HÀNG",
+    "online_shopping": "Mua sắm trực tuyến",
+    "from_us_to_you": "Đến từ chúng tôi gửi đến",
+    "shipping_policy": "Chính sách vận chuyển",
+    "shipping_information": "Vận chuyển thông tin",
+    "support": "HỖ TRỢ",
+    "our_story": "Câu chuyện của chúng ta",
+    "safe_payment": "Thanh toán an toàn",
+    "shipping_options": "Tùy chọn vận Chuyển",
+    "information": "THÔNG TIN",
+    "about_us": "Về Chúng Tôi",
+    "terms_conditions": "Điều khoản & điều kiện",
+    "privacy_policy": "Chính sách riêng tư",
+    "orders_returns": "Đơn đặt hàng và Returns",
+    "account": "TÀI KHOẢN",
+    "favorite_products": "Sản phẩm yêu thích",
+    "my_account": "Tài khoản",
+    "register": "Đăng ký",
+    "login": "Đăng nhập",
+    "copyright": "@ Bản quyền 2000-2014 DICT Technology JSC"
+  }
+}
