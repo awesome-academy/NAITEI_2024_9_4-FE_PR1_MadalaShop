@@ -1,0 +1,35 @@
+{
+  "header": {
+    "greeting": "Hello, ",
+    "home": "HOME",
+    "introduction": "INTRODUCTION",
+    "product": "PRODUCT",
+    "news": "NEWS",
+    "map": "MAP",
+    "contact": "CONTACT"
+  },
+  "footer": {
+    "contact_us": "CONTACT US",
+    "address": "4th Floor, Haux Group Building. 56 442 Doi Can, Cong Vi Ward, Ba Dinh District, Hanoi",
+    "shipping": "SHIPPING",
+    "online_shopping": "Online Shopping",
+    "from_us_to_you": "From Us To You",
+    "shipping_policy": "Shipping Policy",
+    "shipping_information": "Shipping Information",
+    "support": "SUPPORT",
+    "our_story": "Our Story",
+    "safe_payment": "Safe Payment",
+    "shipping_options": "Shipping Options",
+    "information": "INFORMATION",
+    "about_us": "About Us",
+    "terms_conditions": "Terms & Conditions",
+    "privacy_policy": "Privacy Policy",
+    "orders_returns": "Orders & Returns",
+    "account": "ACCOUNT",
+    "favorite_products": "Favorite Products",
+    "my_account": "My Account",
+    "register": "Register",
+    "login": "Login",
+    "copyright": "@ Copyright 2000-2014 DICT Technology JSC"
+  }
+}
