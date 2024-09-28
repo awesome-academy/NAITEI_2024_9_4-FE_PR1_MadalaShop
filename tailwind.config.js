@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         openSans: ["Open Sans Condensed", "sans-serif"],
-        colors: {
-          "primary-color": "#819E33",
-        },
+      },
+      colors: {
+        "primary-color": "#819E33",
       },
     },
   },
