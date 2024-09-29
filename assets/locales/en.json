@@ -12,7 +12,8 @@
   "breadcrumb": {
     "home": "Home",
     "about_us": "About Us",
-    "contact": "Contact"
+    "contact": "Contact",
+    "account": "Account"
   },
   
   "about_us": {
@@ -51,6 +52,23 @@
     "label_name": "Name:",
     "label_email": "Email:",
     "label_message": "Message:",
-    "button_submit": "Send"
+    "button_submit": "Send",
+    "error_name": "The name must have at least 3 characters.",
+    "error_email": "Invalid email.",
+    "error_message": "Message must have at least 10 characters.",
+    "success_message": "Valid information, message has been sent!!"
+  },
+
+  "account": {
+    "purchase_history": "PURCHASE HISTORY",
+    "order_id": "Order ID",
+    "purchase_date": "Date",
+    "product": "Product",
+    "total_amount": "Total",
+    "remaining_debt": "Debt",
+    "status": "Status",
+    "completed": "Completed",
+    "not_completed": "Not Completed",
+    "account_details": "ACCOUNT DETAILS"
   }
 }

@@ -12,7 +12,8 @@
   "breadcrumb": {
     "home": "Trang chủ",
     "about_us": "Về chúng tôi",
-    "contact": "Liên hệ"
+    "contact": "Liên hệ",
+    "account": "Tài khoản"
   },
 
   "about_us": {
@@ -51,6 +52,23 @@
     "label_name": "Tên:",
     "label_email": "Email:",
     "label_message": "Tin nhắn:",
-    "button_submit": "Gửi"
+    "button_submit": "Gửi",
+    "error_name": "Tên phải có ít nhất 3 ký tự.",
+    "error_email": "Email không hợp lệ.",
+    "error_message": "Tin nhắn phải có ít nhất 10 ký tự.",
+    "success_message": "Thông tin hợp lệ, tin nhắn đã được gửi!!"
+  },
+
+  "account": {
+    "purchase_history": "LỊCH SỬ MUA HÀNG",
+    "order_id": "Mã đơn",
+    "purchase_date": "Ngày mua",
+    "product": "Sản phẩm",
+    "total_amount": "Tổng tiền",
+    "remaining_debt": "Nợ còn",
+    "status": "Trạng thái",
+    "completed": "Hoàn thành",
+    "not_completed": "Chưa hoàn thành",
+    "account_details": "CHI TIẾT TÀI KHOẢN"
   }
 }
