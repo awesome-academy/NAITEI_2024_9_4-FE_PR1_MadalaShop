@@ -13,7 +13,9 @@
     "home": "Trang chủ",
     "about_us": "Về chúng tôi",
     "contact": "Liên hệ",
-    "account": "Tài khoản"
+    "account": "Tài khoản",
+    "product": "Sản phẩm",
+    "jewelry": "Trang sức"
   },
 
   "about_us": {
@@ -70,5 +72,38 @@
     "completed": "Hoàn thành",
     "not_completed": "Chưa hoàn thành",
     "account_details": "CHI TIẾT TÀI KHOẢN"
+  },
+
+  "product": {
+    "catalog": "Danh mục sản phẩm",
+    "cosmetics": "MỸ PHẨM",
+    "lipstick": "Son môi",
+    "nail_polish": "Sơn móng tay",
+    "olive_oil": "Dầu ô li mỹ phẩm",
+    "jewelry": "TRANG SỨC",
+    "bracelet": "Vòng tay",
+    "ring": "Nhẫn",
+    "earrings": "Hoa tai",
+    "accessories": "PHỤ KIỆN",
+    "shirt": "Áo sơ mi",
+    "shoe": "Giày",
+    "sunglasses": "Kính râm",
+    "no_product": "Chưa có sản phẩm nào để so sánh",
+    "perfume": "NƯỚC HOA",
+    "perfume2": "Nước hoa",
+    "women": "Nước hoa nữ",
+    "men": "Nước hoa nam",
+    "unisex": "Nước hoa unisex",
+    "compare": "So sánh sản phẩm",
+    "compare_button": "So sánh",
+    "tag": "Tag sản phẩm",
+    "discount": "Giảm giá",
+    "women_fashion": "Thời trang nữ",
+    "children": "Trẻ em",
+    "product_title": "Mỹ phẩm Châu Âu",
+    "product_title2": "Mỹ phẩm châu Âu thương hiệu hàng đầu thế giới",
+    "product_description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
+    "purchase": "Mua hàng",
+    "purchases": "lượt mua"
   }
 }

@@ -13,7 +13,9 @@
     "home": "Home",
     "about_us": "About Us",
     "contact": "Contact",
-    "account": "Account"
+    "account": "Account",
+    "product": "Product",
+    "jewelry": "Jewelry"
   },
   
   "about_us": {
@@ -70,5 +72,38 @@
     "completed": "Completed",
     "not_completed": "Not Completed",
     "account_details": "ACCOUNT DETAILS"
+  },
+
+  "product": {
+    "catalog": "Product catalog",
+    "cosmetics": "COSMETICS",
+    "lipstick": "Lipstick",
+    "nail_polish": "Nail polish",
+    "olive_oil": "Cosmetic olive oil",
+    "jewelry": "JEWELRY",
+    "bracelet": "Bracelet",
+    "ring": "Ring",
+    "earrings": "Earrings",
+    "accessories": "ACCESSORIES",
+    "shirt": "Shirt",
+    "shoe": "Shoe",
+    "sunglasses": "Sunglasses",
+    "no_product": "There are no products to compare yet",
+    "perfume": "PERFUME",
+    "perfume2": "Perfume",
+    "women": "Women's perfume",
+    "men": "Men's perfume",
+    "unisex": "Unisex perfume",
+    "compare": "Compare products",
+    "compare_button": "Compare",
+    "tag": "Product tag",
+    "discount": "Discount",
+    "women_fashion": "Women's fashion",
+    "children": "Children",
+    "product_title": "European cosmetics",
+    "product_title2": "European cosmetics are the world's leading brands",
+    "product_description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
+    "purchase": "Purchase",
+    "purchases": "purchases"
   }
 }
