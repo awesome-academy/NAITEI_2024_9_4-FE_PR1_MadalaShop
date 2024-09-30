@@ -5,6 +5,7 @@ const breadcrumbData = [
   { url: "../pages/contact_us.html", data: "breadcrumb.contact" },
   { url: "../pages/account.html", data: "breadcrumb.account" },
   { url: "../pages/product.html", data: "breadcrumb.product" },
+  { url: "../pages/blog.html", data: "breadcrumb.blog" },
   { url: "../pages/detail.html", data: "breadcrumb.product" },
 ];
 const urlParams = new URLSearchParams(window.location.search);

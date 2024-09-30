@@ -15,7 +15,8 @@
     "account": "Account",
     "product": "Product",
     "jewelry": "Jewelry",
-    "cart": "Cart"
+    "cart": "Cart",
+    "blog": "Blog"
   },
   "category": {
     "accesories": "Accessories",
@@ -158,5 +159,13 @@
     "product_description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
     "purchase": "Purchase",
     "purchases": "purchases"
+  },
+  "blog": {
+    "heading": "BLOG",
+    "title": "REVIEW BOURJOIS VELVET LIQUID LIPSTICK",
+    "content": "Hi, hello ladies... after quite a few empty promises, I'm back to heat up this blog on a hot summer day...",
+    "author": "By",
+    "read_more": "Read more",
+    "comments": "comments"
   }
 }

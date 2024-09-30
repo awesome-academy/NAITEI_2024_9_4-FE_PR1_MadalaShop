@@ -28,3 +28,10 @@ function hideTooltip() {
     const tooltip = document.getElementById('tooltip');
     tooltip.classList.add('hidden');
 }
+
+function hoverTooltip(element, i18n) {
+    element.addEventListener('mouseover', function(event) {
+        showTooltip(event, t(i18n));
+    });
+    element.addEventListener('mouseout', hideTooltip);
+}

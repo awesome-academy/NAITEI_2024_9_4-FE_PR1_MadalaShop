@@ -15,7 +15,8 @@
     "account": "Tài khoản",
     "product": "Sản phẩm",
     "jewelry": "Trang sức",
-    "cart": "Giỏ hàng"
+    "cart": "Giỏ hàng",
+    "blog": "Tin tức"
   },
   "category": {
     "accesories": "Phụ kiện",
@@ -158,5 +159,13 @@
     "product_description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
     "purchase": "Mua hàng",
     "purchases": "lượt mua"
+  },
+  "blog": {
+    "heading": "TIN TỨC",
+    "title": "REVIEW SON KEM BOURJOIS VELVET",
+    "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức...",
+    "author": "Bởi",
+    "read_more": "Đọc thêm",
+    "comments": "bình luận"
   }
 }
