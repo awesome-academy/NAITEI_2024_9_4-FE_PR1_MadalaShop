@@ -8,21 +8,38 @@
     "map": "MAP",
     "contact": "CONTACT"
   },
-
   "breadcrumb": {
     "home": "Home",
     "about_us": "About Us",
     "contact": "Contact",
     "account": "Account",
     "product": "Product",
-    "jewelry": "Jewelry"
+    "jewelry": "Jewelry",
+    "cart": "Cart"
   },
-  
+  "category": {
+    "accesories": "Accessories",
+    "clothing": "Clothing"
+  },
+  "item": {
+    "ring": "Ring",
+    "shirt": "Shirt"
+  },
+  "cart": {
+    "productImage": "Image",
+    "productName": "Product's name",
+    "productPrice": "Price",
+    "productNumber": "No.",
+    "productSum": "Total",
+    "productDelete": "Delete",
+    "delete": "delete",
+    "buy-more": "Buy more",
+    "pay": "Pay"
+  },
   "about_us": {
     "title": "General Introduction to Handmade Mandala Aesthetics",
     "content": "Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off. Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off. Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off."
   },
-
   "footer": {
     "contact_us": "CONTACT US",
     "address": "4th Floor, HaNoi Group Building 442 Doi Can, Cong Vi Ward, Ba Dinh District, Hanoi",
@@ -47,7 +64,6 @@
     "login": "Login",
     "copyright": "@ Copyright 2000-2014 DICT Technology JSC"
   },
-
   "contact_us": {
     "contact_title": "CONTACT",
     "contact_subtitle": "SEND US AN EMAIL",
@@ -60,7 +76,6 @@
     "error_message": "Message must have at least 10 characters.",
     "success_message": "Valid information, message has been sent!!"
   },
-
   "account": {
     "purchase_history": "PURCHASE HISTORY",
     "order_id": "Order ID",
@@ -73,7 +88,6 @@
     "not_completed": "Not Completed",
     "account_details": "ACCOUNT DETAILS"
   },
-
   "product": {
     "catalog": "Product catalog",
     "cosmetics": "COSMETICS",

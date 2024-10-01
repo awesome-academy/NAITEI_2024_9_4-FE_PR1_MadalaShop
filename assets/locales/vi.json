@@ -8,21 +8,38 @@
     "map": "BẢN ĐỒ",
     "contact": "LIÊN HỆ"
   },
-
   "breadcrumb": {
     "home": "Trang chủ",
     "about_us": "Về chúng tôi",
     "contact": "Liên hệ",
     "account": "Tài khoản",
     "product": "Sản phẩm",
-    "jewelry": "Trang sức"
+    "jewelry": "Trang sức",
+    "cart": "Giỏ hàng"
   },
-
+  "category": {
+    "accesories": "Phụ kiện",
+    "clothing": "Quần áo"
+  },
+  "item": {
+    "ring": "Nhẫn",
+    "shirt": "Áo sơ mi"
+  },
   "about_us": {
     "title": "GIỚI THIỆU CHUNG VỀ MỸ THẨM HANDMADE MANDALA",
     "content": "Hi, chào các nàng... sau khá nhiều ời hứa thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu mùa hè nóng oi bức, khi mà dân tình đổ xô nhau đi tắm Free  để giải nhiệt. Hi, chào các nàng... sau khá nhiều ời hứa thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu mùa hè nóng oi bức, khi mà dân tình đổ xô nhau đi tắm Free  để giải nhiệt.Hi, chào các nàng... sau khá nhiều ời hứa thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu mùa hè nóng oi bức, khi mà dân tình đổ xô nhau đi tắm Free  để giải nhiệt."
   },
-
+  "cart": {
+    "productImage": "Ảnh",
+    "productName": "Tên sản phẩm",
+    "productPrice": "Giá",
+    "productNumber": "Số lượng",
+    "productSum": "Tổng",
+    "productDelete": "Xóa",
+    "delete": "Xóa",
+    "buy-more": "Tiếp tục mua hàng",
+    "pay": "Thanh toán"
+  },
   "footer": {
     "contact_us": "LIÊN HỆ VỚI CHÚNG TÔI",
     "address": "Tầng 4, Tòa nhà HaNoi Group Số 442 Đội Cấn, P. Cống Vị, Q. Ba Đình, Hà Nội",
@@ -47,7 +64,6 @@
     "login": "Đăng nhập",
     "copyright": "@ Bản quyền 2000-2014 DICT Technology JSC"
   },
-  
   "contact_us": {
     "contact_title": "LIÊN HỆ",
     "contact_subtitle": "GỬI MAIL CHO CHÚNG TÔI",
@@ -60,7 +76,6 @@
     "error_message": "Tin nhắn phải có ít nhất 10 ký tự.",
     "success_message": "Thông tin hợp lệ, tin nhắn đã được gửi!!"
   },
-
   "account": {
     "purchase_history": "LỊCH SỬ MUA HÀNG",
     "order_id": "Mã đơn",
@@ -73,7 +88,6 @@
     "not_completed": "Chưa hoàn thành",
     "account_details": "CHI TIẾT TÀI KHOẢN"
   },
-
   "product": {
     "catalog": "Danh mục sản phẩm",
     "cosmetics": "MỸ PHẨM",
