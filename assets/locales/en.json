@@ -8,6 +8,17 @@
     "map": "MAP",
     "contact": "CONTACT"
   },
+
+  "breadcrumb": {
+    "home": "Home",
+    "about_us": "About Us"
+  },
+
+  "about_us": {
+    "title": "General Introduction to Handmade Mandala Aesthetics",
+    "content": "Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off. Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off. Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off."
+  },
+
   "footer": {
     "contact_us": "CONTACT US",
     "address": "4th Floor, Haux Group Building. 56 442 Doi Can, Cong Vi Ward, Ba Dinh District, Hanoi",
