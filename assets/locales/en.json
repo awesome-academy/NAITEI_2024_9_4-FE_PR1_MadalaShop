@@ -11,9 +11,10 @@
 
   "breadcrumb": {
     "home": "Home",
-    "about_us": "About Us"
+    "about_us": "About Us",
+    "contact": "Contact"
   },
-
+  
   "about_us": {
     "title": "General Introduction to Handmade Mandala Aesthetics",
     "content": "Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off. Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off. Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off."
@@ -21,7 +22,7 @@
 
   "footer": {
     "contact_us": "CONTACT US",
-    "address": "4th Floor, Haux Group Building. 56 442 Doi Can, Cong Vi Ward, Ba Dinh District, Hanoi",
+    "address": "4th Floor, HaNoi Group Building 442 Doi Can, Cong Vi Ward, Ba Dinh District, Hanoi",
     "shipping": "SHIPPING",
     "online_shopping": "Online Shopping",
     "from_us_to_you": "From Us To You",
@@ -42,5 +43,14 @@
     "register": "Register",
     "login": "Login",
     "copyright": "@ Copyright 2000-2014 DICT Technology JSC"
+  },
+
+  "contact_us": {
+    "contact_title": "CONTACT",
+    "contact_subtitle": "SEND US AN EMAIL",
+    "label_name": "Name:",
+    "label_email": "Email:",
+    "label_message": "Message:",
+    "button_submit": "Send"
   }
 }
