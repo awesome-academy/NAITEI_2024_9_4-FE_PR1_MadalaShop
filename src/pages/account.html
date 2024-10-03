@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../assets/css/output.css">
+  <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+  <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container mx-auto max-w-7xl mb-24 text-sm px-2.5">
+        <div class="px-2.5">
+            <div class="py-5 text-sm border-b border-gray-200">
+                <nav id="breadcrumb" class="flex list-none gap-2">
+        
+                </nav>
+            </div>
+        </div>
+        <div class="flex flex-col-reverse md:flex-row">
+            <div class="md:w-3/4 w-full">
+                <div class="text-2xl my-6" data-i18n="account.purchase_history"></div>
+                <table class="w-full sm:table hidden">
+                    <thead>
+                        <tr class="bg-gray-200 text-left text-sm uppercase text-gray-600">
+                            <th class="py-2 px-4" data-i18n="account.order_id"></th>
+                            <th class="py-2 px-4" data-i18n="account.purchase_date"></th>
+                            <th class="py-2 px-4" data-i18n="account.product"></th>
+                            <th class="py-2 px-4" data-i18n="account.total_amount"></th>
+                            <th class="py-2 px-4" data-i18n="account.remaining_debt"></th>
+                            <th class="py-2 px-4" data-i18n="account.status"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b hover:bg-gray-100 transition duration-300">
+                            <td class="py-2 px-4">#1001</td>
+                            <td class="py-2 px-4">30/09/2024</td>
+                            <td class="py-2 px-4">
+                                <ul class="list-disc pl-4">
+                                    <li><a href="">Sản phẩm</a></li>
+                                    <li><a href="">Sản phẩm</a></li>
+                                </ul>
+                            </td>
+                            <td class="py-2 px-4">500,000 VND</td>
+                            <td class="py-2 px-4">000,000 VND</td>
+                            <td class="py-2 px-4">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded" data-i18n="account.completed"></span>
+                            </td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-100 transition duration-300">
+                            <td class="py-2 px-4">#1001</td>
+                            <td class="py-2 px-4">30/09/2024</td>
+                            <td class="py-2 px-4">
+                                <ul class="list-disc pl-4">
+                                    <li><a href="">Sản phẩm</a></li>
+                                    <li><a href="">Sản phẩm</a></li>
+                                </ul>
+                            </td>
+                            <td class="py-2 px-4">500,000 VND</td>
+                            <td class="py-2 px-4">000,000 VND</td>
+                            <td class="py-2 px-4">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded" data-i18n="account.completed"></span>
+                            </td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-100 transition duration-300">
+                            <td class="py-2 px-4">#1001</td>
+                            <td class="py-2 px-4">30/09/2024</td>
+                            <td class="py-2 px-4">
+                                <ul class="list-disc pl-4">
+                                    <li><a href="">Sản phẩm</a></li>
+                                    <li><a href="">Sản phẩm</a></li>
+                                </ul>
+                            </td>
+                            <td class="py-2 px-4">500,000 VND</td>
+                            <td class="py-2 px-4">000,000 VND</td>
+                            <td class="py-2 px-4">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded" data-i18n="account.completed"></span>
+                            </td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-100 transition duration-300">
+                            <td class="py-2 px-4">#1001</td>
+                            <td class="py-2 px-4">30/09/2024</td>
+                            <td class="py-2 px-4">
+                                <ul class="list-disc pl-4">
+                                    <li><a href="">Sản phẩm</a></li>
+                                    <li><a href="">Sản phẩm</a></li>
+                                </ul>
+                            </td>
+                            <td class="py-2 px-4">500,000 VND</td>
+                            <td class="py-2 px-4">000,000 VND</td>
+                            <td class="py-2 px-4">
+                                <span class="bg-red-100 text-red-700 px-2 py-1 rounded" data-i18n="account.not_completed"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="grid grid-cols-1 gap-4 sm:hidden">
+                    <div class="p-4 bg-gray-100 hover:shadow-md rounded-lg border border-gray-300">
+                        <div class="flex justify-between">
+                            <div><strong>Mã đơn:</strong> #1001</div>
+                            <div class="text-gray-400">30/09/2024</div>
+                        </div>
+                        <div><strong>Tổng tiền:</strong> 500.000đ</div>
+                        <div><strong>Nợ còn:</strong> 000.000đ</div>
+                        <div>
+                            <strong>Tình trạng:</strong> 
+                            <span class="bg-green-100 text-green-700 px-2 py-1 rounded" data-i18n="account.completed"></span>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-gray-100 hover:shadow-md rounded-lg border border-gray-300">
+                        <div class="flex justify-between">
+                            <div><strong>Mã đơn:</strong> #1001</div>
+                            <div class="text-gray-400">30/09/2024</div>
+                        </div>
+                        <div><strong>Tổng tiền:</strong> 500.000đ</div>
+                        <div><strong>Nợ còn:</strong> 000.000đ</div>
+                        <div>
+                            <strong>Tình trạng:</strong> 
+                            <span class="bg-green-100 text-green-700 px-2 py-1 rounded" data-i18n="account.completed"></span>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-gray-100 hover:shadow-md rounded-lg border border-gray-300">
+                        <div class="flex justify-between">
+                            <div><strong>Mã đơn:</strong> #1001</div>
+                            <div class="text-gray-400">30/09/2024</div>
+                        </div>
+                        <div><strong>Tổng tiền:</strong> 500.000đ</div>
+                        <div><strong>Nợ còn:</strong> 000.000đ</div>
+                        <div>
+                            <strong>Tình trạng:</strong> 
+                            <span class="bg-red-100 text-red-700 px-2 py-1 rounded" data-i18n="account.not_completed"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/4 w-full md:ml-7">
+                <div class="text-lg my-6 md:block hidden" data-i18n="account.account_details"></div>
+                <div class="border-t pt-5">
+                    <div class="flex mb-5">
+                        <i class="fa-solid fa-user text-primary-color mr-3 pt-2"></i>
+                        <div>
+                            <div class="text-xl">Thành Tín</div>
+                            <div>tin332810@gmail.com</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex">
+                            <i class="fa-solid fa-location-dot text-primary-color mr-3 pt-1"></i>
+                            <div>261A kp8 Nguyễn Văn Tuôi, thị trấn Bến Lức, Bến Lức, Long An</div>
+                        </div>
+                        <div class="flex mt-1">
+                            <i class="fa-solid fa-phone text-primary-color mr-3 pt-1"></i>
+                            <div>(84) 2194 9128</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="../../assets/js/loadlayouts.js" type="module"></script>
+    <script src="../../assets/js/breadcrumb.js"></script>
+    <script src="../../assets/js/i18n.js"></script>
+</body>
+</html>

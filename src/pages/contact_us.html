@@ -36,28 +36,29 @@
                     <div class="flex justify-between">
                         <label for="username" class="font-bold py-1" data-i18n="contact_us.label_name"></label>
                         <div class="w-3/4">
-                            <input class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none" type="text" id="username">
+                            <input class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color" type="text" id="username">
                             <span class="text-red-500 text-xs mt-1 hidden error-message" id="username-error"></span>
                         </div>
                     </div>
                     <div class="flex justify-between">
                         <label for="email" class="font-bold py-1" data-i18n="contact_us.label_email"></label>
                         <div class="w-3/4">
-                            <input class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none" type="email" id="email">
+                            <input class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color" type="email" id="email">
                             <span class="text-red-500 text-xs mt-1 hidden error-message" id="email-error"></span>
                         </div>
                     </div>
                     <div class="flex justify-between">
                         <label for="message" class="font-bold py-2" data-i18n="contact_us.label_message"></label>
                         <div class="w-3/4">
-                            <textarea class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none h-52 min-h-20 max-h-52" type="email" id="message"></textarea>
+                            <textarea class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none h-52 min-h-20 max-h-52 focus:border-primary-color" type="email" id="message"></textarea>
                             <span class="text-red-500 text-xs mt-1 hidden error-message" id="message-error"></span>
                         </div>
                     </div>
                     <div class="flex justify-end">
                         <button type="submit" class=" bg-black hover:bg-primary-color text-white font-semibold py-1 px-3 rounded-md duration-300" data-i18n="contact_us.button_submit"></button>
                     </div>
-                </form>
+                </form> 
+                <div id="alert-success-container"></div>
             </div>
         </div>
     </div>
@@ -67,6 +68,7 @@
     <script src="../../assets/js/loadlayouts.js" type="module"></script>
     <script src="../../assets/js/breadcrumb.js"></script>
     <script src="../../assets/js/contact_us.js"></script>
+    <script src="../../assets/js/showalert.js"></script>
     <script src="../../assets/js/i18n.js"></script>
 </body>
 </html>

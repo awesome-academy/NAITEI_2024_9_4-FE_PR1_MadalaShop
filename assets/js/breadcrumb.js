@@ -3,6 +3,7 @@ const breadcrumbData = [
   { url: "../pages/aboutUs.html", data: "breadcrumb.about_us" },
   { url: "../pages/cart.html", data: "breadcrumb.cart" },
   { url: "../pages/contact_us.html", data: "breadcrumb.contact" },
+  { url: "../pages/account.html", data: "breadcrumb.account" },
 ];
 
 const breadcrumbContainer = document.getElementById("breadcrumb");
