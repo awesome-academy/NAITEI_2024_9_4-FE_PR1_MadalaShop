@@ -24,7 +24,10 @@ function fetchLanguage(lang) {
         const [section, subsection] = key.split('.');
         element.textContent = data[section][subsection];
       })
-      reloadMessage();
+      // chỉ trang contact_us được áp dụng
+      if (window.location.pathname.includes('contact_us.html')) {
+        reloadMessage();
+      }
     });
 }
 
