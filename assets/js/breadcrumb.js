@@ -4,6 +4,7 @@ const breadcrumbData = [
   { url: "../pages/cart.html", data: "breadcrumb.cart" },
   { url: "../pages/contact_us.html", data: "breadcrumb.contact" },
   { url: "../pages/account.html", data: "breadcrumb.account" },
+  { url: "../pages/product.html", data: "breadcrumb.product" },
 ];
 
 const breadcrumbContainer = document.getElementById("breadcrumb");

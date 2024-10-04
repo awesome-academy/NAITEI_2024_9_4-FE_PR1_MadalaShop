@@ -33,6 +33,7 @@ Promise.all([
   loadLayout('header', '../../src/layouts/header.html'),
   loadLayout('footer', '../../src/layouts/footer.html'),
   loadLayout('alert-success-container', '../../src/components/alert.html', 'alert-success-container'),
+  loadLayout('tooltip-container', '../../src/components/tooltip.html'),
 ]).then(() => {
   changeLanguage(localStorage.getItem('language') || 'vi');
 });
