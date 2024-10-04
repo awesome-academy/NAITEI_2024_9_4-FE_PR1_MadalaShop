@@ -31,6 +31,9 @@ function fetchLanguage(lang) {
       if (window.location.pathname.includes('blog_detail.html')) {
         reloadBlogDetailMessage();
       }
+      if (window.location.pathname.includes('index.html')) {
+        reloadHomeMessage();
+      }
     });
 }
 
