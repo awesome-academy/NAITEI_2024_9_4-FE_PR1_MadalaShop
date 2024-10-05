@@ -1,26 +1,26 @@
 const validationSetUp = {
     username: {
         validator: value => value.length >= 3,
-        errorMessageI18n: 'contact_us.error_name',
+        errorMessageI18n: 'blog_detail.error_name',
         idErrorElement: 'username-error'
     },
     email: {
         validator: value => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value),
-        errorMessageI18n: 'contact_us.error_email',
+        errorMessageI18n: 'blog_detail.error_email',
         idErrorElement: 'email-error'
     },
     message: {
         validator: value => value.length >= 10,
-        errorMessageI18n: 'contact_us.error_message',
+        errorMessageI18n: 'blog_detail.error_message',
         idErrorElement: 'message-error'
     }
 };
-const successAlert = ['contact_us.success_message', 'success']
-const form = document.getElementById('contact-form');
+const successAlert = ['blog_detail.success_message', 'success']
+const form = document.getElementById('blog-form');
 
-function reloadContactMessage() {
+function reloadBlogDetailMessage() {
     const successAlert = document.getElementById('alert-message-success');
-    successAlert.textContent = t('contact_us.success_message');
+    successAlert.textContent = t('blog_detail.success_message');
 
     Object.keys(validationSetUp).forEach(field => {
         const { errorMessageI18n, idErrorElement } = validationSetUp[field];

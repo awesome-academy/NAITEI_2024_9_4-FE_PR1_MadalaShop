@@ -26,7 +26,10 @@ function fetchLanguage(lang) {
       })
       // chỉ trang contact_us được áp dụng
       if (window.location.pathname.includes('contact_us.html')) {
-        reloadMessage();
+        reloadContactMessage();
+      }
+      if (window.location.pathname.includes('blog_detail.html')) {
+        reloadBlogDetailMessage();
       }
     });
 }

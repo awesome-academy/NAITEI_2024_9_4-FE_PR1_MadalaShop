@@ -16,7 +16,8 @@
     "product": "Sản phẩm",
     "jewelry": "Trang sức",
     "cart": "Giỏ hàng",
-    "blog": "Tin tức"
+    "blog": "Tin tức",
+    "blog_detail": "Bài tin"
   },
   "category": {
     "accesories": "Phụ kiện",
@@ -167,5 +168,20 @@
     "author": "Bởi",
     "read_more": "Đọc thêm",
     "comments": "bình luận"
+  },
+  "blog_detail": {
+    "title": "NÀNG BÉO KHÔNG NGẠI DIỆN VÁY ÁO NỔI BẬT",
+    "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tình xô nhau đi tắm Free để giải nhiệt. Trong tiết xuân hè, nàng ngoại cỡ thắp sáng phong cách bằng quần họa tiết nhiệt đới đi kèm áo sơ mi nhà nhận. Trang phục họa tiết điện tử được nàng phối cùng chân váy kẻ caro, làm nên style vừa hiện đại, vừa phảng phất nét cổ điển. Lối diện đô hàng ngày đơn giản, khỏe khoắn của cô khi kết hợp chất liệu jean.",
+    "author": "Bởi",
+    "read_more": "Đọc thêm ",
+    "comments": "bình luận",
+    "tag": "Tag:",
+    "contribute_comments": "ĐÓNG GÓP Ý KIẾN",
+    "label_commment": "Ý kiến:",
+    "button_submit": "Gửi ý kiến",
+    "error_name": "Tên phải có ít nhất 3 ký tự.",
+    "error_email": "Email không hợp lệ.",
+    "error_message": "Tin nhắn phải có ít nhất 10 ký tự.",
+    "success_message": "Thông tin hợp lệ, tin nhắn đã được gửi!!"
   }
 }

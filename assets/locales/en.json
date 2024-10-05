@@ -16,7 +16,8 @@
     "product": "Product",
     "jewelry": "Jewelry",
     "cart": "Cart",
-    "blog": "Blog"
+    "blog": "Blog",
+    "blog_detail": "Post"
   },
   "category": {
     "accesories": "Accessories",
@@ -167,5 +168,19 @@
     "author": "By",
     "read_more": "Read more",
     "comments": "comments"
+  },
+  "blog_detail": {
+    "title": "FAT GIRLS ARE NOT AFRAID TO WEAR OUTSTANDING DRESSES",
+    "content": "Hi, hello ladies... after many false promises, today I'm back to warming up this Blog on a hot and muggy early summer day, when people rush to take a Free bath to cool off. In the spring and summer, the plus-size girl brightens up her style with tropical patterned pants and a custom shirt. She combined the electronic pattern outfit with a checkered skirt, creating a style that is both modern and classic. Her daily outfit is simple and strong when combined with jeans.",
+    "author": "By",
+    "comments": "comments",
+    "tag": "Tag:",
+    "contribute_comments": "CONTRIBUTE COMMENTS",
+    "label_commment": "comment:",
+    "button_submit": "Send comment",
+    "error_name": "The name must have at least 3 characters.",
+    "error_email": "Invalid email.",
+    "error_message": "Message must have at least 10 characters.",
+    "success_message": "Valid information, message has been sent!!"
   }
 }
