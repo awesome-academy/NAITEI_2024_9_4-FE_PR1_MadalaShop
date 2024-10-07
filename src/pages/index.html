@@ -34,29 +34,27 @@
 
     <div class="grid sm:grid-cols-4 grid-cols-2 gap-4 my-10">
       <img class="order-1" src="../../assets/images/intro-img1.jpg" alt="Image introdution 1" />
-      <div class="order-2 bg-yellow-300 text-white text-center flex flex-col justify-center items-center">
+      <a class="order-2 bg-yellow-300 text-white text-center flex flex-col justify-center items-center" href="">
         <p class="md:text-4xl sm:text-xl text-2xl uppercase" data-i18n="home.shower_gel"></p>
         <hr class="w-4/5 border-t-2 border-white mt-4" />
-      </div>
-      <img class="col-span-2 row-span-2 order-5 sm:order-3" src="../../assets/images/intro-img3.jpg"
-        alt="Image introdution 3" />
-      <div class=" order-3 sm:order-4 bg-gray-300 text-center flex flex-col justify-center items-center">
+      </a>
+      <img class="col-span-2 row-span-2 order-5 sm:order-3" src="../../assets/images/intro-img3.jpg" alt="Image introdution 3" />
+      <a class=" order-3 sm:order-4 bg-gray-300 text-center flex flex-col justify-center items-center" href="">
         <p class="md:text-4xl sm:text-xl text-2xl uppercase" data-i18n="home.perfume"></p>
         <hr class="w-4/5 border-t-2 border-black mt-4" />
-      </div>
+      </a>
       <img class="order-4 sm:order-5" src="../../assets/images/intro-img2.jpg" alt="Image introdution 2" />
       <img class="col-span-2 row-span-2 order-6" src="../../assets/images/intro-img4.jpg" alt="Image introdution 4" />
-      <div class="order-7 bg-teal-400 text-center flex flex-col justify-center items-center">
+      <a class="order-7 bg-teal-400 text-center flex flex-col justify-center items-center" href="">
         <p class="md:text-4xl sm:text-xl text-2xl uppercase" data-i18n="home.jewelry"></p>
         <hr class="w-4/5 border-t-2 border-black mt-4" />
-      </div>
+      </a>
       <img class="order-8" src="../../assets/images/intro-img5.jpg" alt="Image introdution 5" />
       <img class="order-9" src="../../assets/images/intro-img6.jpg" alt="Image introdution 6" />
-      <div class="order-10 bg-pink-300 text-center flex flex-col justify-center items-center">
-        <p class="md:text-4xl sm:text-xl text-2xl" data-i18n="home.seductive"></p>
-        <p class="md:text-5xl sm:text-lg text-xl"><span class="md:text-xl sm:text-sm text-base"
-            data-i18n="home.with"></span> D A I S Y</p>
-      </div>
+      <a class="order-10 bg-pink-300 text-center flex flex-col justify-center items-center" href="">
+        <p class="md:text-4xl sm:text-xl text-2xl" data-i18n="home.seductive"></p> 
+        <p class="md:text-5xl sm:text-lg text-xl"><span class="md:text-xl sm:text-sm text-base" data-i18n="home.with"></span> D A I S Y</p>
+      </a>
     </div>
 
     <div class="flex sm:flex-row sm:my-24 my-12 relative flex-col-reverse">
@@ -85,248 +83,22 @@
 
   <div class="bg-gray-100 border-y-2 sm:mt-40">
     <div class="container mx-auto max-w-7xl md:text-lg text-sm px-2.5">
-      <ul
-        class="flex italic font-bold sm:text-center justify-center mt-14 text-gray-500 sm:flex-row flex-col sm:items-center">
-        <li class="flex flex-col justify-end md:px-8 px-4">
-          <span class="cursor-pointer md:text-2xl text-lg hover:text-primary-color hover:scale-105"
-            data-i18n="home.new_products"></span>
-        </li>
-        <li class="sm:border-x-2 flex flex-col justify-end md:px-8 px-4">
-          <span class="cursor-pointer md:text-5xl text-3xl text-primary-color hover:text-primary-color"
-            data-i18n="home.best_products"></span>
-        </li>
-        <li class="flex flex-col justify-end md:px-8 px-4">
-          <span class="cursor-pointer md:text-2xl text-lg hover:text-primary-color hover:scale-105"
-            data-i18n="home.special_products"></span>
-        </li>
-      </ul>
+      <ul class="flex italic font-bold sm:text-center justify-center mt-14 text-gray-500 sm:flex-row flex-col sm:items-center" id="product-types"></ul>
       <div class="flex flex-col justify-center items-center">
         <hr class="w-2/5 border-t-2 border-gray-500 mt-8" />
       </div>
-      <ul
-        class="sm:flex sm:text-center justify-center mt-10 text-gray-500 grid grid-cols-2 sm:ml-0 ml-16 sm:list-none list-disc">
-        <li class="sm:px-5">
-          <span class="cursor-pointer text-primary-color hover:text-primary-color" data-category="cosmetics"
-            data-i18n="home.cosmetics"></span>
-        </li>
-        <span class="sm:block hidden">.</span>
-        <li class="sm:px-5">
-          <span class="cursor-pointer hover:text-primary-color" data-category="skin-care"
-            data-i18n="home.skin_care"></span>
-        </li>
-        <span class="sm:block hidden">.</span>
-        <li class="sm:px-5">
-          <span class="cursor-pointer hover:text-primary-color" data-category="for-hair"
-            data-i18n="home.for_hair"></span>
-        </li>
-        <span class="sm:block hidden">.</span>
-        <li class="sm:px-5">
-          <span class="cursor-pointer hover:text-primary-color" data-category="perfume" data-i18n="home.perfume"></span>
-        </li>
-        <span class="sm:block hidden">.</span>
-        <li class="sm:px-5">
-          <span class="cursor-pointer hover:text-primary-color" data-category="jewelry" data-i18n="home.jewelry"></span>
-        </li>
-        <span class="sm:block hidden">.</span>
-        <li class="sm:px-5">
-          <span class="cursor-pointer hover:text-primary-color" data-category="present" data-i18n="home.present"></span>
-        </li>
-      </ul>
+      <ul class="sm:flex sm:text-center justify-center mt-10 text-gray-500 grid grid-cols-2 sm:ml-0 ml-16 sm:list-none list-disc" id="categories"></ul>
 
       <div class="my-10 w-full">
-        <div class="cards grid sm:grid-cols-2 grid-cols-1 gap-8 transition-opacity duration-300" id="cosmetics">
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 flex flex-col items-center">
-            <img src="../../assets/images/mypham4.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 sm:flex flex-col items-center hidden">
-            <img src="../../assets/images/mypham5.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards grid sm:grid-cols-2 grid-cols-1 gap-8 transition-opacity duration-300 opacity-0 hidden"
-          id="skin-care">
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 flex flex-col items-center">
-            <img src="../../assets/images/mypham2.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 sm:flex flex-col items-center hidden">
-            <img src="../../assets/images/mypham2.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards grid sm:grid-cols-2 grid-cols-1 gap-8 transition-opacity duration-300 opacity-0 hidden"
-          id="for-hair">
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 flex flex-col items-center">
-            <img src="../../assets/images/mypham4.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 sm:flex flex-col items-center hidden">
-            <img src="../../assets/images/mypham4.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards grid sm:grid-cols-2 grid-cols-1 gap-8 transition-opacity duration-300 opacity-0 hidden"
-          id="perfume">
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 flex flex-col items-center">
-            <img src="../../assets/images/mypham4.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 sm:flex flex-col items-center hidden">
-            <img src="../../assets/images/mypham4.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards grid sm:grid-cols-2 grid-cols-1 gap-8 transition-opacity duration-300 opacity-0 hidden"
-          id="jewelry">
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 flex flex-col items-center">
-            <img src="../../assets/images/mypham4.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 sm:flex flex-col items-center hidden">
-            <img src="../../assets/images/mypham4.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-        </div>
-
-        <div class="cards grid sm:grid-cols-2 grid-cols-1 gap-8 transition-opacity duration-300 opacity-0 hidden"
-          id="present">
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 flex flex-col items-center">
-            <img src="../../assets/images/mypham3.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-          <div class="card bg-white p-4 rounded-lg shadow-lg hover:scale-105 sm:flex flex-col items-center hidden">
-            <img src="../../assets/images/mypham3.jpg" alt="Sản phẩm" class="w-full mb-2 border-b">
-            <p class="mb-1 font-bold text-gray-500">OHUI</p>
-            <h3 class="mb-1 font-bold" data-i18n="product.product_title"></h3>
-            <p class="mb-2 text-primary-color font-bold italic text-lg">355.000đ</p>
-            <div>
-              <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300"
-                data-i18n="product.purchase"></button>
-              <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i
-                  class="fa-solid fa-heart"></i></button>
-              <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300"><i
-                  class="fa-solid fa-rotate"></i></button>
-            </div>
-          </div>
-        </div>
+        <div class="cards grid sm:grid-cols-2 grid-cols-1 gap-8 transition-opacity duration-300" id="cards">
+          <div></div>
+          <div></div>
+        </div>  
       </div>
     </div>
   </div>
+  
+  <div id="alert-warning-container"></div>
 
   <div class="container mx-auto max-w-7xl text-base px-2.5 mt-14">
     <ul class="flex text-gray-500 text-center justify-center md:space-x-24 sm:space-x-12 flex-wrap">
@@ -363,7 +135,7 @@
     <div class="flex md:flex-row flex-col mt-14">
       <div class="md:w-1/2 w-full md:mr-8">
         <div class="flex flex-col justify-center items-center">
-          <p class="font-bold text-lg uppercase" data-i18n="breadcrumb.about_us"></p>
+          <a class="font-bold text-lg uppercase" data-i18n="breadcrumb.about_us" href="./aboutUs.html"></a>
           <hr class="w-full border-t-2 border-gray-500 my-6" />
         </div>
         <img class="w-72" src="../../assets/images/mandala-logo.jpg" alt="Logo">
@@ -375,7 +147,7 @@
       </div>
       <div class="md:w-1/2 w-full md:ml-8 md:mt-0 mt-14">
         <div class="flex flex-col justify-center items-center">
-          <p class="font-bold text-lg uppercase" data-i18n="breadcrumb.blog"></p>
+          <a class="font-bold text-lg uppercase" data-i18n="breadcrumb.blog" href="./blog.html"></a>
           <hr class="w-full border-t-2 border-gray-500 my-6" />
         </div>
         <img src="../../assets/images/blog2.jpg" alt="Tin tức" class="object-cover mb-2">
@@ -415,7 +187,7 @@
       </div>
       <div class="md:w-1/2 w-full md:ml-8 md:mt-0 mt-14">
         <div class="flex flex-col justify-center items-center">
-          <p class="font-bold text-lg uppercase" data-i18n="product.tag"></p>
+          <a class="font-bold text-lg uppercase" data-i18n="product.tag" href=""></a>
           <hr class="w-full border-t-2 border-gray-500 my-6" />
         </div>
         <div class="flex flex-wrap gap-2">
@@ -452,6 +224,7 @@
   <script src="../../assets/js/tooltip.js"></script>
   <script src="../../assets/js/validateForm.js"></script>
   <script src="../../assets/js/showAlert.js"></script>
+  <script src="../../assets/js/api.js"></script>
   <script src="../../assets/js/i18n.js"></script>
 </body>
 </html>

@@ -1,0 +1,892 @@
+{
+    "vi_product_types": [
+        {
+            "id": 1,
+            "name": "Sản phẩm mới"
+        },
+        {
+            "id": 2,
+            "name": "Sản phẩm bán chạy"
+        },
+        {
+            "id": 3,
+            "name": "Sản phẩm đặc biệt"
+        }
+    ],
+    "vi_categories": [
+        {
+            "id": 1,
+            "name": "Mỹ phẩm"
+        },
+        {
+            "id": 2,
+            "name": "Chăm sóc da"
+        },
+        {
+            "id": 3,
+            "name": "Dành cho tóc"
+        },
+        {
+            "id": 4,
+            "name": "Nước hoa"
+        },
+        {
+            "id": 5,
+            "name": "Trang sức"
+        },
+        {
+            "id": 6,
+            "name": "Quà tặng"
+        },
+        {
+            "id": 7,
+            "name": "Phụ kiện"
+        }
+    ],
+    "product_type_product": [
+        {
+            "product_type_id": 1,
+            "product_id": 2
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 4
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 3
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 6
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 5
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 1
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 7
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 8
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 9
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 10
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 11
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 12
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 16
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 14
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 13
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 19
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 20
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 15
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 17
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 18
+        },
+        {
+            "product_type_id": 1,
+            "product_id": 21
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 19
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 20
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 16
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 7
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 13
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 12
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 14
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 15
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 8
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 1
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 2
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 3
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 4
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 5
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 6
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 21
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 22
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 23
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 18
+        },
+        {
+            "product_type_id": 2,
+            "product_id": 17
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 6
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 11
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 10
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 12
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 8
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 9
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 3
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 1
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 2
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 4
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 5
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 7
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 20
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 13
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 14
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 19
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 18
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 21
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 22
+        },
+        {
+            "product_type_id": 3,
+            "product_id": 23
+        }
+    ],
+    "vi_sub_categories": [
+        {
+            "id": 1,
+            "name": "Son môi",
+            "category_id": 1
+        },
+        {
+            "id": 2,
+            "name": "Sơn móng tay",
+            "category_id": 1
+        },
+        {
+            "id": 3,
+            "name": "Dầu ô li mỹ phẩm",
+            "category_id": 1
+        },
+        {
+            "id": 4,
+            "name": "Vòng tay",
+            "category_id": 5
+        },
+        {
+            "id": 5,
+            "name": "Nhẫn",
+            "category_id": 5
+        },
+        {
+            "id": 6,
+            "name": "Hoa tai",
+            "category_id": 5
+        },
+        {
+            "id": 7,
+            "name": "Áo sơ mi",
+            "category_id": 7
+        },
+        {
+            "id": 8,
+            "name": "Giày",
+            "category_id": 7
+        },
+        {
+            "id": 9,
+            "name": "Kính râm",
+            "category_id": 7
+        },
+        {
+            "id": 10,
+            "name": "Nước hoa nữ",
+            "category_id": 4
+        },
+        {
+            "id": 11,
+            "name": "Nước hoa nam",
+            "category_id": 4
+        },
+        {
+            "id": 12,
+            "name": "Nước hoa unisex",
+            "category_id": 4
+        },
+        {
+            "id": 13,
+            "name": "Sữa rửa mặt",
+            "category_id": 2
+        },
+        {
+            "id": 14,
+            "name": "Kem chống nắng",
+            "category_id": 2
+        },
+        {
+            "id": 15,
+            "name": "Dầu gội",
+            "category_id": 3
+        },
+        {
+            "id": 16,
+            "name": "Sữa tắm",
+            "category_id": 3
+        },
+        {
+            "id": 17,
+            "name": "Nến thơm",
+            "category_id": 6
+        },
+        {
+            "id": 18,
+            "name": "Gấu bông",
+            "category_id": 6
+        }
+    ],
+    "vi_products": [
+        {
+            "id": 1,
+            "brand": "OHUI",
+            "name": "Son môi OHUI",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham1.jpg",
+            "sub_category_id": 1
+        },
+        {
+            "id": 2,
+            "brand": "HOME",
+            "name": "Dầu ô liu mỹ phẩm HOME",
+            "price": "520.000đ",
+            "image": "../../assets/images/mypham2.jpg",
+            "sub_category_id": 3
+        },
+        {
+            "id": 3,
+            "brand": "DEBORA",
+            "name": "Son móng DEBORA",
+            "price": "280.000đ",
+            "image": "../../assets/images/mypham3.jpg",
+            "sub_category_id": 2
+        },
+        {
+            "id": 4,
+            "brand": "OHUI",
+            "name": "Son thỏi lì OHUI",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham4.jpg",
+            "sub_category_id": 1
+        },
+        {
+            "id": 5,
+            "brand": "Lashes",
+            "name": "Mascara 2 Trong 1",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham5.jpg",
+            "sub_category_id": 1
+        },
+        {
+            "id": 6,
+            "brand": "LAMY",
+            "name": "Vòng tay CDE",
+            "price": "100.000đ",
+            "image": "../../assets/images/vongtay1.jpg",
+            "sub_category_id": 4
+        },
+        {
+            "id": 7,
+            "brand": "PNJ",
+            "name": "Nhẫn Bạc đính đá CZ",
+            "price": "420.000đ",
+            "image": "../../assets/images/nhan1.jpg",
+            "sub_category_id": 5
+        },
+        {
+            "id": 8,
+            "brand": "HANADA",
+            "name": "Bông Tai BẠC 925",
+            "price": "150.000đ",
+            "image": "../../assets/images/hoatai1.jpg",
+            "sub_category_id": 6
+        },
+        {
+            "id": 9,
+            "brand": "Teelab",
+            "name": "Áo Sơ Mi Tay Ngắn Kẻ Sọc",
+            "price": "210.000đ",
+            "image": "../../assets/images/aosomi1.jpg",
+            "sub_category_id": 7
+        },
+        {
+            "id": 10,
+            "brand": "TENET",
+            "name": "Giày thể thao giày nữ",
+            "price": "300.000đ",
+            "image": "../../assets/images/giay1.jpg",
+            "sub_category_id": 8
+        },
+        {
+            "id": 11,
+            "brand": "BLUE LIGHT",
+            "name": "Kính Mát Nam Nữ",
+            "price": "355.000đ",
+            "image": "../../assets/images/kinhram1.jpg",
+            "sub_category_id": 9
+        },
+        {
+            "id": 12,
+            "brand": "Daisy",
+            "name": "Lilith and Eve Daisy",
+            "price": "170.000đ",
+            "image": "../../assets/images/nuochoanu1.jpg",
+            "sub_category_id": 10
+        },
+        {
+            "id": 13,
+            "brand": "LONKOOM",
+            "name": "LONKOOM RETRO BLACK",
+            "price": "280.000đ",
+            "image": "../../assets/images/nuochoanam1.jpg",
+            "sub_category_id": 11
+        },
+        {
+            "id": 14,
+            "brand": "Rodian",
+            "name": "Unisex Rodian Pure Soul",
+            "price": "170.000đ",
+            "image": "../../assets/images/unisex1.jpg",
+            "sub_category_id": 12
+        },
+        {
+            "id": 15,
+            "brand": "Cerave",
+            "name": "Foaming Facial Cleanser",
+            "price": "355.000đ",
+            "image": "../../assets/images/suaruamat1.jpg",
+            "sub_category_id": 13
+        },
+        {
+            "id": 16,
+            "brand": "COCOLUX",
+            "name": "La Roche Posay Effaclar Foarming Gel",
+            "price": "200.000đ",
+            "image": "../../assets/images/suaruamat2.jpg",
+            "sub_category_id": 13
+        },
+        {
+            "id": 17,
+            "brand": "Sunplay",
+            "name": "Tinh Chất Chống Nắng Sunplay",
+            "price": "520.000đ",
+            "image": "../../assets/images/kemchongnang1.jpg",
+            "sub_category_id": 14
+        },
+        {
+            "id": 18,
+            "brand": "Tsubaki",
+            "name": "Dầu Gội Tsubaki",
+            "price": "140.000đ",
+            "image": "../../assets/images/daugoi1.jpg",
+            "sub_category_id": 15
+        },
+        {
+            "id": 19,
+            "brand": "Grace And Glow",
+            "name": "Sữa Tắm White Truffle Acne",
+            "price": "100.000đ",
+            "image": "../../assets/images/suatam1.jpg",
+            "sub_category_id": 16
+        },
+        {
+            "id": 20,
+            "brand": "Cocoon",
+            "name": "Gel tắm khuynh diệp & bạc hà",
+            "price": "245.000đ",
+            "image": "../../assets/images/suatam2.jpg",
+            "sub_category_id": 16
+        },
+        {
+            "id": 21,
+            "brand": "PANTENE",
+            "name": "Dầu Gội PANTENE Pro-V",
+            "price": "280.000đ",
+            "image": "../../assets/images/daugoi2.jpg",
+            "sub_category_id": 15
+        },
+        {
+            "id": 22,
+            "brand": "Romantic Times",
+            "name": "Nến Thơm MESMERIC",
+            "price": "180.000đ",
+            "image": "../../assets/images/nenthom1.jpg",
+            "sub_category_id": 17
+        },
+        {
+            "id": 23,
+            "brand": "Alpaca",
+            "name": "Thú Nhồi Bông Hình Lạc Đà",
+            "price": "60.000đ",
+            "image": "../../assets/images/gaubong1.jpg",
+            "sub_category_id": 18
+        }
+    ],
+    "en_product_types": [
+        {
+            "id": 1,
+            "name": "New products"
+        },
+        {
+            "id": 2,
+            "name": "Best selling products"
+        },
+        {
+            "id": 3,
+            "name": "Special products"
+        }
+    ],
+    "en_categories": [
+        {
+            "id": 1,
+            "name": "Cosmetics"
+        },
+        {
+            "id": 2,
+            "name": "Skin care"
+        },
+        {
+            "id": 3,
+            "name": "For hair"
+        },
+        {
+            "id": 4,
+            "name": "Perfume"
+        },
+        {
+            "id": 5,
+            "name": "Jewelry"
+        },
+        {
+            "id": 6,
+            "name": "Present"
+        },
+        {
+            "id": 7,
+            "name": "Accessories"
+        }
+    ],
+    "en_sub_categories": [
+        {
+            "id": 1,
+            "name": "Lipstick",
+            "category_id": 1
+        },
+        {
+            "id": 2,
+            "name": "Nail_polish",
+            "category_id": 1
+        },
+        {
+            "id": 3,
+            "name": "Cosmetic olive oil",
+            "category_id": 1
+        },
+        {
+            "id": 4,
+            "name": "Bracelet",
+            "category_id": 5
+        },
+        {
+            "id": 5,
+            "name": "Ring",
+            "category_id": 5
+        },
+        {
+            "id": 6,
+            "name": "Earrings",
+            "category_id": 5
+        },
+        {
+            "id": 7,
+            "name": "Shirt",
+            "category_id": 7
+        },
+        {
+            "id": 8,
+            "name": "Shoe",
+            "category_id": 7
+        },
+        {
+            "id": 9,
+            "name": "Sunglasses",
+            "category_id": 7
+        },
+        {
+            "id": 10,
+            "name": "Women's perfume",
+            "category_id": 4
+        },
+        {
+            "id": 11,
+            "name": "Men's perfume",
+            "category_id": 4
+        },
+        {
+            "id": 12,
+            "name": "Unisex perfume",
+            "category_id": 4
+        },
+        {
+            "id": 13,
+            "name": "Cleanser",
+            "category_id": 2
+        },
+        {
+            "id": 14,
+            "name": "Sunscreen",
+            "category_id": 2
+        },
+        {
+            "id": 15,
+            "name": "Shampoo",
+            "category_id": 3
+        },
+        {
+            "id": 16,
+            "name": "Shower gel",
+            "category_id": 3
+        },
+        {
+            "id": 17,
+            "name": "Scented candles",
+            "category_id": 6
+        },
+        {
+            "id": 18,
+            "name": "Teddy bear",
+            "category_id": 6
+        }
+    ],
+    "en_products": [
+        {
+            "id": 1,
+            "brand": "OHUI",
+            "name": "OHUI lipstick",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham1.jpg",
+            "sub_category_id": 1
+        },
+        {
+            "id": 2,
+            "brand": "HOME",
+            "name": "HOME Cosmetic Olive Oil",
+            "price": "520.000đ",
+            "image": "../../assets/images/mypham2.jpg",
+            "sub_category_id": 3
+        },
+        {
+            "id": 3,
+            "brand": "DEBORA",
+            "name": "DEBORA nail polish",
+            "price": "280.000đ",
+            "image": "../../assets/images/mypham3.jpg",
+            "sub_category_id": 2
+        },
+        {
+            "id": 4,
+            "brand": "OHUI",
+            "name": "OHUI matte lipstick",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham4.jpg",
+            "sub_category_id": 1
+        },
+        {
+            "id": 5,
+            "brand": "Lashes",
+            "name": "2 In 1 Mascara",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham5.jpg",
+            "sub_category_id": 1
+        },
+        {
+            "id": 6,
+            "brand": "LAMY",
+            "name": "CDE bracelet",
+            "price": "100.000đ",
+            "image": "../../assets/images/vongtay1.jpg",
+            "sub_category_id": 4
+        },
+        {
+            "id": 7,
+            "brand": "PNJ",
+            "name": "Silver ring with CZ stone",
+            "price": "420.000đ",
+            "image": "../../assets/images/nhan1.jpg",
+            "sub_category_id": 5
+        },
+        {
+            "id": 8,
+            "brand": "HANADA",
+            "name": "925 SILVER Earrings",
+            "price": "150.000đ",
+            "image": "../../assets/images/hoatai1.jpg",
+            "sub_category_id": 6
+        },
+        {
+            "id": 9,
+            "brand": "Teelab",
+            "name": "Short Sleeve Plaid Shirt",
+            "price": "210.000đ",
+            "image": "../../assets/images/aosomi1.jpg",
+            "sub_category_id": 7
+        },
+        {
+            "id": 10,
+            "brand": "TENET",
+            "name": "Sneakers women's shoes",
+            "price": "300.000đ",
+            "image": "../../assets/images/giay1.jpg",
+            "sub_category_id": 8
+        },
+        {
+            "id": 11,
+            "brand": "BLUE LIGHT",
+            "name": "Sunglasses for Men and Women",
+            "price": "355.000đ",
+            "image": "../../assets/images/kinhram1.jpg",
+            "sub_category_id": 9
+        },
+        {
+            "id": 12,
+            "brand": "Daisy",
+            "name": "Lilith and Eve Daisy",
+            "price": "170.000đ",
+            "image": "../../assets/images/nuochoanu1.jpg",
+            "sub_category_id": 10
+        },
+        {
+            "id": 13,
+            "brand": "LONKOOM",
+            "name": "LONKOOM RETRO BLACK",
+            "price": "280.000đ",
+            "image": "../../assets/images/nuochoanam1.jpg",
+            "sub_category_id": 11
+        },
+        {
+            "id": 14,
+            "brand": "Rodian",
+            "name": "Unisex Rodian Pure Soul",
+            "price": "170.000đ",
+            "image": "../../assets/images/unisex1.jpg",
+            "sub_category_id": 12
+        },
+        {
+            "id": 15,
+            "brand": "Cerave",
+            "name": "Foaming Facial Cleanser",
+            "price": "355.000đ",
+            "image": "../../assets/images/suaruamat1.jpg",
+            "sub_category_id": 13
+        },
+        {
+            "id": 16,
+            "brand": "COCOLUX",
+            "name": "La Roche Posay Effaclar Foarming Gel",
+            "price": "200.000đ",
+            "image": "../../assets/images/suaruamat2.jpg",
+            "sub_category_id": 13
+        },
+        {
+            "id": 17,
+            "brand": "Sunplay",
+            "name": "Sunplay Sunscreen Essence",
+            "price": "520.000đ",
+            "image": "../../assets/images/kemchongnang1.jpg",
+            "sub_category_id": 14
+        },
+        {
+            "id": 18,
+            "brand": "Tsubaki",
+            "name": "Tsubaki Shampoo",
+            "price": "140.000đ",
+            "image": "../../assets/images/daugoi1.jpg",
+            "sub_category_id": 15
+        },
+        {
+            "id": 19,
+            "brand": "Grace And Glow",
+            "name": "White Truffle Acne Shower Gel",
+            "price": "100.000đ",
+            "image": "../../assets/images/suatam1.jpg",
+            "sub_category_id": 16
+        },
+        {
+            "id": 20,
+            "brand": "Cocoon",
+            "name": "Eucalyptus & mint shower gel",
+            "price": "245.000đ",
+            "image": "../../assets/images/suatam2.jpg",
+            "sub_category_id": 16
+        },
+        {
+            "id": 21,
+            "brand": "PANTENE",
+            "name": "PANTENE Pro-V Shampoo",
+            "price": "280.000đ",
+            "image": "../../assets/images/daugoi2.jpg",
+            "sub_category_id": 15
+        },
+        {
+            "id": 22,
+            "brand": "Romantic Times",
+            "name": "MESMERIC Scented Candles",
+            "price": "180.000đ",
+            "image": "../../assets/images/nenthom1.jpg",
+            "sub_category_id": 17
+        },
+        {
+            "id": 23,
+            "brand": "Alpaca",
+            "name": "Camel Stuffed Animal",
+            "price": "60.000đ",
+            "image": "../../assets/images/gaubong1.jpg",
+            "sub_category_id": 18
+        }
+    ]
+}
