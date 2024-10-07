@@ -24,7 +24,6 @@ function fetchLanguage(lang) {
         const [section, subsection] = key.split('.');
         element.textContent = data[section][subsection];
       })
-      // chỉ trang contact_us được áp dụng
       if (window.location.pathname.includes('contact_us.html')) {
         reloadContactMessage();
       }
@@ -33,6 +32,14 @@ function fetchLanguage(lang) {
       }
       if (window.location.pathname.includes('index.html')) {
         reloadHomeMessage();
+      }
+      if (window.location.pathname.includes('signIn.html')) {
+        import("./signIn.js").then(() => {
+          reloadMessageSignIn();
+        })
+      }
+      if (window.location.pathname.includes('signUp.html')) {
+        reloadMessageSignUp();
       }
     });
 }

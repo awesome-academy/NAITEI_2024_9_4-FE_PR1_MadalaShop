@@ -41,4 +41,3 @@ imageItems.forEach((item, index) => {
     updateImage(currentImage);
   });
 });
-
