@@ -173,7 +173,6 @@
     "title": "NÀNG BÉO KHÔNG NGẠI DIỆN VÁY ÁO NỔI BẬT",
     "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tình xô nhau đi tắm Free để giải nhiệt. Trong tiết xuân hè, nàng ngoại cỡ thắp sáng phong cách bằng quần họa tiết nhiệt đới đi kèm áo sơ mi nhà nhận. Trang phục họa tiết điện tử được nàng phối cùng chân váy kẻ caro, làm nên style vừa hiện đại, vừa phảng phất nét cổ điển. Lối diện đô hàng ngày đơn giản, khỏe khoắn của cô khi kết hợp chất liệu jean.",
     "author": "Bởi",
-    "read_more": "Đọc thêm ",
     "comments": "bình luận",
     "tag": "Tag:",
     "contribute_comments": "ĐÓNG GÓP Ý KIẾN",
@@ -183,5 +182,26 @@
     "error_email": "Email không hợp lệ.",
     "error_message": "Tin nhắn phải có ít nhất 10 ký tự.",
     "success_message": "Thông tin hợp lệ, tin nhắn đã được gửi!!"
+  },
+  "home": {
+    "free_shipping": "Miễn phí vận chuyển toàn quốc",
+    "receive_gift": "Nhận ngay quà tặng trị giá 350.000đ",
+    "discount": "Giảm 30% cho đơn hàng trên 5.000.000đ",
+    "shower_gel": "Sữa tắm",
+    "seductive": "Quyến rũ hơn",
+    "with": "CÙNG",
+    "director": "Giám đốc phát triển sản phẩm",
+    "statement": "\"Vẫn là vẻ bề ngoài vô cùng đơn giản với các tông màu trắng, hồng làm chủ đạo nhưng lại tạo ra sức hút kỳ lạ với những ai cầm trên tay sản phẩm ấy! Với công nghệ cải tiến mới nhất, hãng Rohto\"",
+    "new_products": "Sản phẩm mới",
+    "best_products": "Sản phẩm bán chạy",
+    "special_products": "Sản phẩm đặc biệt",
+    "cosmetics": "Mỹ phẩm",
+    "skin_care": "Chăm sóc da",
+    "for_hair": "Dành cho tóc",
+    "perfume": "Nước hoa",
+    "jewelry": "Trang sức",
+    "present": "Quà tặng",
+    "email_placeholder": "Gửi email để nhận ưu đãi",
+    "email_us": "GỬI MAIL CHO CHÚNG TÔI"
   }
 }

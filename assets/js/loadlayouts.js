@@ -17,7 +17,7 @@ function loadLayout(elementId, filePath, contentId = null) {
         content = tempDiv;
       }
 
-      document.getElementById(elementId).innerHTML = content.innerHTML;
+      document.getElementById(elementId).outerHTML = content.innerHTML;
       if (elementId === 'header') {
         switchCSSLanguageButtons();
         setDefaultCSSLanguage();
@@ -28,11 +28,11 @@ function loadLayout(elementId, filePath, contentId = null) {
 
 export { switchCSSLanguageButtons };
 
-Promise.all([
-  loadLayout('header', '../../src/layouts/header.html'),
-  loadLayout('footer', '../../src/layouts/footer.html'),
-  loadLayout('alert-success-container', '../../src/components/alert.html', 'alert-success-container'),
-  loadLayout('tooltip-container', '../../src/components/tooltip.html'),
-]).then(() => {
+loadLayout('header', '../../src/layouts/header.html'),
+loadLayout('footer', '../../src/layouts/footer.html'),
+loadLayout('alert-success-container', '../../src/components/alert.html', 'alert-success-container'),
+loadLayout('tooltip-container', '../../src/components/tooltip.html'),
+
+import('./i18n.js').then(() => {
   changeLanguage(localStorage.getItem('language') || 'vi');
 });

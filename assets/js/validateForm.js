@@ -9,9 +9,10 @@ function validateForm(validationSetUp, alert) {
             inputElement.classList.remove('border-red-500');
             inputElement.classList.add('focus:border-primary-color');
         } else {
+            const errorElement = document.getElementById(idErrorElement);
+            
             inputElement.classList.add('border-red-500');
             inputElement.classList.remove('focus:border-primary-color');
-            const errorElement = document.getElementById(idErrorElement);
             errorElement.textContent = t(errorMessageI18n);
             errorElement.classList.remove('hidden');
             isValid = false;

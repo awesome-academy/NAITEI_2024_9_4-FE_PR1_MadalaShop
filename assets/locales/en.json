@@ -182,5 +182,26 @@
     "error_email": "Invalid email.",
     "error_message": "Message must have at least 10 characters.",
     "success_message": "Valid information, message has been sent!!"
+  },
+  "home": {
+    "free_shipping": "Free shipping nationwide",
+    "receive_gift": "Receive a gift worth 350,000 VND immediately",
+    "discount": "30% discount for orders over 5,000,000 VND",
+    "shower_gel": "Shower gel",
+    "seductive": "More seductive",
+    "with": "WITH",
+    "director": "Product development director",
+    "statement": "\"It still has a very simple appearance with white and pink as the main tones, but it creates a strange attraction for those who hold the product in their hands! With the latest innovative technology, Rohto\"",
+    "new_products": "New products", 
+    "best_products": "Best selling products",
+    "special_products": "Special products",
+    "cosmetics": "Cosmetics",
+    "skin_care": "Skin care",
+    "for_hair": "For hair",
+    "perfume": "Perfume",
+    "jewelry": "Jewelry",
+    "present": "Present",
+    "email_placeholder": "Send email to receive offers",
+    "email_us": "SEND US A MAIL"
   }
 }
