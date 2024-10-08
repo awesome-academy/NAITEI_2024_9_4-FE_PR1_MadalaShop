@@ -8,6 +8,8 @@ const breadcrumbData = [
   { url: "../pages/blog.html", data: "breadcrumb.blog" },
   { url: "../pages/detail.html", data: "breadcrumb.product" },
   { url: "../pages/blog_detail.html", data: "breadcrumb.blog_detail" },
+  { url: "../pages/signIn.html", data: "breadcrumb.sign_in" },
+  { url: "../pages/signUp.html", data: "breadcrumb.sign_up" },
 ];
 const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get('category');

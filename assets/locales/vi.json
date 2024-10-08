@@ -17,7 +17,9 @@
     "jewelry": "Trang sức",
     "cart": "Giỏ hàng",
     "blog": "Tin tức",
-    "blog_detail": "Bài tin"
+    "blog_detail": "Bài tin",
+    "sign_in": "Đăng nhập",
+    "sign_up": "Đăng ký"
   },
   "category": {
     "accesories": "Phụ kiện",
@@ -31,6 +33,39 @@
     "title": "GIỚI THIỆU CHUNG VỀ MỸ THẨM HANDMADE MANDALA",
     "content": "Hi, chào các nàng... sau khá nhiều ời hứa thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu mùa hè nóng oi bức, khi mà dân tình đổ xô nhau đi tắm Free  để giải nhiệt. Hi, chào các nàng... sau khá nhiều ời hứa thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu mùa hè nóng oi bức, khi mà dân tình đổ xô nhau đi tắm Free  để giải nhiệt.Hi, chào các nàng... sau khá nhiều ời hứa thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu mùa hè nóng oi bức, khi mà dân tình đổ xô nhau đi tắm Free  để giải nhiệt."
   },
+  "sign-in": {
+    "sign_up": "đăng ký",
+    "sign_in": "đăng nhập",
+    "client-sign_up": "Khách hàng đăng ký",
+    "des": "Nếu bạn có một tài khoản, vui lòng đăng nhập!",
+    "email": "Địa chỉ email",
+    "password": "Mật khẩu",
+    "error_email": "Email không hợp lệ!",
+    "error_email_double": "Email đã tồn tại!",
+    "error_password": "Mật khẩu không hợp lệ!",
+    "password-forgot": "Quên mật khẩu?"
+  },
+  "sign-up": {
+    "sign_up": "đăng ký",
+    "sign_in": "đăng nhập",
+    "client-info": "thông tin cá nhân",
+    "first_name": "Tên trước",
+    "last_name": "Tên sau",
+    "blog_send": "Đăng ký nhận bản tin",
+    "email": "Địa chỉ email",
+    "client-sign_in": "Thông tin đăng nhập",
+    "password": "Mật khẩu",
+    "password-verify": "Xác nhận mật khẩu",
+    "error_first_name": "Không được để trống!",
+    "error_last_name": "Không được để trống!",
+    "error_email": "Email không hợp lệ!",
+    "error_email_double": "Email đã tồn tại!",
+    "error_password": "Không được để trống!",
+    "error_password_retype": "Không được để trống!",
+    "error_password_match": "Mật khẩu không khớp!",
+    "success_message": "Đăng ký thành công!!",
+    "send": "Gửi"
+  },
   "cart": {
     "productImage": "Ảnh",
     "productName": "Tên sản phẩm",
@@ -43,6 +78,8 @@
     "pay": "Thanh toán"
   },
   "detail": {
+    "ship": "Chở hàng",
+    "return": "Hoàn trả",
     "color": "màu sắc",
     "size": "kích cỡ",
     "number": "số lượng",

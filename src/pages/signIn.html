@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="breadcrumb.sign_in"></title>
+  <link rel="stylesheet" href="../../assets/css/output.css">
+  <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+  <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
+</head>
+<body>
+  <div class="container max-w-full relative">
+    <div id="header" class=""></div>
+
+    <div class="max-w-7xl mx-auto pb-20 ">
+      <div class="px-2.5">
+        <div class="py-5 text-sm border-b border-gray-200">
+          <nav id="breadcrumb" class="flex list-none gap-2">
+          </nav>
+        </div>
+      </div>
+      <div class="w-full px-2.5 flex justify-between items-center mb-5">
+        <h2 data-i18n="breadcrumb.sign_in" class="uppercase py-6 text-4xl"></h2>
+        <a href="./signUp.html"
+          class="uppercase text-sm p-2.5 px-5 bg-black text-white rounded-sm transition-all border font-semibold border-black hover:text-black hover:bg-white"
+          data-i18n="sign-in.sign_up"></a>
+      </div>
+      <div class="px-2.5">
+        <div class="px-14 py-10 w-full border bg-gray-100">
+          <h2 class="text-2xl uppercase mb-3" data-i18n="sign-in.client-sign_up"></h2>
+          <p class="mb-3" data-i18n="sign-in.des"></p>
+          <form action="" id="sign-in-form">
+            <div class="flex flex-col mb-3 md:w-1/2">
+              <label for="emailSignIn" class="mb-1 text-sm"><span data-i18n="sign-in.email"></span> <span
+                  class="text-red-500">*</span></label>
+              <input type="text" class="pl-1 focus:outline-none border p-1 text-sm focus:border-primary-color"
+                id="emailSignIn">
+              <span class="text-red-500 text-xs mt-1 hidden error-message" id="email-error"></span>
+            </div>
+
+            <div class="flex flex-col mb-7 md:w-1/2">
+              <label for="passwordSignIn" class="mb-1 text-sm"><span data-i18n="sign-in.password"></span> <span
+                  class="text-red-500">*</span></label>
+              <input id="passwordSignIn" class="pl-1 focus:outline-none border p-1 text-sm focus:border-primary-color "
+                type="password">
+              <span class="text-red-500 text-xs mt-1 hidden error-message" id="password-error"></span>
+            </div>
+
+            <div>
+              <a href="#" class="mr-3 hover:underline" data-i18n="sign-in.password-forgot"></a>
+              <button type="submit"
+                class="uppercase text-sm p-2.5 px-5 bg-black text-white rounded-sm transition-all border font-semibold border-black hover:text-black hover:bg-white"
+                data-i18n="sign-in.sign_in"></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+  </div>
+
+  <script src="../../assets/js/loadlayouts.js" type="module"></script>
+  <script src="../../assets/js/encrypt.js"></script>
+  <script src="../../assets/js/breadcrumb.js"></script>
+  <script src="../../assets/js/jwt.js"></script>
+  <script src="../../assets/js/signIn.js"></script>
+  <script src="../../assets/js/i18n.js"></script>
+</body>
+</html>

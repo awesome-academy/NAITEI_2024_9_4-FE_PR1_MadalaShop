@@ -17,7 +17,42 @@
     "jewelry": "Jewelry",
     "cart": "Cart",
     "blog": "Blog",
-    "blog_detail": "Post"
+    "blog_detail": "Post",
+    "sign_in": "Sign in",
+    "sign_up": "Sign up"
+  },
+  "sign-in": {
+    "sign_up": "Sign up",
+    "sign_in": "Sign in",
+    "client-sign_up": "Client sign up",
+    "des": "If you have an account, please sign in!",
+    "email": "Email address",
+    "password": "Password",
+    "error_email": "Invalid email!",
+    "error_password": "Invalid password!",
+    "password-forgot": "Forgot password?",
+    "success_message": "Successfully signed in!!"
+  },
+  "sign-up": {
+    "sign_up": "Sign Up",
+    "sign_in": "Sign In",
+    "client-info": "Personal Information",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "blog_send": "Subscribe to Newsletter",
+    "email": "Email Address",
+    "client-sign_in": "Login Information",
+    "password": "Password",
+    "password-verify": "Confirm Password",
+    "send": "Submit",
+    "error_first_name": "Cannot be empty!",
+    "error_last_name": "Cannot be empty!",
+    "error_email": "Invalid email!",
+    "error_email_double": "Email already exists!",
+    "error_password": "Cannot be empty!",
+    "error_password_retype": "Cannot be empty!",
+    "error_password_match": "Passwords do not match!",
+    "success_message": "Successfully signed up!!"
   },
   "category": {
     "accesories": "Accessories",
@@ -43,6 +78,8 @@
     "content": "Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off. Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off. Hi, hello everyone... after quite a few promises, I'm back today to heat up this blog on a hot summer day, when everyone is rushing to take free baths to cool off."
   },
   "detail": {
+    "ship": "Ship",
+    "return": "Return",
     "color": "Color",
     "size": "Size",
     "number": "Quantity",
