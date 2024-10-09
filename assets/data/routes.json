@@ -1,10 +1,12 @@
 {
     "/vi/product_types": "/vi_product_types",
     "/vi/categories": "/vi_categories",
+    "/vi/product_type_category": "/vi_product_type_category",
     "/vi/sub_categories": "/vi_sub_categories",
     "/vi/products": "/vi_products",
     "/en/product_types": "/en_product_types",
     "/en/categories": "/en_categories",
+    "/en/product_type_category": "/en_product_type_category",
     "/en/sub_categories": "/en_sub_categories",
     "/en/products": "/en_products"
 }

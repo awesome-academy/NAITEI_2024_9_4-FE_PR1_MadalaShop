@@ -1,11 +1,11 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.13"
-  },
-  "scripts": {
-    "api": "json-server --watch ./assets/data/db.json --routes ./assets/data/routes.json --no-cors=false"
-  },
-  "dependencies": {
-    "json-server": "^0.17.4"
-  }
+    "devDependencies": {
+        "tailwindcss": "^3.4.13"
+    },
+    "scripts": {
+        "api": "json-server --watch ./assets/data/db.json --routes ./assets/data/routes.json --no-cors=false"
+    },
+    "dependencies": {
+        "json-server": "^0.17.4"
+    }
 }
