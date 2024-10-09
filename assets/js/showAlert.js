@@ -11,6 +11,6 @@ function showAlert(message, type = 'success') {
 
     setTimeout(() => {
         alertElement.classList.add('hidden');
-    }, 3000);
+    }, 5000);
 }
 

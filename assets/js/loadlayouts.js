@@ -30,11 +30,12 @@ function loadLayout(elementId, filePath, contentId = null) {
 export { switchCSSLanguageButtons };
 
 loadLayout('header', '../../src/layouts/header.html'),
-  loadLayout('footer', '../../src/layouts/footer.html'),
-  loadLayout('alert-success-container', '../../src/components/alert.html', 'alert-success-container'),
-  loadLayout('tooltip-container', '../../src/components/tooltip.html'),
+loadLayout('footer', '../../src/layouts/footer.html'),
+loadLayout('alert-success-container', '../../src/components/alert.html', 'alert-success-container'),
+loadLayout('alert-warning-container', '../../src/components/alert.html', 'alert-warning-container'),
+loadLayout('tooltip-container', '../../src/components/tooltip.html'),
 
-  import('./i18n.js').then(() => {
-    changeLanguage(localStorage.getItem('language') || 'vi');
-  })
+import('./i18n.js').then(() => {
+  changeLanguage(localStorage.getItem('language') || 'vi');
+})
 
