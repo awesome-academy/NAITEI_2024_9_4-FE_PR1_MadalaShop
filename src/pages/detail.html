@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detail</title>
   <link rel="stylesheet" href="../../assets/css/output.css">
+  <link rel="stylesheet" href="../../assets/css/custom.css">
   <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
   <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
@@ -28,15 +29,8 @@
                 <i
                   class="fa-solid fa-arrow-up text-2xl p-4 px-5 rounded-full cursor-pointer transition-all hover:bg-gray-200"></i>
               </div>
-              <div class=" flex flex-col gap-2">
-                <img src="../../assets/images/ring-1.png" alt=""
-                  class=" border image-item border-red-600 cursor-pointer transition-all">
-                <img src="../../assets/images/ring-2.png" alt=""
-                  class=" border image-item  cursor-pointer transition-all">
-                <img src="../../assets/images/ring-3.png" alt=""
-                  class=" border image-item  cursor-pointer transition-all">
-                <img src="../../assets/images/ring-4.png" alt=""
-                  class=" border image-item  cursor-pointer transition-all">
+              <div id="sliderItem" class="flex flex-col gap-2">
+
               </div>
               <div id="arrowDown">
                 <i
@@ -44,35 +38,25 @@
               </div>
             </div>
             <div>
-              <img src="../../assets/images/ring-1.png"
-                class="main-image w-[650px]  max-h-[650px] md:h-[650px] border border-solid transition-all" alt="">
+              <img src="" class="main-image w-[650px]  max-h-[650px] md:h-[650px] border border-solid transition-all">
             </div>
           </div>
           <div class="lg:flex-[4] flex flex-col justify-between">
             <div class="mb-3">
-              <h2 class="uppercase text-xl">Lắc tay Tyffany xu hướng mới nhất</h2>
-              <h4 class="uppercase text-gray-500">Tyffany ms 3201</h4>
+              <h2 id="productName" class="uppercase text-xl"></h2>
+              <h4 id="productBrand" class="uppercase text-gray-500"></h4>
             </div>
             <div class="mb-3">
-              <span class="text-xl md:text-3xl italic font-bold mr-4 inline-block">955.000đ</span>
-              <span class="text-xl italic text-gray-300">999.000đ</span>
+              <span id="productPrice" class="text-xl md:text-3xl italic font-bold mr-4 inline-block">955.000đ</span>
+              <span id="productOldPrice" class="text-xl italic text-gray-300">999.000đ</span>
             </div>
-            <p class="text-gray-500 text-sm mb-3">Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn'
-              không
-              lời mạnh
-              mẽ nhất của mọi người
-              phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống
-              vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một
-              đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những
-              món đồ yêu thích.</p>
+            <p id="productDes" class="text-gray-500 text-sm mb-3">Không thể phủ nhận, thời trang và phong cách chính là
+            </p>
             <div class="w-3/4 mb-3">
               <label for="color" class="block mb-2 text-base uppercase font-medium text-gray-900"
                 data-i18n="detail.color"></label>
               <select id="color"
                 class="block w-full  p-2 text-sm text-gray-700 bg-white border transition-all border-gray-300 rounded-sm cursor-pointer focus:outline-none focus:border-gray-950">
-                <option value="silver" class="hover:bg-gray-400" data-i18n="detail.silver"></option>
-                <option value="pink" data-i18n="detail.pink"></option>
-                <option value="purple" data-i18n="detail.purple"></option>
               </select>
             </div>
             <div class="w-3/4 mb-3">
@@ -80,11 +64,6 @@
                 data-i18n="detail.size"></label>
               <select id="size"
                 class="block w-full p-2 text-sm text-gray-700 bg-white border transition-all border-gray-300 rounded-sm cursor-pointer focus:outline-none focus:border-gray-950">
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
               </select>
             </div>
             <div class="w-3/4 mb-3">
@@ -109,23 +88,23 @@
               <div class="flex gap-7">
                 <button class="relative inline-flex items-center ">
                   <i class="fa-brands fa-square-facebook bg-white text-blue-700 text-3xl"></i>
-                  <div
+                  <div id="facebookShare"
                     class="absolute inline-flex items-center p-2 justify-center w-3 h-3 text-[8px] font-bold text-white bg-red-500 border border-white rounded-full -top-2 -end-2 dark:border-gray-900">
-                    20</div>
+                  </div>
                 </button>
 
                 <button class="relative inline-flex items-center ">
                   <i class="fa-brands fa-twitter bg-white text-blue-700 text-3xl"></i>
-                  <div
+                  <div id="twitterShare"
                     class="absolute inline-flex items-center p-2 justify-center w-3 h-3 text-[8px] font-bold text-white bg-red-500 border border-white rounded-full -top-2 -end-2 dark:border-gray-900">
-                    20</div>
+                  </div>
                 </button>
 
                 <button class="relative inline-flex items-center ">
                   <i class="fa-brands fa-google-plus-g bg-white text-red-600 text-3xl"></i>
-                  <div
+                  <div id="googleShare"
                     class="absolute inline-flex items-center p-2 justify-center w-3 h-3 text-[8px] font-bold text-white bg-red-500 border border-white rounded-full -top-2 -end-2 dark:border-gray-900">
-                    20</div>
+                  </div>
                 </button>
 
                 <button class="relative inline-flex items-center bg-blue-700 p-1 rounded-sm gap-1">
@@ -156,46 +135,6 @@
             <hr>
             <div class="mt-14">
               <div id="tab1" class="tab-content text-gray-700">
-                <div class="flex gap-20 flex-col-reverse md:flex-row md:justify-between md:items-center mt-12">
-                  <div>
-                    <div>
-                      <h1 class="font-bold uppercase" data-i18n="detail.feature_title"></h1>
-                      <hr class="w-16">
-                    </div>
-                    <p class="mt-5 text-sm text-gray-500" data-i18n="detail.feature_des"></p>
-                  </div>
-                  <img src="../../assets/images/highlight-1.png" alt="">
-                </div>
-                <div class="flex md:flex-row-reverse flex-col-reverse gap-14 items-center mt-12">
-                  <div class="text-right">
-                    <div class="flex flex-col items-end">
-                      <h1 class="font-bold uppercase" data-i18n="detail.feature_title"></h1>
-                      <hr class="w-16">
-                    </div>
-                    <p class="mt-5 text-sm text-gray-500" data-i18n="detail.feature_des"></p>
-                  </div>
-                  <img src="../../assets/images/highlight-2.png" alt="">
-                </div>
-                <div class="flex gap-20 flex-col-reverse md:flex-row md:justify-between md:items-center mt-12">
-                  <div>
-                    <div>
-                      <h1 class="font-bold uppercase" data-i18n="detail.feature_title"></h1>
-                      <hr class="w-16">
-                    </div>
-                    <p class="mt-5 text-sm text-gray-500" data-i18n="detail.feature_des"></p>
-                  </div>
-                  <img src="../../assets/images/highlight-3.png" alt="">
-                </div>
-                <div class="flex md:flex-row-reverse flex-col-reverse gap-14 items-center mt-12">
-                  <div class="text-right">
-                    <div class="flex flex-col items-end">
-                      <h1 class="font-bold uppercase" data-i18n="detail.feature_title"></h1>
-                      <hr class="w-16">
-                    </div>
-                    <p class="mt-5 text-sm text-gray-500" data-i18n="detail.feature_des"></p>
-                  </div>
-                  <img src="../../assets/images/highlight-4.png" alt="">
-                </div>
               </div>
               <div id="tab2" class="hidden tab-content text-gray-700">
                 <div class="max-w-2xl ">
@@ -433,146 +372,31 @@
               </div>
             </div>
           </div>
+
           <div class="hidden lg:block md:flex-[2.5]">
             <div class="mb-3 font-openSans text-black">
               <p class="uppercase font-2xl" data-i18n="detail.buy_most"></p>
             </div>
             <hr>
-            <div>
-              <div class="flex mt-8 border-b border-dashed pb-6 ">
-                <img src="../../assets/images/buy-most.png" alt="" class="mr-4">
-                <div>
-                  <p class="mb-3 font-semibold">Mỹ phẩm châu Âu</p>
-                  <div class="flex items-center text-sm justify-between mb-3">
-                    <div class="mr-3">
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <span>( 4 <span data-i18n="detail.buy_turn"></span> )</span>
-                  </div>
-                  <div class="italic font-bold ">355.000đ</div>
-                </div>
-              </div>
-              <div class="flex mt-8 border-b border-dashed pb-6 ">
-                <img src="../../assets/images/buy-most.png" alt="" class="mr-4">
-                <div>
-                  <p class="mb-3 font-semibold">Mỹ phẩm châu Âu</p>
-                  <div class="flex items-center text-sm justify-between mb-3">
-                    <div class="mr-3">
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <span>( 4 <span data-i18n="detail.buy_turn"></span> )</span>
-                  </div>
-                  <div class="italic font-bold ">355.000đ</div>
-                </div>
-              </div>
-              <div class="flex mt-8 pb-6 ">
-                <img src="../../assets/images/buy-most.png" alt="" class="mr-4">
-                <div>
-                  <p class="mb-3 font-semibold">Mỹ phẩm châu Âu</p>
-                  <div class="flex items-center text-sm justify-between mb-3">
-                    <div class="mr-3">
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <span>( 4 <span data-i18n="detail.buy_turn"></span> )</span>
-                  </div>
-                  <div class="italic font-bold ">355.000đ</div>
-                </div>
-              </div>
+            <div id="product-best-selling" class="h-[441px] overflow-y-scroll scrollbar-hidden">
             </div>
             <div class="mb-3 font-openSans text-black mt-5">
               <p class="uppercase font-2xl" data-i18n="detail.buy_much"></p>
             </div>
             <hr>
-            <div>
-              <div class="flex mt-8 border-b border-dashed pb-6 ">
-                <img src="../../assets/images/buy-most.png" alt="" class="mr-4">
-                <div>
-                  <p class="mb-3 font-semibold">Mỹ phẩm châu Âu</p>
-                  <div class="flex items-center text-sm justify-between mb-3">
-                    <div class="mr-3">
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <span>( 4 <span data-i18n="detail.buy_turn"></span> )</span>
-                  </div>
-                  <div class="italic font-bold ">355.000đ</div>
-                </div>
-              </div>
-              <div class="flex mt-8 border-b border-dashed pb-6 ">
-                <img src="../../assets/images/buy-most.png" alt="" class="mr-4">
-                <div>
-                  <p class="mb-3 font-semibold">Mỹ phẩm châu Âu</p>
-                  <div class="flex items-center text-sm justify-between mb-3">
-                    <div class="mr-3">
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <span>( 4 <span data-i18n="detail.buy_turn"></span> )</span>
-                  </div>
-                  <div class="italic font-bold ">355.000đ</div>
-                </div>
-              </div>
-              <div class="flex mt-8 pb-6 border-b border-dashed">
-                <img src="../../assets/images/buy-most.png" alt="" class="mr-4">
-                <div>
-                  <p class="mb-3 font-semibold">Mỹ phẩm châu Âu</p>
-                  <div class="flex items-center text-sm justify-between mb-3">
-                    <div class="mr-3">
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <span>( 4 <span data-i18n="detail.buy_turn"></span> )</span>
-                  </div>
-                  <div class="italic font-bold ">355.000đ</div>
-                </div>
-              </div>
-              <div class="flex mt-8 pb-6 ">
-                <img src="../../assets/images/buy-most.png" alt="" class="mr-4">
-                <div>
-                  <p class="mb-3 font-semibold">Mỹ phẩm châu Âu</p>
-                  <div class="flex items-center text-sm justify-between mb-3">
-                    <div class="mr-3">
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <span>( 4 <span data-i18n="detail.buy_turn"></span> )</span>
-                  </div>
-                  <div class="italic font-bold ">355.000đ</div>
-                </div>
-              </div>
+            <div id="product-frequently-purchased" class="h-[588px] overflow-y-scroll scrollbar-hidden">
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="footer"></div>
+  <div id="footer"></div>
   </div>
   <script src="../../assets/js/loadlayouts.js" type="module"></script>
+  <script src="../../assets/js/api.js"></script>
+  <script src="../../assets/js/getCateAndSubCate.js"></script>
   <script src="../../assets/js/detail.js"></script>
   <script src="../../assets/js/breadcrumb.js"></script>
   <script src="../../assets/js/i18n.js"></script>

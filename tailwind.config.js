@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         "primary-color": "#819E33",
       },
+      scrollbar: ['hidden'],
     },
   },
   plugins: [],
