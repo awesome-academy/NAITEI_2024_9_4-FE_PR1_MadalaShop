@@ -240,6 +240,6 @@
     "present": "Present",
     "email_placeholder": "Send email to receive offers",
     "email_us": "SEND US A MAIL",
-    "warning_rotate": "Products cannot be exchanged as there are only 2 or less products in this category!!"
+    "warning_rotate": "There are no other products in this category!!"
   }
 }

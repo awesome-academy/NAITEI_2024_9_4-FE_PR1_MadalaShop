@@ -388,6 +388,8 @@
             "name": "Son môi OHUI",
             "price": "355.000đ",
             "image": "../../assets/images/mypham1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 1
         },
         {
@@ -396,6 +398,8 @@
             "name": "Dầu ô liu mỹ phẩm HOME",
             "price": "520.000đ",
             "image": "../../assets/images/mypham2.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 3
         },
         {
@@ -404,6 +408,8 @@
             "name": "Son móng DEBORA",
             "price": "280.000đ",
             "image": "../../assets/images/mypham3.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 2
         },
         {
@@ -412,6 +418,8 @@
             "name": "Son thỏi lì OHUI",
             "price": "355.000đ",
             "image": "../../assets/images/mypham4.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 1
         },
         {
@@ -420,6 +428,8 @@
             "name": "Mascara 2 Trong 1",
             "price": "355.000đ",
             "image": "../../assets/images/mypham5.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 1
         },
         {
@@ -428,6 +438,8 @@
             "name": "Vòng tay CDE",
             "price": "100.000đ",
             "image": "../../assets/images/vongtay1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 4
         },
         {
@@ -436,6 +448,8 @@
             "name": "Nhẫn Bạc đính đá CZ",
             "price": "420.000đ",
             "image": "../../assets/images/nhan1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 5
         },
         {
@@ -444,6 +458,8 @@
             "name": "Bông Tai BẠC 925",
             "price": "150.000đ",
             "image": "../../assets/images/hoatai1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 6
         },
         {
@@ -452,6 +468,8 @@
             "name": "Áo Sơ Mi Tay Ngắn Kẻ Sọc",
             "price": "210.000đ",
             "image": "../../assets/images/aosomi1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 7
         },
         {
@@ -460,6 +478,8 @@
             "name": "Giày thể thao giày nữ",
             "price": "300.000đ",
             "image": "../../assets/images/giay1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 8
         },
         {
@@ -468,6 +488,8 @@
             "name": "Kính Mát Nam Nữ",
             "price": "355.000đ",
             "image": "../../assets/images/kinhram1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 9
         },
         {
@@ -476,6 +498,8 @@
             "name": "Lilith and Eve Daisy",
             "price": "170.000đ",
             "image": "../../assets/images/nuochoanu1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 10
         },
         {
@@ -484,6 +508,8 @@
             "name": "LONKOOM RETRO BLACK",
             "price": "280.000đ",
             "image": "../../assets/images/nuochoanam1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 11
         },
         {
@@ -492,6 +518,8 @@
             "name": "Unisex Rodian Pure Soul",
             "price": "170.000đ",
             "image": "../../assets/images/unisex1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 12
         },
         {
@@ -500,6 +528,8 @@
             "name": "Foaming Facial Cleanser",
             "price": "355.000đ",
             "image": "../../assets/images/suaruamat1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 13
         },
         {
@@ -508,6 +538,8 @@
             "name": "La Roche Posay Effaclar Foarming Gel",
             "price": "200.000đ",
             "image": "../../assets/images/suaruamat2.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 13
         },
         {
@@ -516,6 +548,8 @@
             "name": "Tinh Chất Chống Nắng Sunplay",
             "price": "520.000đ",
             "image": "../../assets/images/kemchongnang1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 14
         },
         {
@@ -524,6 +558,8 @@
             "name": "Dầu Gội Tsubaki",
             "price": "140.000đ",
             "image": "../../assets/images/daugoi1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 15
         },
         {
@@ -532,6 +568,8 @@
             "name": "Sữa Tắm White Truffle Acne",
             "price": "100.000đ",
             "image": "../../assets/images/suatam1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 16
         },
         {
@@ -540,6 +578,8 @@
             "name": "Gel tắm khuynh diệp & bạc hà",
             "price": "245.000đ",
             "image": "../../assets/images/suatam2.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 16
         },
         {
@@ -548,6 +588,8 @@
             "name": "Dầu Gội PANTENE Pro-V",
             "price": "280.000đ",
             "image": "../../assets/images/daugoi2.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 15
         },
         {
@@ -556,6 +598,8 @@
             "name": "Nến Thơm MESMERIC",
             "price": "180.000đ",
             "image": "../../assets/images/nenthom1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 17
         },
         {
@@ -564,7 +608,39 @@
             "name": "Thú Nhồi Bông Hình Lạc Đà",
             "price": "60.000đ",
             "image": "../../assets/images/gaubong1.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
             "sub_category_id": 18
+        },
+        {
+            "id": 24,
+            "brand": "OHUI",
+            "name": "Son thỏi lì OHUI",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham4.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
+            "sub_category_id": 1
+        },
+        {
+            "id": 25,
+            "brand": "OHUI",
+            "name": "Son thỏi lì OHUI",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham4.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
+            "sub_category_id": 1
+        },
+        {
+            "id": 26,
+            "brand": "OHUI",
+            "name": "Son thỏi lì OHUI",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham4.jpg",
+            "purchases": 4,
+            "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
+            "sub_category_id": 1
         }
     ],
     "en_product_types": [
@@ -710,6 +786,8 @@
             "name": "OHUI lipstick",
             "price": "355.000đ",
             "image": "../../assets/images/mypham1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 1
         },
         {
@@ -718,6 +796,8 @@
             "name": "HOME Cosmetic Olive Oil",
             "price": "520.000đ",
             "image": "../../assets/images/mypham2.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 3
         },
         {
@@ -726,6 +806,8 @@
             "name": "DEBORA nail polish",
             "price": "280.000đ",
             "image": "../../assets/images/mypham3.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 2
         },
         {
@@ -734,6 +816,8 @@
             "name": "OHUI matte lipstick",
             "price": "355.000đ",
             "image": "../../assets/images/mypham4.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 1
         },
         {
@@ -742,6 +826,8 @@
             "name": "2 In 1 Mascara",
             "price": "355.000đ",
             "image": "../../assets/images/mypham5.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 1
         },
         {
@@ -750,6 +836,8 @@
             "name": "CDE bracelet",
             "price": "100.000đ",
             "image": "../../assets/images/vongtay1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 4
         },
         {
@@ -758,6 +846,8 @@
             "name": "Silver ring with CZ stone",
             "price": "420.000đ",
             "image": "../../assets/images/nhan1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 5
         },
         {
@@ -766,6 +856,8 @@
             "name": "925 SILVER Earrings",
             "price": "150.000đ",
             "image": "../../assets/images/hoatai1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 6
         },
         {
@@ -774,6 +866,8 @@
             "name": "Short Sleeve Plaid Shirt",
             "price": "210.000đ",
             "image": "../../assets/images/aosomi1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 7
         },
         {
@@ -782,6 +876,8 @@
             "name": "Sneakers women's shoes",
             "price": "300.000đ",
             "image": "../../assets/images/giay1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 8
         },
         {
@@ -790,6 +886,8 @@
             "name": "Sunglasses for Men and Women",
             "price": "355.000đ",
             "image": "../../assets/images/kinhram1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 9
         },
         {
@@ -798,6 +896,8 @@
             "name": "Lilith and Eve Daisy",
             "price": "170.000đ",
             "image": "../../assets/images/nuochoanu1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 10
         },
         {
@@ -806,6 +906,8 @@
             "name": "LONKOOM RETRO BLACK",
             "price": "280.000đ",
             "image": "../../assets/images/nuochoanam1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 11
         },
         {
@@ -814,6 +916,8 @@
             "name": "Unisex Rodian Pure Soul",
             "price": "170.000đ",
             "image": "../../assets/images/unisex1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 12
         },
         {
@@ -822,6 +926,8 @@
             "name": "Foaming Facial Cleanser",
             "price": "355.000đ",
             "image": "../../assets/images/suaruamat1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 13
         },
         {
@@ -830,6 +936,8 @@
             "name": "La Roche Posay Effaclar Foarming Gel",
             "price": "200.000đ",
             "image": "../../assets/images/suaruamat2.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 13
         },
         {
@@ -838,6 +946,8 @@
             "name": "Sunplay Sunscreen Essence",
             "price": "520.000đ",
             "image": "../../assets/images/kemchongnang1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 14
         },
         {
@@ -846,6 +956,8 @@
             "name": "Tsubaki Shampoo",
             "price": "140.000đ",
             "image": "../../assets/images/daugoi1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 15
         },
         {
@@ -854,6 +966,8 @@
             "name": "White Truffle Acne Shower Gel",
             "price": "100.000đ",
             "image": "../../assets/images/suatam1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 16
         },
         {
@@ -862,6 +976,8 @@
             "name": "Eucalyptus & mint shower gel",
             "price": "245.000đ",
             "image": "../../assets/images/suatam2.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 16
         },
         {
@@ -870,6 +986,8 @@
             "name": "PANTENE Pro-V Shampoo",
             "price": "280.000đ",
             "image": "../../assets/images/daugoi2.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 15
         },
         {
@@ -878,6 +996,8 @@
             "name": "MESMERIC Scented Candles",
             "price": "180.000đ",
             "image": "../../assets/images/nenthom1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 17
         },
         {
@@ -886,7 +1006,39 @@
             "name": "Camel Stuffed Animal",
             "price": "60.000đ",
             "image": "../../assets/images/gaubong1.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 18
+        },
+        {
+            "id": 24,
+            "brand": "OHUI",
+            "name": "OHUI matte lipstick",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham4.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
+            "sub_category_id": 1
+        },
+        {
+            "id": 25,
+            "brand": "OHUI",
+            "name": "OHUI matte lipstick",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham4.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
+            "sub_category_id": 1
+        },
+        {
+            "id": 26,
+            "brand": "OHUI",
+            "name": "OHUI matte lipstick",
+            "price": "355.000đ",
+            "image": "../../assets/images/mypham4.jpg",
+            "purchases": 4,
+            "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
+            "sub_category_id": 1
         }
     ]
 }
