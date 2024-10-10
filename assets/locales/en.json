@@ -180,7 +180,7 @@
     "shirt": "Shirt",
     "shoe": "Shoe",
     "sunglasses": "Sunglasses",
-    "no_product": "There are no products to compare yet",
+    "no_product": "Please select 2 products to compare",
     "perfume": "PERFUME",
     "perfume2": "Perfume",
     "women": "Women's perfume",
@@ -196,7 +196,8 @@
     "product_title2": "European cosmetics are the world's leading brands",
     "product_description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
     "purchase": "Purchase",
-    "purchases": "purchases"
+    "purchases": "purchases",
+    "close": "Close"
   },
   "blog": {
     "heading": "BLOG",
