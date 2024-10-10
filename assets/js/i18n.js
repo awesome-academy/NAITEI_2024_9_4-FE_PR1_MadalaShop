@@ -34,6 +34,9 @@ function fetchLanguage(lang) {
         reloadHomeMessage();
         fetchProductTypes(lang);
       }
+      if (window.location.pathname.includes('product.html')) {
+        fetchProductPageData(lang);
+      }
       if (window.location.pathname.includes('signIn.html')) {
         import("./signIn.js").then(() => {
           reloadMessageSignIn();

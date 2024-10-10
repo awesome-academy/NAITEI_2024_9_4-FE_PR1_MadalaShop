@@ -43,9 +43,11 @@ function displayProductTypes(lang, types, idActive) {
 
   types.slice(0, 3).forEach((type) => {
     const li = document.createElement('li');
-    li.className = `${type.id === idActive ? 'sm:border-x-2' : ''} flex flex-col justify-end md:px-8 px-4`;
     const span = document.createElement('span');
-    span.className = `${type.id === idActive ? activeClassSpanProductTypes : baseClassSpanProductTypes}`;
+    const isActive = type.id === idActive;
+    
+    li.className = `${isActive ? 'sm:border-x-2' : ''} flex flex-col justify-end md:px-8 px-4`;
+    span.className = `${isActive ? activeClassSpanProductTypes : baseClassSpanProductTypes}`;
     span.textContent = type.name;
 
     span.addEventListener('click', () => {
@@ -163,17 +165,7 @@ function displayProducts(products, idProductsActive) {
         card.className = 'card bg-white p-4 rounded-lg shadow-lg hover:scale-105 sm:flex flex-col items-center hidden opacity-0 transition-opacity duration-300';
       }
 
-      card.innerHTML = `
-        <img src="${product.image}" alt="Sản phẩm" class="w-full h-4/5 object-cover mb-2 border-b">
-        <p class="mb-1 font-bold text-gray-500">${product.brand}</p>
-        <h3 class="mb-1 font-bold">${product.name}</h3>
-        <p class="mb-2 text-primary-color font-bold italic text-lg">${product.price}</p>
-        <div>
-            <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
-            <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>
-            <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300 rotate-btn"><i class="fa-solid fa-rotate"></i></button>
-        </div>
-      `;
+      card.innerHTML = createProductHTML(product);
 
       productContainer.appendChild(card);
       card.classList.remove('opacity-0');
@@ -187,34 +179,37 @@ function displayProducts(products, idProductsActive) {
   }, 300);
 }
 
+function createProductHTML(product) {
+  return `
+    <img src="${product.image}" alt="Sản phẩm" class="w-full h-4/5 object-cover mb-2 border-b">
+    <p class="mb-1 font-bold text-gray-500">${product.brand}</p>
+    <h3 class="mb-1 font-bold">${product.name}</h3>
+    <p class="mb-2 text-primary-color font-bold italic text-lg">${product.price}</p>
+    <div>
+      <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
+      <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>
+      <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300 rotate-btn"><i class="fa-solid fa-rotate"></i></button>
+    </div>
+  `;
+}
+
 function rotateProduct(cardElement, products, currentId, index) {
   if (isRotating) return;
   isRotating = true;
 
   let newProductId;
-  
-  if (window.innerWidth < 500) {
-    if (products.length <= 1) {
-      showAlert(t('home.warning_rotate'), 'warning');
-      isRotating = false;
-      return;
-    }
-  
-    do {
-      newProductId = Math.floor(Math.random() * products.length);
-    } while (newProductId === currentId);
+  const isMobile = window.innerWidth < 500;
+  const countProducts= products.length;
 
-  } else {
-    if (products.length <= 2 && activeProductIndices[0] != activeProductIndices[1]) {
-      showAlert(t('home.warning_rotate'), 'warning');
-      isRotating = false;
-      return;
-    }
-  
-    do {
-      newProductId = Math.floor(Math.random() * products.length);
-    } while (activeProductIndices.includes(newProductId) || newProductId === currentId);
+  if (isMobile ? countProducts <= 1 : countProducts <= 2 && activeProductIndices[0] != activeProductIndices[1]) {
+    showAlert(t('home.warning_rotate'), 'warning');
+    isRotating = false;
+    return;
   }
+
+  do {
+    newProductId = Math.floor(Math.random() * countProducts);
+  } while (isMobile ? newProductId === currentId : activeProductIndices.includes(newProductId));
 
   activeProductIndices[index] = newProductId;
   const newProduct = products[newProductId];
@@ -223,17 +218,7 @@ function rotateProduct(cardElement, products, currentId, index) {
   cardElement.classList.add('opacity-0');
   
   setTimeout(() => {
-    cardElement.innerHTML = `
-      <img src="${newProduct.image}" alt="Sản phẩm" class="w-full h-4/5 object-cover mb-2 border-b">
-      <p class="mb-1 font-bold text-gray-500">${newProduct.brand}</p>
-      <h3 class="mb-1 font-bold">${newProduct.name}</h3>
-      <p class="mb-2 text-primary-color font-bold italic text-lg">${newProduct.price}</p>
-      <div>
-          <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
-          <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>
-          <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300 rotate-btn"><i class="fa-solid fa-rotate"></i></button>
-      </div>
-    `;
+    cardElement.innerHTML = createProductHTML(newProduct);
 
     cardElement.classList.remove('opacity-0');
     cardElement.classList.add('opacity-100');
