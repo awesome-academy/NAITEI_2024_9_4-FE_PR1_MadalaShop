@@ -33,14 +33,14 @@
 
             <div class="mb-5">
                 <h2 class="text-xl font-bold mb-5 border-b pb-2" data-i18n="product.compare"></h2>
-                <p class="text-gray-500" data-i18n="product.no_product"></p>
+                <p id="no-product-message" class="text-gray-500 mb-3" data-i18n="product.no_product"></p>
                 <ul class="space-y-2 text-gray-500">
                     <li id="product1" class="hidden flex items-center space-x-4 border-b pb-2">
                         <img id="product1-img" src="" alt="Sản phẩm" class="w-1/4">
                         <div>
                             <p id="product1-name" class="font-bold"></p>
                             <p id="product1-price" class="text-primary-color font-bold"></p>
-                            <button class="text-red-500 remove-product" data-product="1">Xóa</button>
+                            <button class="text-red-500 remove-product hover:font-bold" data-product="1" data-i18n="cart.delete"></button>
                         </div>
                     </li>
                     <li id="product2" class="hidden flex items-center space-x-4 border-b pb-2">
@@ -48,11 +48,40 @@
                         <div>
                             <p id="product2-name" class="font-bold"></p>
                             <p id="product2-price" class="text-primary-color font-bold"></p>
-                            <button class="text-red-500 remove-product" data-product="2">Xóa</button>
+                            <button class="text-red-500 remove-product hover:font-bold" data-product="2" data-i18n="cart.delete"></button>
                         </div>
                     </li>
                 </ul>
-                <button class="mt-4 w-full border hover:bg-primary-color hover:text-white py-2 rounded-md  duration-300" data-i18n="product.compare_button"></button>
+                <button id="compare-btn" class="mt-4 w-full border hover:bg-primary-color hover:text-white py-2 rounded-md duration-300" data-i18n="product.compare_button"></button>
+            </div>
+
+            <div id="compare-popup" class="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 hidden z-50">
+                <div class="bg-white p-5 md:w-1/2 w-3/4 mx-auto mt-36 rounded-md">
+                    <div class="flex justify-between mb-5">
+                        <h3 class="md:text-lg text-base font-bold" data-i18n="product.compare"></h3>
+                        <button id="close-popup" class="border hover:bg-red-500 hover:text-white px-1 rounded-md" data-i18n="product.close"></button>
+                    </div>
+                    <div class="grid grid-cols-2 gap-5">
+                        <div id="popup-product1">
+                            <img id="popup-product1-img" src="" alt="Sản phẩm" class="object-contain md:h-96 h-48 w-auto">
+                            <h4 id="popup-product1-name" class="font-bold md:text-lg text-base"></h4>
+                            <p id="popup-product1-price" class="text-primary-color font-bold"></p>
+                            <p class="font-bold">
+                                <span id="popup-product2-purchases"></span>
+                                <span data-i18n="product.purchases"></span>
+                            </p>
+                        </div>
+                        <div id="popup-product2">
+                            <img id="popup-product2-img" src="" alt="Sản phẩm" class="object-contain md:h-96 h-48 w-auto">
+                            <h4 id="popup-product2-name" class="font-bold md:text-lg text-base"></h4>
+                            <p id="popup-product2-price" class="text-primary-color font-bold"></p>
+                            <p class="font-bold">
+                                <span id="popup-product1-purchases"></span>
+                                <span data-i18n="product.purchases"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="mb-5">
@@ -70,13 +99,7 @@
                     <button class="px-2 py-1 border rounded-md bg-primary-color text-white duration-300 grid-btn"><i class="fa-solid fa-th"></i></button>
                     <button class="px-2 py-1 border rounded-md hover:bg-primary-color hover:text-white duration-300 list-btn"><i class="fa-solid fa-list"></i></button>
                 </div>
-                <div class="flex justify-between items-center space-x-2 text-base pagination-container">
-                    <i class="fa fa-angle-left hover:text-primary-color cursor-pointer"></i>
-                    <span class="font-bold text-primary-color cursor-pointer">1</span>
-                    <span class="hover:text-primary-color cursor-pointer">2</span>
-                    <span class="hover:text-primary-color cursor-pointer">3</span>
-                    <i class="fa fa-angle-right hover:text-primary-color cursor-pointer"></i>
-                </div>
+                <div class="flex justify-between items-center space-x-2 text-base pagination-container"></div>
             </div>
 
             <div id="view"></div>
@@ -86,13 +109,7 @@
                     <button class="px-2 py-1 border rounded-md bg-primary-color text-white duration-300 grid-btn"><i class="fa-solid fa-th"></i></button>
                     <button class="px-2 py-1 border rounded-md hover:bg-primary-color hover:text-white duration-300 list-btn"><i class="fa-solid fa-list"></i></button>
                 </div>
-                <div class="flex justify-between items-center space-x-2 text-base pagination-container">
-                    <i class="fa fa-angle-left hover:text-primary-color cursor-pointer"></i>
-                    <span class="font-bold text-primary-color cursor-pointer">1</span>
-                    <span class="hover:text-primary-color cursor-pointer">2</span>
-                    <span class="hover:text-primary-color cursor-pointer">3</span>
-                    <i class="fa fa-angle-right hover:text-primary-color cursor-pointer"></i>
-                </div>
+                <div class="flex justify-between items-center space-x-2 text-base pagination-container"></div>
             </div>
         </div>
     </div>

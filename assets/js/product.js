@@ -1,5 +1,6 @@
 const gridBtns = document.querySelectorAll(".grid-btn");
 const listBtns = document.querySelectorAll(".list-btn");
+const noProductMessage = document.querySelector('#no-product-message');
 let currentProductsList = [];
 let currentView = 'grid-view';
 let isRotating = false;
@@ -183,12 +184,15 @@ function displayProducts(products, page, viewMode = 'grid-view') {
 
     setTimeout(() => {
         currentProducts.forEach(product => {
-
             const productCard = document.createElement('div');
             productCard.className = `${isGridView ? 'text-center p-3' : 'flex sm:flex-row flex-col p-4 '} rounded-md transition-shadow duration-300 hover:shadow-xl hover:scale-105 transition-opacity opacity-0`;
 
             productCard.innerHTML =  isGridView ? createGridViewProductHTML(product) : createListViewProductHTML(product);
             view.appendChild(productCard);
+
+            productCard.querySelector('img').addEventListener('click', () => {
+                selectProduct(product);
+            });
 
             productCard.querySelector('.rotate-btn').addEventListener('click', () => {
                 rotateProduct(productCard, currentProducts, product.id, totalPages, page, viewMode);
@@ -321,6 +325,10 @@ function rotateProduct(cardElement, currentProducts, currentId, totalPages, curr
     setTimeout(() => {
         cardElement.innerHTML =  isGridView ? createGridViewProductHTML(newProduct) : createListViewProductHTML(newProduct);
 
+        cardElement.querySelector('img').addEventListener('click', () => {
+            selectProduct(newProduct);
+        });
+
         cardElement.classList.remove('opacity-0');
         cardElement.classList.add('opacity-100');
             
@@ -331,6 +339,35 @@ function rotateProduct(cardElement, currentProducts, currentId, totalPages, curr
         isRotating = false;
     }, 300);
   }
+
+function selectProduct(product) {
+    if (!compareProducts[0]) {
+        compareProducts[0] = product;
+        displaySelectedProduct(product, 1);
+    } else if (!compareProducts[1]) {
+        compareProducts[1] = product;
+        displaySelectedProduct(product, 2);
+    }
+
+    if (compareProducts[0] && compareProducts[1]) {
+        noProductMessage.classList.add('hidden');
+    }
+}
+
+function displaySelectedProduct(product, slot) {
+    const productSlot = document.querySelector(`#product${slot}`);
+    productSlot.classList.remove('hidden');
+    document.querySelector(`#product${slot}-img`).src = product.image;
+    document.querySelector(`#product${slot}-name`).innerText = product.name;
+    document.querySelector(`#product${slot}-price`).innerText = product.price;
+}
+
+function loadPopupData(productSlot) {
+    document.querySelector(`#popup-product${productSlot}-img`).src = compareProducts[productSlot - 1].image;
+    document.querySelector(`#popup-product${productSlot}-name`).innerText = compareProducts[productSlot - 1].name;
+    document.querySelector(`#popup-product${productSlot}-price`).innerText = compareProducts[productSlot - 1].price;
+    document.querySelector(`#popup-product${productSlot}-purchases`).innerText = compareProducts[productSlot - 1].purchases;
+}
 
 gridBtns.forEach((btn) => {
     btn.addEventListener('click', () => { 
@@ -354,4 +391,29 @@ document.addEventListener('DOMContentLoaded', function() {
             hoverTooltip(event.target, 'product.product_description');
         }
     });
+});
+
+document.querySelectorAll('.remove-product').forEach(button => {
+    button.addEventListener('click', (event) => {
+        const productSlot = event.target.getAttribute('data-product');
+        compareProducts[productSlot - 1] = null;
+        document.querySelector(`#product${productSlot}`).classList.add('hidden');
+        
+        if (!compareProducts[0] || !compareProducts[1]) {
+            noProductMessage.classList.remove('hidden');
+        }
+    });
+});
+
+document.querySelector('#compare-btn').addEventListener('click', () => {
+    if (compareProducts[0] && compareProducts[1]) {
+        document.querySelector('#compare-popup').classList.remove('hidden');
+
+        loadPopupData(1);
+        loadPopupData(2);
+    }
+});
+
+document.querySelector('#close-popup').addEventListener('click', () => {
+    document.querySelector('#compare-popup').classList.add('hidden');
 });

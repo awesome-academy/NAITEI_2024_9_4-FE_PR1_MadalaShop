@@ -180,7 +180,7 @@
     "shirt": "Áo sơ mi",
     "shoe": "Giày",
     "sunglasses": "Kính râm",
-    "no_product": "Chưa có sản phẩm nào để so sánh",
+    "no_product": "Hãy chọn 2 sản phẩm để so sánh",
     "perfume": "NƯỚC HOA",
     "perfume2": "Nước hoa",
     "women": "Nước hoa nữ",
@@ -196,7 +196,8 @@
     "product_title2": "Mỹ phẩm châu Âu thương hiệu hàng đầu thế giới",
     "product_description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
     "purchase": "Mua hàng",
-    "purchases": "lượt mua"
+    "purchases": "lượt mua",
+    "close": "Đóng"
   },
   "blog": {
     "heading": "TIN TỨC",
