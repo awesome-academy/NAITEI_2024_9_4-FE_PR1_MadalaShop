@@ -29,6 +29,12 @@ function reloadBlogDetailMessage() {
     });
 }
 
+async function fetchBlogDetailData(lang) {
+    const blogs = await fetchData(`${lang}/blogs`);
+
+    loadBlogDetail(blogs);
+}
+
 form.addEventListener('submit', function (event) {
     event.preventDefault();
     document.querySelectorAll('.error-message').forEach(error => error.classList.add('hidden'));
@@ -41,3 +47,26 @@ Object.keys(validationSetUp).forEach(field => {
         validateInput(inputElement, validationSetUp);
     });
 });
+
+function loadBlogDetail(blogs) {
+    const queryString = window.location.search;
+    const params = new URLSearchParams(queryString);
+    const blogId = params.get('id');
+
+    blogElement = document.getElementById('blog')
+    if (blogId) {
+        const blog = blogs.find(b => b.id == blogId);
+
+        if (blog) {
+            document.getElementById('blog-title').textContent = blog.title;
+            document.getElementById('blog-content').textContent = blog.content;
+            document.getElementById('blog-author').textContent = `${blog.author} (${blog.date})` ;
+            document.getElementById('blog-image').src = blog.image;
+            document.getElementById('blog-comments').textContent = blog.comments;
+        } else {
+            blogElement.innerHTML = `<h1 class="text-lg mt-5">${t('blog_detail.404_message')}</h1>`;
+        }
+    } else {
+        blogElement.innerHTML = `<h1 class="text-lg mt-5">${t('blog_detail.404_message')}</h1>`;
+    }
+}

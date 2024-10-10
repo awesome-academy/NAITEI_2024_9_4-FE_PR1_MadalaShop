@@ -45,9 +45,14 @@ function fetchLanguage(lang) {
       if (window.location.pathname.includes('signUp.html')) {
         reloadMessageSignUp();
       }
+      if (window.location.pathname.includes('blog.html')) {
+        fetchBlogPageData(lang)
+      }
+      if (window.location.pathname.includes('blog_detail.html')) {
+        fetchBlogDetailData(lang)
+      }
     });
 }
-
 function t(key) {
   const [section, subsection] = key.split('.');
   return window.i18nData[section][subsection];

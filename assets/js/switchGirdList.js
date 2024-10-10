@@ -1,3 +1,6 @@
+const gridBtns = document.querySelectorAll(".grid-btn");
+const listBtns = document.querySelectorAll(".list-btn");
+
 function switchToGrid() {
     gridBtns.forEach((btn) => {
         btn.classList.add("bg-primary-color", "text-white");
