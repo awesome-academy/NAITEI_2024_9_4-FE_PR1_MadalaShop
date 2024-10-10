@@ -43,7 +43,8 @@
     "error_email": "Email không hợp lệ!",
     "error_email_double": "Email đã tồn tại!",
     "error_password": "Mật khẩu không hợp lệ!",
-    "password-forgot": "Quên mật khẩu?"
+    "password-forgot": "Quên mật khẩu?",
+    "sign_out": "Đăng xuất"
   },
   "sign-up": {
     "sign_up": "đăng ký",
