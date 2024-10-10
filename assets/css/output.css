@@ -987,6 +987,18 @@ video {
   height: 24rem;
 }
 
+.h-\[101px\] {
+  height: 101px;
+}
+
+.h-\[441px\] {
+  height: 441px;
+}
+
+.h-\[588px\] {
+  height: 588px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1097,6 +1109,10 @@ video {
 
 .w-\[10\%\] {
   width: 10%;
+}
+
+.w-\[101px\] {
+  width: 101px;
 }
 
 .w-\[650px\] {
@@ -1328,6 +1344,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .whitespace-nowrap {
@@ -2081,11 +2101,6 @@ video {
 .hover\:bg-gray-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-primary-color:hover {
