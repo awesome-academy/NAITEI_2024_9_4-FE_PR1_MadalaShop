@@ -219,7 +219,8 @@
     "error_name": "The name must have at least 3 characters.",
     "error_email": "Invalid email.",
     "error_message": "Message must have at least 10 characters.",
-    "success_message": "Valid information, message has been sent!!"
+    "success_message": "Valid information, message has been sent!!",
+    "404_message": "404 - Blog not found"
   },
   "home": {
     "free_shipping": "Free shipping nationwide",

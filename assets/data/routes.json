@@ -3,8 +3,10 @@
     "/vi/categories": "/vi_categories",
     "/vi/sub_categories": "/vi_sub_categories",
     "/vi/products": "/vi_products",
+    "/vi/blogs": "/vi_blogs",
     "/en/product_types": "/en_product_types",
     "/en/categories": "/en_categories",
     "/en/sub_categories": "/en_sub_categories",
-    "/en/products": "/en_products"
+    "/en/products": "/en_products",
+    "/en/blogs": "/en_blogs"
 }

@@ -643,6 +643,62 @@
             "sub_category_id": 1
         }
     ],
+    "vi_blogs": [
+        {
+            "id": 1,
+            "title": "REVIEW SON KEM BOURJOIS VELVET",
+            "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog1.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 2,
+            "title": "REVIEW SON KEM BOURJOIS VELVET",
+            "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog2.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 3,
+            "title": "REVIEW SON KEM BOURJOIS VELVET",
+            "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog3.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 4,
+            "title": "REVIEW SON KEM BOURJOIS VELVET",
+            "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog4.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 5,
+            "title": "REVIEW SON KEM BOURJOIS VELVET",
+            "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog5.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 6,
+            "title": "REVIEW SON KEM BOURJOIS VELVET",
+            "content": "Hi, chào các nàng... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog6.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        }
+    ],
     "en_product_types": [
         {
             "id": 1,
@@ -1039,6 +1095,62 @@
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
             "sub_category_id": 1
+        }
+    ],
+    "en_blogs": [
+        {
+            "id": 1,
+            "title": "REVIEW BOURJOIS VELVET LIQUID LIPSTICK",
+            "content": "Hi, hello ladies... after quite a few empty promises, I'm back to heat up this blog on a hot summer day...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog1.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 2,
+            "title": "REVIEW BOURJOIS VELVET LIQUID LIPSTICK",
+            "content": "Hi, hello ladies... after quite a few empty promises, I'm back to heat up this blog on a hot summer day...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog2.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 3,
+            "title": "REVIEW BOURJOIS VELVET LIQUID LIPSTICK",
+            "content": "Hi, hello ladies... after quite a few empty promises, I'm back to heat up this blog on a hot summer day...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog3.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 4,
+            "title": "REVIEW BOURJOIS VELVET LIQUID LIPSTICK",
+            "content": "Hi, hello ladies... after quite a few empty promises, I'm back to heat up this blog on a hot summer day...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog4.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 5,
+            "title": "REVIEW BOURJOIS VELVET LIQUID LIPSTICK",
+            "content": "Hi, hello ladies... after quite a few empty promises, I'm back to heat up this blog on a hot summer day...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog5.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
+        },
+        {
+            "id": 6,
+            "title": "REVIEW BOURJOIS VELVET LIQUID LIPSTICK",
+            "content": "Hi, hello ladies... after quite a few empty promises, I'm back to heat up this blog on a hot summer day...",
+            "author": "Nam Tran",
+            "image": "../../assets/images/blog6.jpg",
+            "comments": 23,
+            "date": "27/05/2015"
         }
     ]
 }

@@ -22,15 +22,15 @@
                 </nav>
             </div>
         </div>
-        <div>
-            <img src="../../assets/images/blog3.jpg" alt="Tin tức" class="w-full object-cover my-4">
-            <h3 class="text-lg font-bold mb-4 pb-2 border-b" data-i18n="blog_detail.title"></h3>
-            <p class="text-gray-500 mb-4 line-clamp-6" data-i18n="blog_detail.content"></p>
+        <div id="blog">
+            <img id="blog-image" alt="Tin tức" class="w-full object-cover my-4">
+            <h3 id="blog-title" class="text-lg font-bold mb-4 pb-2 border-b"></h3>
+            <p id="blog-content" class="text-gray-500 mb-4 line-clamp-6"></p>
             <p class="text-gray-400 mb-4 italic">
-                <span data-i18n="blog_detail.author"></span> Nam Tran (27/05/2015)
+                <span data-i18n="blog_detail.author"></span> <span id="blog-author"></span>
             </p>
             <div class="pt-2 border-t text-gray-400">
-                <p>23 <span data-i18n="blog_detail.comments"></span></p>
+                <p><span id="blog-comments"></span> <span data-i18n="blog_detail.comments"></span></p>
             </div>
         </div>
         
@@ -81,6 +81,7 @@
     <script src="../../assets/js/blog_detail.js"></script>
     <script src="../../assets/js/showAlert.js"></script>
     <script src="../../assets/js/validateForm.js"></script>
+    <script src="../../assets/js/api.js"></script>
     <script src="../../assets/js/i18n.js"></script>
 </body>
 </html>
