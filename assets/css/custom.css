@@ -1,0 +1,17 @@
+#logoutBtn::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  right: -18px;
+  transform: rotate(45deg) translate(-50%);
+  bottom: 3px;
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+  border-right: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+#logoutBtn:hover::before {
+  background-color: #F3F4F6;
+}

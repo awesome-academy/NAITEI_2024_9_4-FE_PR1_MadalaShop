@@ -34,4 +34,35 @@ function setDefaultCSSLanguage() {
   });
 }
 
-export { switchCSSLanguageButtons, setDefaultCSSLanguage };
+function checkLogin() {
+  const token = sessionStorage.getItem('token');
+  if (token) {
+    const account = decodeJWT(token).account;
+    console.log(1);
+    document.querySelector('.authentication').classList.add('hidden');
+    document.querySelector('.user-greeting').classList.remove('hidden');
+    document.getElementById('userLogIn').textContent = `${account.firstName}`;
+  } else {
+    document.querySelector('.authentication').classList.remove('hidden');
+  }
+}
+
+function checkLogout() {
+  document.querySelector('.user-greeting').addEventListener('click', function () {
+    logoutBtn.classList.toggle('hidden');
+  });
+  logoutBtn.addEventListener('click', () => {
+    sessionStorage.removeItem('token');
+    document.querySelector('.authentication').classList.remove('hidden');
+    document.querySelector('.user-greeting').classList.add('hidden');
+    window.location.href = '../../src/pages/index.html';
+  })
+}
+
+function toggleListLink() {
+  toggleListLinkBtn.addEventListener('click', () => {
+    listLink.classList.toggle('hidden');
+  })
+}
+
+export { switchCSSLanguageButtons, setDefaultCSSLanguage, checkLogin, checkLogout, toggleListLink };
