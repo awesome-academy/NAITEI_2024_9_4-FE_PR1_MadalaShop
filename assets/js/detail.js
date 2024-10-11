@@ -58,6 +58,9 @@ function updateInfoDetail(data) {
 		document.getElementById('size').insertAdjacentHTML('beforeend', html);
 	})
 
+	buyButton.addEventListener('click', () => {
+		addToCart(data.id);
+	})
 	document.getElementById('facebookShare').textContent = data.facebookShare <= 10 ? data.facebookShare : `10+`;
 	document.getElementById('twitterShare').textContent = data.twitterShare <= 10 ? data.twitterShare : `10+`;
 	document.getElementById('googleShare').textContent = data.googleShare <= 10 ? data.googleShare : `10+`;
@@ -108,7 +111,7 @@ async function loadBestSellingProduct(language) {
         <div class="flex mt-8 border-b border-dashed pb-6 ">
           <img src="${data_product.image}" alt="${data_product.name}" class="mr-4 w-[101px] h-[101px]">
           <div>
-            <a href="../../src/pages/detail.html?id=${data_product.id}" class="mb-3 font-semibold hover:underline">${data_product.name}</a>
+            <a href="../../src/pages/product_detail.html?id=${data_product.id}" class="mb-3 font-semibold hover:underline">${data_product.name}</a>
             <div class="flex items-center text-sm mb-3">
               <div class="mr-3">
                 <i class="fa-solid fa-heart"></i>
@@ -141,7 +144,7 @@ async function loadFrequentlyPurchasedProducts(language) {
         <div class="flex mt-8 border-b border-dashed pb-6 ">
           <img src="${data_product.image}" alt="${data_product.name}" class="mr-4 w-[101px] h-[101px]">
           <div>
-            <a href="../../src/pages/detail.html?id=${data_product.id}" class="mb-3 font-semibold hover:underline">${data_product.name}</a>
+            <a href="../../src/pages/product_detail.html?id=${data_product.id}" class="mb-3 font-semibold hover:underline">${data_product.name}</a>
             <div class="flex items-center text-sm mb-3">
               <div class="mr-3">
                 <i class="fa-solid fa-heart"></i>
@@ -162,8 +165,7 @@ async function loadFrequentlyPurchasedProducts(language) {
 	}
 }
 
-async function loadData() {
-	let language = localStorage.getItem('language');
+async function loadData(language) {
 	const urlParams = new URLSearchParams(window.location.search);
 	const detailItem = urlParams.get('id');
 	const data = await fetchData(`${language}_products/${detailItem}`);

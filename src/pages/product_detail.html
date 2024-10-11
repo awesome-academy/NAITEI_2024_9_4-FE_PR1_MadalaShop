@@ -73,9 +73,9 @@
                             <label for="number" class="block mb-4 text-base uppercase font-medium text-gray-900"
                                 data-i18n="detail.number"></label>
                             <div class="flex">
-                                <a href=""
+                                <button id="buyButton"
                                     class="uppercase font-bold border border-gray-600 py-2 px-3.5 rounded-xl transition-all hover:bg-black hover:text-white mr-3"
-                                    data-i18n="detail.buy"></a>
+                                    data-i18n="detail.buy"></button>
                                 <button
                                     class="bg-green-500 py-2 px-3.5 rounded-xl mr-3 text-white hover:text-red-300 transition-all">
                                     <i class="fa-solid fa-heart "></i>
@@ -408,11 +408,14 @@
             </div>
         </div>
     </div>
-
+    <div id="alert-success-container"></div>
     <div id="footer"></div>
     </div>
     <script src="../../assets/js/loadlayouts.js" type="module"></script>
     <script src="../../assets/js/api.js"></script>
+    <script src="../../assets/js/jwt.js"></script>
+    <script src="../../assets/js/cart.js"></script>
+    <script src="../../assets/js/showAlert.js"></script>
     <script src="../../assets/js/getCateAndSubCate.js"></script>
     <script src="../../assets/js/detail.js"></script>
     <script src="../../assets/js/breadcrumb.js"></script>

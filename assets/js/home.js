@@ -186,7 +186,7 @@ function createProductHTML(product) {
     <a href="../../src/pages/detail.html?id=${product.id}" class="mb-1 font-bold text-[18px] hover:underline">${product.name}</a>
     <p class="mb-2 text-primary-color font-bold italic text-lg">${product.price}</p>
     <div>
-      <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
+      <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase" onclick='addToCart(${product.id})'>${t('product.purchase')}</button>
       <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>
       <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300 rotate-btn"><i class="fa-solid fa-rotate"></i></button>
     </div>
