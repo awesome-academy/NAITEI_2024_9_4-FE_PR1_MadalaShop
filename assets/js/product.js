@@ -1,10 +1,6 @@
-const gridBtns = document.querySelectorAll(".grid-btn");
-const listBtns = document.querySelectorAll(".list-btn");
 const noProductMessage = document.querySelector('#no-product-message');
-let currentProductsList = [];
-let currentView = 'grid-view';
-let isRotating = false;
 let compareProducts = [null, null];
+const itemType = 'product'
 
 async function fetchProductPageData(lang) {
     const categories = await fetchData(`${lang}/categories`);
@@ -43,11 +39,11 @@ function displayCategories(categories, subCategories, products, idCategoryActive
         catalog.appendChild(categoryItem);
 
         if (isActiveCategory) {
-            displayProducts(relatedProducts, 1, currentView);
+            displayGridListContent(relatedProducts, 1, currentView, itemType);
         }
 
         categoryItem.addEventListener('click', () => {
-            displayProducts(relatedProducts, 1, currentView);
+            displayGridListContent(relatedProducts, 1, currentView, itemType);
         });
     });
 
@@ -145,7 +141,7 @@ function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategor
         subCategoryItem.textContent = subCategory.name;
         subCategoryList.appendChild(subCategoryItem);
         subCategoryItem.addEventListener('click', () => {
-            displayProducts(moreRelatedProducts, 1, currentView);
+            displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
         });
         
         if (index === 0) {
@@ -154,56 +150,10 @@ function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategor
             tagsContainer.appendChild(subCategoryTag);
     
             subCategoryTag.addEventListener('click', () => {
-                displayProducts(moreRelatedProducts, 1, currentView);
+                displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
             })
         }
     });
-}
-
-function displayProducts(products, page, viewMode = 'grid-view') {
-    const view = document.getElementById('view');
-    const isGridView = viewMode === 'grid-view';
-
-    const itemsPerPage = isGridView ? 6 : 3;
-    const totalPages = Math.ceil(products.length / itemsPerPage);
-
-    const start = (page - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-    const currentProducts = products.slice(start, end);
-
-    currentProductsList = products;
-
-    view.className = isGridView ? 'grid grid-cols-2 md:grid-cols-3 gap-4 gap-y-16' : 'space-y-2';
-    Array.from(view.children).forEach((child) => {
-        child.classList.remove('opacity-100');
-        child.classList.add('opacity-0');
-    });
-    setTimeout(() => {
-      view.innerHTML = '';
-    }, 300);
-
-    setTimeout(() => {
-        currentProducts.forEach(product => {
-            const productCard = document.createElement('div');
-            productCard.className = `${isGridView ? 'text-center p-3' : 'flex sm:flex-row flex-col p-4 '} rounded-md transition-shadow duration-300 hover:shadow-xl hover:scale-105 transition-opacity opacity-0`;
-
-            productCard.innerHTML =  isGridView ? createGridViewProductHTML(product) : createListViewProductHTML(product);
-            view.appendChild(productCard);
-
-            productCard.querySelector('img').addEventListener('click', () => {
-                selectProduct(product);
-            });
-
-            productCard.querySelector('.rotate-btn').addEventListener('click', () => {
-                rotateProduct(productCard, currentProducts, product.id, totalPages, page, viewMode);
-            });
-
-            productCard.classList.remove('opacity-0');
-            productCard.classList.add('opacity-100');
-        });
-    }, 300);
-
-    displayPagination(products, totalPages, page, viewMode);
 }
 
 function createGridViewProductHTML(product) {
@@ -246,57 +196,15 @@ function createListViewProductHTML(product) {
     `;
 }
 
-function displayPagination(products, totalPages, currentPage, viewMode) {
-    const paginationContainers = document.querySelectorAll('.pagination-container');
-    
-    paginationContainers.forEach(paginationContainer => {
-        const leftArrow = document.createElement('i');
-        const rightArrow = document.createElement('i');
-
-        leftArrow.className = 'fa fa-angle-left hover:text-primary-color cursor-pointer';
-        rightArrow.className = 'fa fa-angle-right hover:text-primary-color cursor-pointer';
-        leftArrow.style.display = currentPage === 1 ? 'none' : 'flex';
-        rightArrow.style.display = currentPage === totalPages ? 'none' : 'flex';
-    
-        leftArrow.addEventListener('click', () => {
-            handlePageChange(products, currentPage - 1, totalPages, viewMode);
-        });
-        rightArrow.addEventListener('click', () => {
-            handlePageChange(products, currentPage + 1, totalPages, viewMode);
-        });
-
-        paginationContainer.innerHTML = '';
-        paginationContainer.style.display = totalPages <= 1 ? 'none' : 'flex';
-
-        paginationContainer.appendChild(leftArrow);
-        for (let i = 1; i <= totalPages; i++) {
-            const pageItem = document.createElement('span');
-            pageItem.className = `cursor-pointer font-bold ${i === currentPage ? 'text-primary-color' : 'hover:text-primary-color'}`
-            pageItem.textContent = i;
-            pageItem.addEventListener('click', () => {
-                displayProducts(products, i, viewMode);
-            });
-            paginationContainer.appendChild(pageItem);
-        }
-        paginationContainer.appendChild(rightArrow);
-    });
-}
-
-function handlePageChange(products, newPage, totalPages, viewMode) {
-    if (newPage < 1 || newPage > totalPages) return;
-    currentPage = newPage;
-    displayProducts(products, currentPage, viewMode);
-}
-
 function rotateProduct(cardElement, currentProducts, currentId, totalPages, currentPage, viewMode) {
     if (isRotating) return;
     isRotating = true;
   
     let newProductId;
-    const countProductsList= currentProductsList.length;
+    const countProductsList= currentItemsList.length;
     const isGridView = viewMode === 'grid-view';
     const currentProductIds = currentProducts.map(product => product.id);
-    const currentProductsListIds = currentProductsList.map(product => product.id);
+    const currentProductsListIds = currentItemsList.map(product => product.id);
   
     if (isGridView ? countProductsList <= 6 : countProductsList <= 3) {
       showAlert(t('home.warning_rotate'), 'warning');
@@ -309,13 +217,13 @@ function rotateProduct(cardElement, currentProducts, currentId, totalPages, curr
       newProductId = currentProductsListIds[randomIndex];
     } while (currentProductIds.includes(newProductId));
 
-    const newIndex = currentProductsList.findIndex(product => product.id === newProductId);
-    const currentIndex = currentProductsList.findIndex(product => product.id === currentId);
-    const newProduct = currentProductsList[newIndex];
+    const newIndex = currentItemsList.findIndex(product => product.id === newProductId);
+    const currentIndex = currentItemsList.findIndex(product => product.id === currentId);
+    const newProduct = currentItemsList[newIndex];
     const indexToReplace = currentProducts.findIndex(product => product.id === currentId);
 
-    [currentProductsList[currentIndex], currentProductsList[newIndex]] = [currentProductsList[newIndex], currentProductsList[currentIndex]]
-    displayPagination(currentProductsList, totalPages, currentPage, viewMode);
+    [currentItemsList[currentIndex], currentItemsList[newIndex]] = [currentItemsList[newIndex], currentItemsList[currentIndex]]
+    displayPagination(currentItemsList, totalPages, currentPage, viewMode);
 
     currentProducts[indexToReplace] = newProduct;
 
@@ -338,7 +246,7 @@ function rotateProduct(cardElement, currentProducts, currentId, totalPages, curr
 
         isRotating = false;
     }, 300);
-  }
+}
 
 function selectProduct(product) {
     if (!compareProducts[0]) {
@@ -369,22 +277,6 @@ function loadPopupData(productSlot) {
     document.querySelector(`#popup-product${productSlot}-purchases`).innerText = compareProducts[productSlot - 1].purchases;
 }
 
-gridBtns.forEach((btn) => {
-    btn.addEventListener('click', () => { 
-        currentView = 'grid-view';
-        switchToGrid();
-        displayProducts(currentProductsList, 1, currentView)
-    });
-});
-
-listBtns.forEach((btn) => {
-    btn.addEventListener('click', () => { 
-        currentView = 'list-view';
-        switchToList();
-        displayProducts(currentProductsList, 1, currentView)
-    });
-});
-
 document.addEventListener('DOMContentLoaded', function() {
     document.body.addEventListener('mouseover', function(event) {
         if (event.target.classList.contains('description')) {
@@ -398,7 +290,7 @@ document.querySelectorAll('.remove-product').forEach(button => {
         const productSlot = event.target.getAttribute('data-product');
         compareProducts[productSlot - 1] = null;
         document.querySelector(`#product${productSlot}`).classList.add('hidden');
-        
+
         if (!compareProducts[0] || !compareProducts[1]) {
             noProductMessage.classList.remove('hidden');
         }

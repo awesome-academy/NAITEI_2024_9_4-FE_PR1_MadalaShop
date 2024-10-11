@@ -219,7 +219,8 @@
     "error_name": "Tên phải có ít nhất 3 ký tự.",
     "error_email": "Email không hợp lệ.",
     "error_message": "Tin nhắn phải có ít nhất 10 ký tự.",
-    "success_message": "Thông tin hợp lệ, tin nhắn đã được gửi!!"
+    "success_message": "Thông tin hợp lệ, tin nhắn đã được gửi!!",
+    "404_message": "404 - Không tìm thấy bài tin"
   },
   "home": {
     "free_shipping": "Miễn phí vận chuyển toàn quốc",
