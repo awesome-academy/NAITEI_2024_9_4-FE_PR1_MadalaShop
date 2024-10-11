@@ -1,53 +1,53 @@
 <header class="w-full border-b border-gray-200 font-openSans sticky top-0 bg-white z-40">
-  <div class="flex justify-between items-center max-w-7xl mx-auto px-2.5 pt-2.5">
-    <div class="language flex">
-      <button onclick="changeLanguage('vi')"
-        class="lang mr-5 transition-all px-3 py-0.5 bg-black text-white rounded border-solid border">
-        VI
-      </button>
-      <button onclick="changeLanguage('en')" class="lang transition-all">
-        EN
-      </button>
+    <div class="flex justify-between items-center max-w-7xl mx-auto px-2.5 pt-2.5">
+        <div class="language flex">
+            <button onclick="changeLanguage('vi')"
+                class="lang mr-5 transition-all px-3 py-0.5 bg-black text-white rounded border-solid border">
+                VI
+            </button>
+            <button onclick="changeLanguage('en')" class="lang transition-all">
+                EN
+            </button>
+        </div>
+        <div class="user-greeting flex flex-col items-center">
+            <span data-i18n="header.greeting"></span>
+            <span>Đăng Tỉnh</span>
+        </div>
     </div>
-    <div class="user-greeting flex flex-col items-center">
-      <span data-i18n="header.greeting"></span>
-      <span>Đăng Tỉnh</span>
+    <div class="max-w-7xl p-2.5 pt0 border-red-400 mx-auto flex justify-between items-center">
+        <div class="logo">
+            <img src="../../assets/images/mandala-logo.jpg" alt="">
+        </div>
+        <ul class="nav hidden lg:flex ">
+            <li class="mr-6 transition-all hover:text-primary-color">
+                <a data-i18n="header.home" href="../pages/index.html"></a>
+            </li>
+            <li class="mr-6 transition-all hover:text-primary-color">
+                <a data-i18n="header.introduction" href="../pages/aboutUs.html"></a>
+            </li>
+            <li class="mr-6 transition-all hover:text-primary-color">
+                <a data-i18n="header.product" href="../pages/product.html"></a>
+            </li>
+            <li class="mr-6 transition-all hover:text-primary-color">
+                <a data-i18n="header.news" href="../pages/blog.html"></a>
+            </li>
+            <li class="mr-6 transition-all hover:text-primary-color">
+                <a data-i18n="header.map" href=""></a>
+            </li>
+            <li class="mr-6 transition-all hover:text-primary-color">
+                <a data-i18n="header.contact" href="../pages/contact_us.html"></a>
+            </li>
+        </ul>
+        <div>
+            <a href="../pages/cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <a class="ml-10" href="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <a class="ml-10 px-2.5 py-1.5 bg-black text-white lg:hidden" href="">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="max-w-7xl p-2.5 pt0 border-red-400 mx-auto flex justify-between items-center">
-    <div class="logo">
-      <img src="../../assets/images/mandala-logo.jpg" alt="">
-    </div>
-    <ul class="nav hidden lg:flex ">
-      <li class="mr-6 transition-all hover:text-primary-color">
-        <a data-i18n="header.home" href="../pages/index.html"></a>
-      </li>
-      <li class="mr-6 transition-all hover:text-primary-color">
-        <a data-i18n="header.introduction" href="../pages/aboutUs.html"></a>
-      </li>
-      <li class="mr-6 transition-all hover:text-primary-color">
-        <a data-i18n="header.product" href="../pages/product.html"></a>
-      </li>
-      <li class="mr-6 transition-all hover:text-primary-color">
-        <a data-i18n="header.news" href="../pages/blog.html"></a>
-      </li>
-      <li class="mr-6 transition-all hover:text-primary-color">
-        <a data-i18n="header.map" href=""></a>
-      </li>
-      <li class="mr-6 transition-all hover:text-primary-color">
-        <a data-i18n="header.contact" href="../pages/contact_us.html"></a>
-      </li>
-    </ul>
-    <div>
-      <a href="../pages/cart.html">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </a>
-      <a class="ml-10" href="">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </a>
-      <a class="ml-10 px-2.5 py-1.5 bg-black text-white lg:hidden" href="">
-        <i class="fa-solid fa-bars"></i>
-      </a>
-    </div>
-  </div>
 </header>

@@ -390,7 +390,38 @@
             "image": "../../assets/images/mypham1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 2,
@@ -400,7 +431,38 @@
             "image": "../../assets/images/mypham2.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 3
+            "sub_category_id": 3,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 3,
@@ -410,7 +472,38 @@
             "image": "../../assets/images/mypham3.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 2
+            "sub_category_id": 2,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 4,
@@ -420,7 +513,38 @@
             "image": "../../assets/images/mypham4.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 5,
@@ -430,7 +554,38 @@
             "image": "../../assets/images/mypham5.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 6,
@@ -440,7 +595,38 @@
             "image": "../../assets/images/vongtay1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 4
+            "sub_category_id": 4,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 7,
@@ -450,7 +636,38 @@
             "image": "../../assets/images/nhan1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 5
+            "sub_category_id": 5,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 8,
@@ -460,7 +677,38 @@
             "image": "../../assets/images/hoatai1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 6
+            "sub_category_id": 6,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 9,
@@ -470,7 +718,38 @@
             "image": "../../assets/images/aosomi1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 7
+            "sub_category_id": 7,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 10,
@@ -480,7 +759,38 @@
             "image": "../../assets/images/giay1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 8
+            "sub_category_id": 8,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 11,
@@ -490,7 +800,38 @@
             "image": "../../assets/images/kinhram1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 9
+            "sub_category_id": 9,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 12,
@@ -500,7 +841,38 @@
             "image": "../../assets/images/nuochoanu1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 10
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 13,
@@ -510,7 +882,38 @@
             "image": "../../assets/images/nuochoanam1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 11
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 14,
@@ -520,7 +923,38 @@
             "image": "../../assets/images/unisex1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 12
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 15,
@@ -530,7 +964,38 @@
             "image": "../../assets/images/suaruamat1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 13
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 16,
@@ -540,7 +1005,38 @@
             "image": "../../assets/images/suaruamat2.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 13
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 17,
@@ -550,7 +1046,38 @@
             "image": "../../assets/images/kemchongnang1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 14
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 18,
@@ -560,7 +1087,38 @@
             "image": "../../assets/images/daugoi1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 15
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 19,
@@ -570,7 +1128,38 @@
             "image": "../../assets/images/suatam1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 16
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 20,
@@ -580,7 +1169,38 @@
             "image": "../../assets/images/suatam2.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 16
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 21,
@@ -590,7 +1210,38 @@
             "image": "../../assets/images/daugoi2.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 15
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 22,
@@ -600,7 +1251,38 @@
             "image": "../../assets/images/nenthom1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 17
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 23,
@@ -610,7 +1292,38 @@
             "image": "../../assets/images/gaubong1.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 18
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 24,
@@ -620,7 +1333,38 @@
             "image": "../../assets/images/mypham4.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 25,
@@ -630,7 +1374,38 @@
             "image": "../../assets/images/mypham4.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         },
         {
             "id": 26,
@@ -640,7 +1415,38 @@
             "image": "../../assets/images/mypham4.jpg",
             "purchases": 4,
             "description": "Tự hào được ghi là năm mà Tiffany & Co là thành lập, bộ sưu tập mang tính biểu tượng này cung cấp cho một cái gật đầu với qua trong khi thể hiện một cảm giác hiện đại với kiểu dáng đẹp đường cong và đường nét mượt mà.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "Dấu ấn của những Huyền thoại",
+            "highlightDes": "Tự hào mang dấu ấn năm thành lập của Tiffany & Co., bộ sưu tập mang tính biểu tượng này tôn vinh lịch sử trong khi thể hiện sự hiện đại với những đường cong mượt mà và tinh tế.",
+            "color": [
+                "Bạc",
+                "Hồng",
+                "Tím"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mọi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng để phái đẹp sống vui, sống đẹp hơn trong một nửa còn lại của thế giới. Để FS tự do của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích."
         }
     ],
     "vi_blogs": [
@@ -844,7 +1650,38 @@
             "image": "../../assets/images/mypham1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 2,
@@ -854,7 +1691,38 @@
             "image": "../../assets/images/mypham2.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 3
+            "sub_category_id": 3,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 3,
@@ -864,7 +1732,38 @@
             "image": "../../assets/images/mypham3.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 2
+            "sub_category_id": 2,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 4,
@@ -874,7 +1773,38 @@
             "image": "../../assets/images/mypham4.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 5,
@@ -884,7 +1814,38 @@
             "image": "../../assets/images/mypham5.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 6,
@@ -894,7 +1855,38 @@
             "image": "../../assets/images/vongtay1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 4
+            "sub_category_id": 4,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 7,
@@ -904,7 +1896,38 @@
             "image": "../../assets/images/nhan1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 5
+            "sub_category_id": 5,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 8,
@@ -914,7 +1937,38 @@
             "image": "../../assets/images/hoatai1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 6
+            "sub_category_id": 6,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 9,
@@ -924,7 +1978,38 @@
             "image": "../../assets/images/aosomi1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 7
+            "sub_category_id": 7,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 10,
@@ -934,7 +2019,38 @@
             "image": "../../assets/images/giay1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 8
+            "sub_category_id": 8,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 11,
@@ -944,7 +2060,38 @@
             "image": "../../assets/images/kinhram1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 9
+            "sub_category_id": 9,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 12,
@@ -954,7 +2101,38 @@
             "image": "../../assets/images/nuochoanu1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 10
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 13,
@@ -964,7 +2142,38 @@
             "image": "../../assets/images/nuochoanam1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 11
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 14,
@@ -974,7 +2183,38 @@
             "image": "../../assets/images/unisex1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 12
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 15,
@@ -984,7 +2224,38 @@
             "image": "../../assets/images/suaruamat1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 13
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 16,
@@ -994,7 +2265,38 @@
             "image": "../../assets/images/suaruamat2.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 13
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 17,
@@ -1004,7 +2306,38 @@
             "image": "../../assets/images/kemchongnang1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 14
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 18,
@@ -1014,7 +2347,38 @@
             "image": "../../assets/images/daugoi1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 15
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 19,
@@ -1024,7 +2388,38 @@
             "image": "../../assets/images/suatam1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 16
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 20,
@@ -1034,7 +2429,38 @@
             "image": "../../assets/images/suatam2.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 16
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 21,
@@ -1044,7 +2470,38 @@
             "image": "../../assets/images/daugoi2.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 15
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 22,
@@ -1054,7 +2511,38 @@
             "image": "../../assets/images/nenthom1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 17
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 23,
@@ -1064,7 +2552,38 @@
             "image": "../../assets/images/gaubong1.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 18
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 24,
@@ -1074,7 +2593,38 @@
             "image": "../../assets/images/mypham4.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 25,
@@ -1084,7 +2634,38 @@
             "image": "../../assets/images/mypham4.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         },
         {
             "id": 26,
@@ -1094,7 +2675,38 @@
             "image": "../../assets/images/mypham4.jpg",
             "purchases": 4,
             "description": "Proudly inscribed with the year that Tiffany & Co was founded, this iconic collection gives a nod to the past while expressing a modern feel with sleek curves and smooth lines.",
-            "sub_category_id": 1
+            "sub_category_id": 1,
+            "oldPrice": "999.000đ",
+            "subImage": [
+                "../../assets/images/ring-1.png",
+                "../../assets/images/ring-2.png",
+                "../../assets/images/ring-3.png",
+                "../../assets/images/ring-4.png"
+            ],
+            "highlightImage": [
+                "../../assets/images/highlight-1.png",
+                "../../assets/images/highlight-2.png",
+                "../../assets/images/highlight-3.png",
+                "../../assets/images/highlight-4.png"
+            ],
+            "highlightTitle": "The mark of the Legends",
+            "highlightDes": "Proudly marked with the year Tiffany & Co. was founded, this iconic collection pays homage to history while showcasing a modern sense with sleek curves and smooth lines.",
+            "color": [
+                "Silver",
+                "Pink",
+                "Purple"
+            ],
+            "size": [
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "facebookShare": 10,
+            "googleShare": 10,
+            "twitterShare": 10,
+            "des": "It cannot be denied that fashion and style are the most powerful unspoken 'statements' of every woman. Therefore, shopping for fashion becomes a joy and sometimes a source of inspiration for women to live happily and beautifully in the other half of the world. To express their freedom amidst the increasingly diverse trends in the fashion world, many women do not hesitate to spend 'lavishly' to own their favorite items."
         }
     ],
     "en_blogs": [
