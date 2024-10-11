@@ -24,14 +24,18 @@
     "sign-in": {
         "sign_up": "Sign up",
         "sign_in": "Sign in",
+        "account": "Account",
         "client-sign_up": "Client sign up",
         "des": "If you have an account, please sign in!",
         "email": "Email address",
         "password": "Password",
         "error_email": "Invalid email!",
-        "error_password": "Invalid password!",
+        "error_email_not_exist": "Email does not exist!",
+        "error_password": "Cannot be empty!",
+        "error_password_incorrect": "Incorrect password!",
         "password-forgot": "Forgot password?",
-        "success_message": "Successfully signed in!!"
+        "success_message": "Successfully signed in!!",
+        "sign_out": "Sign out"
     },
     "sign-up": {
         "sign_up": "Sign Up",
@@ -39,6 +43,7 @@
         "client-info": "Personal Information",
         "first_name": "First Name",
         "last_name": "Last Name",
+        "address": "Address",
         "blog_send": "Subscribe to Newsletter",
         "email": "Email Address",
         "client-sign_in": "Login Information",
@@ -47,6 +52,7 @@
         "send": "Submit",
         "error_first_name": "Cannot be empty!",
         "error_last_name": "Cannot be empty!",
+        "error_address": "Cannot be empty!",
         "error_email": "Invalid email!",
         "error_email_double": "Email already exists!",
         "error_password": "Cannot be empty!",

@@ -34,4 +34,56 @@ function setDefaultCSSLanguage() {
     });
 }
 
-export { switchCSSLanguageButtons, setDefaultCSSLanguage };
+function checkLogin() {
+    const token = sessionStorage.getItem('token');
+    if (token) {
+        const account = decodeJWT(token).account;
+        document.querySelector('.authentication').classList.add('hidden');
+        document.querySelector('.user-greeting').classList.remove('hidden');
+        document.getElementById('userLogIn').textContent = `${account.firstName}`;
+    } else {
+        document.querySelector('.authentication').classList.remove('hidden');
+    }
+}
+
+function toggleUserInfo() {
+    document.querySelector('.user-greeting').addEventListener('click', function () {
+        userInfo.classList.toggle('hidden');
+    });
+}
+
+function clickLogout() {
+    logoutBtn.addEventListener('click', () => {
+        sessionStorage.removeItem('token');
+        document.querySelector('.authentication').classList.remove('hidden');
+        document.querySelector('.user-greeting').classList.add('hidden');
+        userInfo.classList.add('hidden');
+        window.location.href = '../../src/pages/index.html';
+    })
+}
+
+function clickAccount() {
+    accountBtn.addEventListener('click', () => {
+        userInfo.classList.add('hidden');
+        window.location.href = '../../src/pages/account.html';
+    })
+}
+
+function toggleListLink() {
+    toggleListLinkBtn.addEventListener('click', () => {
+        listLink.classList.toggle('hidden');
+    })
+}
+
+function loadCartNumber() {
+    const account = getAccount();
+    const allCarts = JSON.parse(localStorage.getItem('carts')) || {};
+    const cartNumber = document.getElementById('cartNumber');
+
+    if (allCarts[account] && allCarts[account].cart.length > 0) {
+        const totalItems = allCarts[account].cart.length;
+        cartNumber.textContent = totalItems > 10 ? `10+` : totalItems;
+    } else {
+        cartNumber.textContent = 0;
+    }
+}

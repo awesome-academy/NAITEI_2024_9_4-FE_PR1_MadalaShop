@@ -50,6 +50,15 @@
                         </div>
 
                         <div class="flex flex-col mb-3">
+                            <label for="address" class="mb-1 text-sm"><span data-i18n="sign-up.address"></span> <span
+                                    class="text-red-500">*</span></label>
+                            <input type="text"
+                                class="pl-1 focus:outline-none border p-1 text-sm focus:border-primary-color"
+                                id="address">
+                            <span class="text-red-500 text-xs mt-1 hidden error-message" id="address-error"></span>
+                        </div>
+
+                        <div class="flex flex-col mb-3">
                             <label for="emailSignUp" class="mb-1 text-sm"><span data-i18n="sign-up.email"></span> <span
                                     class="text-red-500">*</span></label>
                             <input type="text"
@@ -107,9 +116,12 @@
         <div id="footer"></div>
     </div>
 
-    <script src="../../assets/js/loadlayouts.js" type="module"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/loadlayouts.js"></script>
     <script src="../../assets/js/breadcrumb.js"></script>
     <script src="../../assets/js/showAlert.js"></script>
+    <script src="../../assets/js/jwt.js"></script>
+    <script src="../../assets/js/cart.js"></script>
     <script src="../../assets/js/signUp.js"></script>
     <script src="../../assets/js/encrypt.js"></script>
     <script src="../../assets/js/i18n.js"></script>
