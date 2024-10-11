@@ -31,9 +31,11 @@ function reloadHomeMessage() {
 
 async function fetchProductTypes(lang) {
     const productTypes = await fetchData(`${lang}/product_types`);
+    const blogs = await fetchData(`${lang}/blogs`);
     const idActive = 2;
 
     displayProductTypes(lang, productTypes, idActive);
+    loadBlogDetail(blogs)
     await fetchCategories(lang, idActive);
 }
 
@@ -86,8 +88,9 @@ async function fetchCategories(lang, idProductTypeActive) {
     );
     const idActive = 1;
 
-    displayCategories(relatedCategories, relatedSubCategories, relatedProducts, idActive);
-    filterProducts(relatedCategories, relatedSubCategories, relatedProducts, idActive);
+  displayCategories(relatedCategories, relatedSubCategories, relatedProducts, idActive);
+  filterProducts(relatedCategories, relatedSubCategories, relatedProducts, idActive);
+  displayTags(categories, subCategories);
 }
 
 function displayCategories(categories, subcategories, products, idCategoryActive) {
@@ -127,6 +130,22 @@ function changeActiveCategory(activeSpan) {
         span.className = baseClassSpanCategories;
     });
     activeSpan.className = activeClassSpanCategories;
+}
+
+function displayTags(categories, subCategories) {
+  const tags = document.getElementById('tags');
+  const subCategoryTagClass = 'bg-gray-200 text-sm px-2 py-1 rounded-md cursor-pointer hover:bg-primary-color hover:text-white';
+
+  tags.innerHTML = '';
+  categories.forEach(category => {
+    const relatedsubCategories = subCategories.filter(subCategory => subCategory.category_id === category.id);
+    const subCategoryTag = document.createElement('a');
+
+    subCategoryTag.className = subCategoryTagClass;
+    subCategoryTag.textContent = relatedsubCategories[0].name;
+    subCategoryTag.setAttribute('href', `./product.html?tag=${relatedsubCategories[0].id}`);
+    tags.appendChild(subCategoryTag);
+  });
 }
 
 function filterProducts(categories, subcategories, products, idCategoryActive) {
@@ -229,6 +248,16 @@ function rotateProduct(cardElement, products, currentId, index) {
 
         isRotating = false;
     }, 300);
+}
+
+function loadBlogDetail(blogs, blogId = 2) {
+  const blog = blogs.find(b => b.id == blogId);
+  document.getElementById('blog-title').textContent = blog.title;
+  document.getElementById('blog-content').textContent = blog.content;
+  document.getElementById('blog-author').textContent = `${blog.author} (${blog.date})` ;
+  document.getElementById('blog-image').src = blog.image;
+  document.getElementById('blog-comments').textContent = blog.comments;
+  document.getElementById('blog-link').setAttribute('href', `./blog_detail.html?id=${blog.id}`)
 }
 
 form.addEventListener('submit', function (event) {
