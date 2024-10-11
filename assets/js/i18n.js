@@ -11,7 +11,7 @@ function setLanguage(lang) {
 
 function changeLanguage(lang) {
   setLanguage(lang);
-  fetchLanguage(lang);
+  fetchLanguage(localStorage.getItem('language'));
 }
 
 function fetchLanguage(lang) {
@@ -36,6 +36,9 @@ function fetchLanguage(lang) {
       }
       if (window.location.pathname.includes('product.html')) {
         fetchProductPageData(lang);
+      }
+      if (window.location.pathname.includes('detail.html')) {
+        loadData();
       }
       if (window.location.pathname.includes('signIn.html')) {
         import("./signIn.js").then(() => {

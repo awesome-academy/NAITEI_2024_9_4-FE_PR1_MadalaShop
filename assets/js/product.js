@@ -21,7 +21,7 @@ function displayCategories(categories, subCategories, products, idCategoryActive
         const categoryItem = document.createElement('li');
         const isActiveCategory = category.id === idCategoryActive;
         const relatedsubCategories = subCategories.filter(subCategory => subCategory.category_id === category.id);
-        const relatedProducts = products.filter(product => 
+        const relatedProducts = products.filter(product =>
             relatedsubCategories.some(relatedsubCategorie => relatedsubCategorie.id === product.sub_category_id)
         );
 
@@ -83,7 +83,7 @@ function toggleActiveCategory(selectedCategory, categories, tags) {
         const icon = category.querySelector('i');
         const sublist = category.querySelector('ul');
         const items = category.querySelectorAll('ul li');
-        
+
         title.classList.toggle('text-primary-color', isActive);
         icon.classList.toggle('rotate-90', isActive);
         sublist.classList.toggle('max-h-40', isActive);
@@ -143,12 +143,12 @@ function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategor
         subCategoryItem.addEventListener('click', () => {
             displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
         });
-        
+
         if (index === 0) {
             subCategoryTag.className = subCategoryTagClass;
             subCategoryTag.textContent = subCategory.name;
             tagsContainer.appendChild(subCategoryTag);
-    
+
             subCategoryTag.addEventListener('click', () => {
                 displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
             })
@@ -160,7 +160,7 @@ function createGridViewProductHTML(product) {
     return `
         <img src="${product.image}" alt="Sản phẩm" class="w-full mb-2 border-b">
         <p class="mb-1 font-bold text-gray-500">${product.brand}</p>
-        <h3 class="mb-1 font-bold">${product.name}</h3>
+                <a class="mb-1 font-bold text-[18px] hover:underline" href="../../src/pages/detail.html?id=${product.id}">${product.name}</a>
         <p class="mb-2 text-primary-color font-bold italic text-lg">${product.price}</p>
         <div>
             <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
@@ -174,7 +174,7 @@ function createListViewProductHTML(product) {
     return `
         <img src="${product.image}" alt="Sản phẩm" class="sm:w-1/3 w-full border-b">
         <div class="sm:w-2/3 w-full sm:pl-4 sm:mt-0 mt-4 text-lg flex flex-col justify-between mb-5">
-            <h3 class="mb-1 text-xl">${product.name}</h3>
+            <a class="mb-1 font-bold text-xl hover:underline" href="../../src/pages/detail.html?id=${product.id}">${product.name}</a>
             <div class="text-base mb-4 flex">
                 <div class="heart-icons space-x-1">
                     <i class="fa-solid fa-heart transition-colors duration-300"></i>
@@ -199,22 +199,22 @@ function createListViewProductHTML(product) {
 function rotateProduct(cardElement, currentProducts, currentId, totalPages, currentPage, viewMode) {
     if (isRotating) return;
     isRotating = true;
-  
+
     let newProductId;
-    const countProductsList= currentItemsList.length;
+    const countProductsList = currentItemsList.length;
     const isGridView = viewMode === 'grid-view';
     const currentProductIds = currentProducts.map(product => product.id);
     const currentProductsListIds = currentItemsList.map(product => product.id);
-  
+
     if (isGridView ? countProductsList <= 6 : countProductsList <= 3) {
-      showAlert(t('home.warning_rotate'), 'warning');
-      isRotating = false;
-      return;
+        showAlert(t('home.warning_rotate'), 'warning');
+        isRotating = false;
+        return;
     }
-  
+
     do {
-      randomIndex = Math.floor(Math.random() * countProductsList);
-      newProductId = currentProductsListIds[randomIndex];
+        randomIndex = Math.floor(Math.random() * countProductsList);
+        newProductId = currentProductsListIds[randomIndex];
     } while (currentProductIds.includes(newProductId));
 
     const newIndex = currentItemsList.findIndex(product => product.id === newProductId);
@@ -231,7 +231,7 @@ function rotateProduct(cardElement, currentProducts, currentId, totalPages, curr
     cardElement.classList.add('opacity-0');
 
     setTimeout(() => {
-        cardElement.innerHTML =  isGridView ? createGridViewProductHTML(newProduct) : createListViewProductHTML(newProduct);
+        cardElement.innerHTML = isGridView ? createGridViewProductHTML(newProduct) : createListViewProductHTML(newProduct);
 
         cardElement.querySelector('img').addEventListener('click', () => {
             selectProduct(newProduct);
@@ -239,7 +239,7 @@ function rotateProduct(cardElement, currentProducts, currentId, totalPages, curr
 
         cardElement.classList.remove('opacity-0');
         cardElement.classList.add('opacity-100');
-            
+
         cardElement.querySelector('.rotate-btn').addEventListener('click', () => {
             rotateProduct(cardElement, currentProducts, newProductId, totalPages, currentPage, viewMode);
         });
@@ -277,8 +277,8 @@ function loadPopupData(productSlot) {
     document.querySelector(`#popup-product${productSlot}-purchases`).innerText = compareProducts[productSlot - 1].purchases;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    document.body.addEventListener('mouseover', function(event) {
+document.addEventListener('DOMContentLoaded', function () {
+    document.body.addEventListener('mouseover', function (event) {
         if (event.target.classList.contains('description')) {
             hoverTooltip(event.target, 'product.product_description');
         }
