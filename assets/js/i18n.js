@@ -58,6 +58,9 @@ function fetchLanguage(lang) {
             if (window.location.pathname.includes('cart.html')) {
                 loadCart(lang);
             }
+            if (window.location.pathname.includes('account.html')) {
+                loadOrderHistory(lang)
+            }
         });
 }
 

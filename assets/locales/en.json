@@ -82,7 +82,13 @@
         "success_remove_message": "Sucessfully remove from cart!",
         "success_clear_message": "Sucessfully remove all items from cart!",
         "clear_empty_message": "Cart was empty!",
-        "empty": "Your cart is empty!"
+        "empty": "Your cart is empty!",
+        "address": "Delivery address",
+        "address_input": "Enter the address",
+        "prepaid_amount": "Prepaid amount",
+        "enter_amount" : "Enter the amount",
+        "checkout_message": "Payment successful",
+        "warning_address": "Address at least 5 characters"
     },
     "about_us": {
         "title": "General Introduction to Handmade Mandala Aesthetics",
@@ -173,9 +179,20 @@
         "total_amount": "Total",
         "remaining_debt": "Debt",
         "status": "Status",
-        "completed": "Completed",
+        "pending": "Pending",
         "not_completed": "Not Completed",
-        "account_details": "ACCOUNT DETAILS"
+        "account_details": "ACCOUNT DETAILS",
+        "empty": "SHOP IT!!!",
+        "not_found": "Product not found",
+        "order_detail": "Order details",
+        "quantity": "Quantity",
+        "delete_order": "Delete order",
+        "comfirm_delete": "Are you sure you want to delete this order?",
+        "delete_success": "Order deleted successfully",
+        "account.continue_payment" : "Continue payment",
+        "enter_payment_amount" : "Enter payment amount",
+        "confirm_payment": "Confirm",
+        "invalid_payment_value" : "Invalid payment value"
     },
     "product": {
         "catalog": "Product catalog",

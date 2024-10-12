@@ -98,15 +98,18 @@
                     class="py-2 px-3 text-white bg-black text-sm uppercase rounded-sm inline-block ml-3 cursor-pointer border border-black hover:text-black hover:bg-white transition-all"
                     data-i18n="cart.delete" onclick="clearCart()">
                 </button>
-                <a href="../pages/pay.html"
+                <div
                     class="py-2 px-3 text-white bg-green-500 text-sm uppercase  rounded-sm inline-block ml-3 cursor-pointer border border-green-500 hover:text-green-500 hover:bg-white transition-all"
-                    data-i18n="cart.pay">
-                </a>
+                    data-i18n="cart.pay" onclick="initPopUpContent()">
+            </div>
             </div>
         </div>
 
         <div id="alert-success-container"></div>
+
         <div id="alert-warning-container"></div>
+
+        <div id="modal-container"></div>
 
         <div id="footer"></div>
     </div>
@@ -118,6 +121,8 @@
     <script src="../../assets/js/showAlert.js"></script>
     <script src="../../assets/js/cart.js"></script>
     <script src="../../assets/js/jwt.js"></script>
+    <script src="../../assets/js/modal.js"></script>
+    <script src="../../assets/js/utils.js"></script>
     <script src="../../assets/js/i18n.js"></script>
 </body>
 </html>
