@@ -6,12 +6,41 @@ async function fetchProductPageData(lang) {
     const categories = await fetchData(`${lang}/categories`);
     const subCategories = await fetchData(`${lang}/sub_categories`);
     const products = await fetchData(`${lang}/products`);
-    const idCategoryActive = 1;
 
-    displayCategories(categories, subCategories, products, idCategoryActive);
+    const params = new URLSearchParams(window.location.search);
+    let idCategoryActive = params.get('category') || null;
+    let idSubCategoryActive = params.get('item') || null;
+    let idTagActive = params.get('tag') || null;
+
+    const relatedSubCategoryTag = subCategories.find(item => item.id == idTagActive);
+    const relatedSubCategory = subCategories.find(item => item.id == idSubCategoryActive);
+    const relatedCategory = categories.find(item => item.id == idCategoryActive);
+
+    if (relatedSubCategory) {
+        idTagActive = null;
+        idCategoryActive = relatedSubCategory.category_id;
+        params.set('category', idCategoryActive);
+        params.delete('tag');
+    } else if (relatedCategory) {
+        idTagActive = null;
+        params.set('category', idCategoryActive);
+        params.delete('item');
+        params.delete('tag');
+    } else if (relatedSubCategoryTag) {
+        params.delete('category');
+        params.delete('item');
+    } else {
+        idCategoryActive = 1;
+        params.set('category', idCategoryActive);
+        params.delete('tag');
+        params.delete('item');
+    }
+    window.history.replaceState(null, '', window.location.pathname + '?' + params.toString());
+
+    displayCategories(categories, subCategories, products, idCategoryActive, idSubCategoryActive, idTagActive, params);
 }
 
-function displayCategories(categories, subCategories, products, idCategoryActive) {
+function displayCategories(categories, subCategories, products, idCategoryActive, idSubCategoryActive, idTagActive, params) {
     const catalog = document.getElementById('catalog');
     const tags = document.getElementById('product_tags');
     catalog.innerHTML = '';
@@ -19,7 +48,7 @@ function displayCategories(categories, subCategories, products, idCategoryActive
 
     categories.forEach(category => {
         const categoryItem = document.createElement('li');
-        const isActiveCategory = category.id === idCategoryActive;
+        const isActiveCategory = category.id == idCategoryActive;
         const relatedsubCategories = subCategories.filter(subCategory => subCategory.category_id === category.id);
         const relatedProducts = products.filter(product =>
             relatedsubCategories.some(relatedsubCategorie => relatedsubCategorie.id === product.sub_category_id)
@@ -34,15 +63,19 @@ function displayCategories(categories, subCategories, products, idCategoryActive
             <ul class="sub-categories max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-40 list-disc pl-7 ${isActiveCategory ? 'max-h-40' : ''}"></ul>
         `;
         const subCategoryList = categoryItem.querySelector('.sub-categories');
-        displaySubCategoryListAndTag(subCategoryList, tags, relatedsubCategories, relatedProducts);
+        displaySubCategoryListAndTag(subCategoryList, tags, relatedsubCategories, relatedProducts, idSubCategoryActive, idTagActive, categories, params);
 
         catalog.appendChild(categoryItem);
 
-        if (isActiveCategory) {
+        if (isActiveCategory && !idSubCategoryActive) {;
             displayGridListContent(relatedProducts, 1, currentView, itemType);
         }
 
         categoryItem.addEventListener('click', () => {
+            params.delete('tag');
+            params.delete('item');
+            params.set('category', category.id);
+            window.history.replaceState(null, '', window.location.pathname + '?' + params.toString())
             displayGridListContent(relatedProducts, 1, currentView, itemType);
         });
     });
@@ -129,9 +162,13 @@ function toggleActiveSubCategoryTag(selectedSubCategoryTag, tagElements, subCate
     });
 }
 
-function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategories, relatedProducts) {
+function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategories, relatedProducts, idSubCategoryActive, idTagActive, categories,  params) {
     const subCategoryItemClass = 'mt-2 hover:text-primary-color cursor-pointer';
     const subCategoryTagClass = 'bg-gray-200 text-sm px-2 py-1 rounded-md cursor-pointer hover:bg-primary-color hover:text-white';
+    const subCategoryElements = [];
+    let urlSubCategoryItem = null;
+    let urlSubCategoryTag = null;
+
     subCategories.forEach((subCategory, index) => {
         const subCategoryItem = document.createElement('li');
         const subCategoryTag = document.createElement('span');
@@ -140,7 +177,20 @@ function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategor
         subCategoryItem.className = subCategoryItemClass;
         subCategoryItem.textContent = subCategory.name;
         subCategoryList.appendChild(subCategoryItem);
+        subCategoryElements.push(subCategoryItem);
+
+        if (subCategory.id == idSubCategoryActive) {
+            urlSubCategoryItem = subCategoryItem;
+            displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
+        }
+
         subCategoryItem.addEventListener('click', () => {
+            const relatedCategory = categories.find(category => category.id === subCategory.category_id);
+
+            params.delete('tag');
+            params.set('item', subCategory.id);
+            params.set('category', relatedCategory.id);
+            window.history.replaceState(null, '', window.location.pathname + '?' + params.toString())
             displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
         });
 
@@ -149,11 +199,32 @@ function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategor
             subCategoryTag.textContent = subCategory.name;
             tagsContainer.appendChild(subCategoryTag);
 
+            if (subCategory.id == idTagActive) {
+                urlSubCategoryTag = subCategoryTag;
+                displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
+            }
+
             subCategoryTag.addEventListener('click', () => {
+                params.delete('item');
+                params.delete('category');
+                params.set('tag', subCategory.id);
+                window.history.replaceState(null, '', window.location.pathname + '?' + params.toString())
                 displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
             })
         }
     });
+    const catalog = document.getElementById('catalog');
+    const categoryElements = Array.from(catalog.children);
+    const tagElements = Array.from(tagsContainer.children);
+
+    if (urlSubCategoryItem) {
+        toggleActiveCategory(urlSubCategoryItem.parentNode.parentNode, categoryElements, tagElements);
+        toggleActiveSubCategory(urlSubCategoryItem, subCategoryElements, tagElements);
+    }
+
+    if (urlSubCategoryTag) {
+        toggleActiveSubCategoryTag(urlSubCategoryTag, tagElements, subCategoryElements, categoryElements);
+    }
 }
 
 function createGridViewProductHTML(product) {
