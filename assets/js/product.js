@@ -36,11 +36,12 @@ async function fetchProductPageData(lang) {
         params.delete('item');
     }
     window.history.replaceState(null, '', window.location.pathname + '?' + params.toString());
+    loadBreadCrumb(lang);
 
-    displayCategories(categories, subCategories, products, idCategoryActive, idSubCategoryActive, idTagActive, params);
+    displayCategories(categories, subCategories, products, idCategoryActive, idSubCategoryActive, idTagActive, params, lang);
 }
 
-function displayCategories(categories, subCategories, products, idCategoryActive, idSubCategoryActive, idTagActive, params) {
+function displayCategories(categories, subCategories, products, idCategoryActive, idSubCategoryActive, idTagActive, params, lang) {
     const catalog = document.getElementById('catalog');
     const tags = document.getElementById('product_tags');
     catalog.innerHTML = '';
@@ -63,7 +64,7 @@ function displayCategories(categories, subCategories, products, idCategoryActive
             <ul class="sub-categories max-h-0 overflow-hidden transition-all duration-300 group-hover:max-h-40 list-disc pl-7 ${isActiveCategory ? 'max-h-40' : ''}"></ul>
         `;
         const subCategoryList = categoryItem.querySelector('.sub-categories');
-        displaySubCategoryListAndTag(subCategoryList, tags, relatedsubCategories, relatedProducts, idSubCategoryActive, idTagActive, categories, params);
+        displaySubCategoryListAndTag(subCategoryList, tags, relatedsubCategories, relatedProducts, idSubCategoryActive, idTagActive, categories, params, lang);
 
         catalog.appendChild(categoryItem);
 
@@ -76,6 +77,7 @@ function displayCategories(categories, subCategories, products, idCategoryActive
             params.delete('item');
             params.set('category', category.id);
             window.history.replaceState(null, '', window.location.pathname + '?' + params.toString())
+            loadBreadCrumb(lang);
             displayGridListContent(relatedProducts, 1, currentView, itemType);
         });
     });
@@ -162,7 +164,7 @@ function toggleActiveSubCategoryTag(selectedSubCategoryTag, tagElements, subCate
     });
 }
 
-function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategories, relatedProducts, idSubCategoryActive, idTagActive, categories,  params) {
+function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategories, relatedProducts, idSubCategoryActive, idTagActive, categories,  params, lang) {
     const subCategoryItemClass = 'mt-2 hover:text-primary-color cursor-pointer';
     const subCategoryTagClass = 'bg-gray-200 text-sm px-2 py-1 rounded-md cursor-pointer hover:bg-primary-color hover:text-white';
     const subCategoryElements = [];
@@ -191,6 +193,7 @@ function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategor
             params.set('item', subCategory.id);
             params.set('category', relatedCategory.id);
             window.history.replaceState(null, '', window.location.pathname + '?' + params.toString())
+            loadBreadCrumb(lang);
             displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
         });
 
@@ -209,6 +212,7 @@ function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategor
                 params.delete('category');
                 params.set('tag', subCategory.id);
                 window.history.replaceState(null, '', window.location.pathname + '?' + params.toString())
+                loadBreadCrumb(lang);
                 displayGridListContent(moreRelatedProducts, 1, currentView, itemType);
             })
         }
@@ -229,7 +233,7 @@ function displaySubCategoryListAndTag(subCategoryList, tagsContainer, subCategor
 
 function createGridViewProductHTML(product) {
     return `
-        <img src="${product.image}" alt="Sản phẩm" class="w-full mb-2 border-b">
+        <img src="${product.image}" alt="Sản phẩm" class="object-contain md:h-80 h-48 w-auto mb-2 border-b">
         <p class="mb-1 font-bold text-gray-500">${product.brand}</p>
                 <a class="mb-1 font-bold text-[18px] hover:underline" href="../../src/pages/product_detail.html?id=${product.id}">${product.name}</a>
         <p class="mb-2 text-primary-color font-bold italic text-lg">${product.price}</p>
@@ -257,7 +261,7 @@ function createListViewProductHTML(product) {
                 <span class="ml-2 text-gray-400">(${product.purchases} <span data-i18n="product.purchases">${t('product.purchases')}</span>)</span>
             </div>
             <div class="text-sm text-gray-400 mb-4 description">${product.description}</div>
-            <p class="mb-2 text-primary-color font-bold italic text-xl">${product.price}đ</p>
+            <p class="mb-2 text-primary-color font-bold italic text-xl">${product.price}</p>
             <div>
                 <button onclick='addToCart(${product.id})' class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
                 <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>

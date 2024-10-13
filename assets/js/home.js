@@ -88,9 +88,9 @@ async function fetchCategories(lang, idProductTypeActive) {
     );
     const idActive = 1;
 
-  displayCategories(relatedCategories, relatedSubCategories, relatedProducts, idActive);
-  filterProducts(relatedCategories, relatedSubCategories, relatedProducts, idActive);
-  displayTags(categories, subCategories);
+    displayCategories(relatedCategories, relatedSubCategories, relatedProducts, idActive);
+    filterProducts(relatedCategories, relatedSubCategories, relatedProducts, idActive);
+    displayTags(categories, subCategories);
 }
 
 function displayCategories(categories, subcategories, products, idCategoryActive) {
@@ -200,14 +200,15 @@ function displayProducts(products, idProductsActive) {
 
 function createProductHTML(product) {
     return `
-    <img src="${product.image}" alt="Sản phẩm" class="w-full h-4/5 object-cover mb-2 border-b">
+    <img src="${product.image}" alt="Sản phẩm" class="w-full h-4/5 object-cover mb-2 border-b cursor-pointer" 
+        onclick="window.location.href='../../src/pages/product_detail.html?id=${product.id}'">
     <p class="mb-1 font-bold text-gray-500">${product.brand}</p>
-    <a href="../../src/pages/detail.html?id=${product.id}" class="mb-1 font-bold text-[18px] hover:underline">${product.name}</a>
+    <a href="../../src/pages/product_detail.html?id=${product.id}" class="mb-1 font-bold text-[18px] hover:underline">${product.name}</a>
     <p class="mb-2 text-primary-color font-bold italic text-lg">${product.price}</p>
     <div>
-      <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase" onclick='addToCart(${product.id})'>${t('product.purchase')}</button>
-      <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>
-      <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300 rotate-btn"><i class="fa-solid fa-rotate"></i></button>
+        <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase" onclick='addToCart(${product.id})'>${t('product.purchase')}</button>
+        <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>
+        <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300 rotate-btn"><i class="fa-solid fa-rotate"></i></button>
     </div>
   `;
 }

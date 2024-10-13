@@ -12,10 +12,11 @@ const breadcrumbData = [
     { url: "../pages/signUp.html", data: "breadcrumb.sign_up" },
 ];
 
-const urlParams = new URLSearchParams(window.location.search);
-const category = urlParams.get('category');
-const item = urlParams.get('item');
-const id = urlParams.get('id');
+let urlParams = new URLSearchParams(window.location.search);
+let category = urlParams.get('category');
+let item = urlParams.get('item');
+let id = urlParams.get('id');
+let tag = urlParams.get('tag');
 const activeCurrentBreadcrumb = "text-primary-color";
 const breadcrumbContainer = document.getElementById("breadcrumb");
 const currentUrl = window.location.pathname;
@@ -33,6 +34,11 @@ async function addBreadcrumbItem(id, type, breadcrumbWrapper) {
 }
 
 async function loadBreadCrumb(language) {
+    urlParams = new URLSearchParams(window.location.search);
+    category = urlParams.get('category');
+    item = urlParams.get('item');
+    id = urlParams.get('id');
+    tag = urlParams.get('tag');
     const existingWrapper = document.getElementById('breadcrumb-wrapper');
     if (existingWrapper) {
         existingWrapper.remove();
@@ -48,6 +54,10 @@ async function loadBreadCrumb(language) {
                 await addBreadcrumbItem(item, "item", breadcrumbWrapper);
             }
         }
+        if (tag) {
+            await addBreadcrumbItem(tag, "tag", breadcrumbWrapper);
+        }
+        
         if (breadcrumbWrapper.children.length > 0) {
             breadcrumbContainer.appendChild(breadcrumbWrapper);
         }
@@ -67,6 +77,9 @@ async function loadBreadCrumb(language) {
     }
 
     const breadcrumbItems = document.querySelectorAll(".breadcrumb-item");
+    breadcrumbItems.forEach(item => {
+        item.classList.remove(activeCurrentBreadcrumb);
+    });
     breadcrumbItems[breadcrumbItems.length - 1].classList.add(activeCurrentBreadcrumb);
 }
 
