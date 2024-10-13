@@ -160,10 +160,10 @@ function createGridViewProductHTML(product) {
     return `
         <img src="${product.image}" alt="Sản phẩm" class="w-full mb-2 border-b">
         <p class="mb-1 font-bold text-gray-500">${product.brand}</p>
-                <a class="mb-1 font-bold text-[18px] hover:underline" href="../../src/pages/detail.html?id=${product.id}">${product.name}</a>
+                <a class="mb-1 font-bold text-[18px] hover:underline" href="../../src/pages/product_detail.html?id=${product.id}">${product.name}</a>
         <p class="mb-2 text-primary-color font-bold italic text-lg">${product.price}</p>
         <div>
-            <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
+            <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase" onclick='addToCart(${product.id})'>${t('product.purchase')}</button>
             <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>
             <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300 rotate-btn"><i class="fa-solid fa-rotate"></i></button>
         </div>
@@ -174,7 +174,7 @@ function createListViewProductHTML(product) {
     return `
         <img src="${product.image}" alt="Sản phẩm" class="sm:w-1/3 w-full border-b">
         <div class="sm:w-2/3 w-full sm:pl-4 sm:mt-0 mt-4 text-lg flex flex-col justify-between mb-5">
-            <a class="mb-1 font-bold text-xl hover:underline" href="../../src/pages/detail.html?id=${product.id}">${product.name}</a>
+            <a class="mb-1 font-bold text-xl hover:underline" href="../../src/pages/product_detail.html?id=${product.id}">${product.name}</a>
             <div class="text-base mb-4 flex">
                 <div class="heart-icons space-x-1">
                     <i class="fa-solid fa-heart transition-colors duration-300"></i>
@@ -188,7 +188,7 @@ function createListViewProductHTML(product) {
             <div class="text-sm text-gray-400 mb-4 description">${product.description}</div>
             <p class="mb-2 text-primary-color font-bold italic text-xl">${product.price}đ</p>
             <div>
-                <button class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
+                <button onclick='addToCart(${product.id})' class="border py-1 px-4 rounded-md hover:bg-primary-color hover:text-white duration-300" data-i18n="product.purchase">${t('product.purchase')}</button>
                 <button class="bg-primary-color hover:bg-black text-white py-1 px-3 rounded-md duration-300"><i class="fa-solid fa-heart"></i></button>
                 <button class="border py-1 px-3 rounded-md hover:bg-primary-color hover:text-white duration-300 rotate-btn"><i class="fa-solid fa-rotate"></i></button>
             </div>

@@ -1,14 +1,20 @@
 {
     "/vi/product_types": "/vi_product_types",
     "/vi/categories": "/vi_categories",
+    "/vi/categories/:id": "/vi_categories/:id",
     "/vi/product_type_category": "/vi_product_type_category",
     "/vi/sub_categories": "/vi_sub_categories",
+    "/vi/sub_categories/:id": "/vi_sub_categories/:id",
     "/vi/products": "/vi_products",
+    "/vi/products/:id": "/vi_products/:id",
     "/vi/blogs": "/vi_blogs",
     "/en/product_types": "/en_product_types",
     "/en/categories": "/en_categories",
+    "/en/categories/:id": "/en_categories/:id",
     "/en/product_type_category": "/en_product_type_category",
     "/en/sub_categories": "/en_sub_categories",
+    "/en/sub_categories/:id": "/en_sub_categories/:id",
     "/en/products": "/en_products",
+    "/en/products/:id": "/en_products/:id",
     "/en/blogs": "/en_blogs"
 }
