@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../assets/css/output.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
     <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
     <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
@@ -181,40 +182,41 @@
             </div>
         </div>
 
-    <div class="flex md:flex-row flex-col mt-14 mb-28">
-      <div class="md:w-1/2 w-full md:mr-8">
-        <div class="flex flex-col justify-center items-center text-center">
-          <p class="font-bold text-lg" data-i18n="home.email_us"></p>
-          <hr class="w-full border-t-2 border-gray-500 my-6" />
-          <form class="w-full space-y-7" id="email-form">
-            <input
-              class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color"
-              type="email" id="email">
-            <p class="text-red-500 mt-1 hidden" id="email-error"></p>
-            <button type="submit"
-              class=" bg-black hover:bg-primary-color text-white font-semibold py-1 px-6 rounded-md duration-300"
-              data-i18n="contact_us.button_submit"></button>
-          </form>
-          <div id="alert-success-container"></div>
+        <div class="flex md:flex-row flex-col mt-14 mb-28">
+            <div class="md:w-1/2 w-full md:mr-8">
+                <div class="flex flex-col justify-center items-center text-center">
+                    <p class="font-bold text-lg" data-i18n="home.email_us"></p>
+                    <hr class="w-full border-t-2 border-gray-500 my-6" />
+                    <form class="w-full space-y-7" id="email-form">
+                        <input
+                            class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color"
+                            type="email" id="email">
+                        <p class="text-red-500 mt-1 hidden" id="email-error"></p>
+                        <button type="submit"
+                            class=" bg-black hover:bg-primary-color text-white font-semibold py-1 px-6 rounded-md duration-300"
+                            data-i18n="contact_us.button_submit"></button>
+                    </form>
+                    <div id="alert-success-container"></div>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full md:ml-8 md:mt-0 mt-14">
+                <div class="flex flex-col justify-center items-center">
+                    <a class="font-bold text-lg uppercase" data-i18n="product.tag" href=""></a>
+                    <hr class="w-full border-t-2 border-gray-500 my-6" />
+                </div>
+                <div class="flex flex-wrap gap-2" id="tags"></div>
+            </div>
         </div>
-      </div>
-      <div class="md:w-1/2 w-full md:ml-8 md:mt-0 mt-14">
-        <div class="flex flex-col justify-center items-center">
-          <a class="font-bold text-lg uppercase" data-i18n="product.tag" href=""></a>
-          <hr class="w-full border-t-2 border-gray-500 my-6" />
-        </div>
-        <div class="flex flex-wrap gap-2" id="tags"></div>
-      </div>
     </div>
-  </div>
 
     <div id="tooltip-container"></div>
 
     <div id="footer"></div>
 
-    <script src="../../assets/js/loadlayouts.js" type="module"></script>
-    <script src="../../assets/js/jwt.js"></script>
     <script src="../../assets/js/cart.js"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/loadlayouts.js"></script>
+    <script src="../../assets/js/jwt.js"></script>
     <script src="../../assets/js/api.js"></script>
     <script src="../../assets/js/home.js"></script>
     <script src="../../assets/js/tooltip.js"></script>

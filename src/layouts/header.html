@@ -9,9 +9,30 @@
                 EN
             </button>
         </div>
-        <div class="user-greeting flex flex-col items-center">
-            <span data-i18n="header.greeting"></span>
-            <span>Đăng Tỉnh</span>
+        <div>
+            <div class="authentication">
+                <a href="./signUp.html"
+                    class="uppercase text-xs px-2 py-1.5 bg-black text-white rounded-sm transition-all border font-semibold border-black hover:text-black hover:bg-white"
+                    data-i18n="sign-in.sign_up"></a>
+
+                <a href="./signIn.html"
+                    class=" uppercase text-xs px-2 py-1.5 bg-white text-black rounded-sm transition-all border font-semibold border-black hover:text-white hover:bg-black ml-1"
+                    data-i18n="sign-in.sign_in"></a>
+            </div>
+            <div
+                class="relative hidden flex user-greeting  items-center border shadow-custom border-transparent p-3 hover:border-gray-400 hover:bg-gray-100 transition-all  hover:cursor-pointer rounded">
+                <span data-i18n="header.greeting"></span>
+                <span id="userLogIn"></span>
+                <div id="userInfo"
+                    class=" absolute -left-[110%] hidden -bottom-[24px] flex flex-col bg-white border rounded  border-gray-300 shadow-custom">
+                    <span data-i18n="sign-in.account" id="accountBtn"
+                        class="  hover:bg-gray-100 -left-[100%] z-[1] p-2 w-full   text-center  cursor-pointer">
+                    </span>
+                    <span data-i18n="sign-in.sign_out" id="logoutBtn"
+                        class="  hover:bg-gray-100 -left-[100%]  z-[1] p-2 w-full  text-center  cursor-pointer">
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
     <div class="max-w-7xl p-2.5 pt0 border-red-400 mx-auto flex justify-between items-center">
@@ -32,22 +53,40 @@
                 <a data-i18n="header.news" href="../pages/blog.html"></a>
             </li>
             <li class="mr-6 transition-all hover:text-primary-color">
-                <a data-i18n="header.map" href=""></a>
+                <a data-i18n="header.map" href="#"></a>
             </li>
             <li class="mr-6 transition-all hover:text-primary-color">
                 <a data-i18n="header.contact" href="../pages/contact_us.html"></a>
             </li>
         </ul>
         <div>
-            <a href="../pages/cart.html">
+            <a href="../pages/cart.html" class="relative">
                 <i class="fa-solid fa-cart-shopping"></i>
+                <div id="cartNumber"
+                    class="absolute inline-flex items-center p-2 justify-center w-3 h-3 text-[10px] font-bold text-white bg-red-500 border border-white rounded-full -top-2 -end-2 dark:border-gray-900">
+                </div>
             </a>
             <a class="ml-10" href="">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </a>
-            <a class="ml-10 px-2.5 py-1.5 bg-black text-white lg:hidden" href="">
+            <button id="toggleListLinkBtn" class="ml-10 px-2.5 py-1.5 bg-black text-white lg:hidden">
                 <i class="fa-solid fa-bars"></i>
-            </a>
+            </button>
         </div>
     </div>
+    <ul id="listLink" class="w-full hidden border lg:hidden fixed -top-[141px] left-0 z-10 bg-white">
+        <li class="p-2 transition-all text-sm hover:cursor-pointer border-b hover:text-white hover:bg-black"> <a
+                data-i18n="header.home" href="../pages/index.html"></a></li>
+        <li class="p-2 transition-all text-sm hover:cursor-pointer border-b hover:text-white hover:bg-black"> <a
+                data-i18n="header.introduction" href="../pages/aboutUs.html"></a></li>
+        <li class="p-2 transition-all text-sm hover:cursor-pointer border-b hover:text-white hover:bg-black"> <a
+                data-i18n="header.product" href="../pages/product.html"></a></li>
+        <li class="p-2 transition-all text-sm hover:cursor-pointer border-b hover:text-white hover:bg-black"> <a
+                data-i18n="header.news" href="../pages/blog.html"></a></li>
+        <li class="p-2 transition-all text-sm hover:cursor-pointer border-b hover:text-white hover:bg-black"> <a
+                data-i18n="header.map" href="#"></a>
+        </li>
+        <li class="p-2 transition-all text-sm hover:cursor-pointer border-b hover:text-white hover:bg-black"> <a
+                data-i18n="header.contact" href="../pages/contact_us.html"></a></li>
+    </ul>
 </header>

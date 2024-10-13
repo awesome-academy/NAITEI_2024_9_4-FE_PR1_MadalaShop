@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="../../assets/css/output.css">
-  <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
-  <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/css/output.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+    <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
 </head>
 
 <body>
@@ -23,10 +24,11 @@
         <div class="text-3xl my-6" data-i18n="contact_us.contact_title"></div>
         <div class="flex flex-col lg:flex-row">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19448.30402074482!2d106.8030541!3d10.8700089!3m2!1i1024!2i768!4f13.
-                1!3m3!1m2!1s0x317527587e9ad5bf%3A0xafa66f9c8be3c91!2sUniversity%20of%20Information%20Technology%20-%20VNUHCM!5e1!3m2!1sen!2s!4v1727412785508!5m2!1sen!2s" 
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                class="w-full h-full min-h-96"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19448.30402074482!2d106.8030541!3d10.8700089!3m2!1i1024!2i768!4f13.
+                1!3m3!1m2!1s0x317527587e9ad5bf%3A0xafa66f9c8be3c91!2sUniversity%20of%20Information%20Technology%20-%20VNUHCM!5e1!3m2!1sen!2s!4v1727412785508!5m2!1sen!2s"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    class="w-full h-full min-h-96"></iframe>
             </div>
             <div class="lg:w-1/2 w-full pl-7 pr-20">
                 <div class="text-xl mb-7" data-i18n="contact_us.contact_subtitle"></div>
@@ -34,28 +36,36 @@
                     <div class="flex justify-between">
                         <label for="username" class="font-bold py-1" data-i18n="contact_us.label_name"></label>
                         <div class="w-3/4">
-                            <input class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color" type="text" id="username">
+                            <input
+                                class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color"
+                                type="text" id="username">
                             <span class="text-red-500 text-xs mt-1 hidden error-message" id="username-error"></span>
                         </div>
                     </div>
                     <div class="flex justify-between">
                         <label for="email" class="font-bold py-1" data-i18n="contact_us.label_email"></label>
                         <div class="w-3/4">
-                            <input class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color" type="email" id="email">
+                            <input
+                                class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color"
+                                type="email" id="email">
                             <span class="text-red-500 text-xs mt-1 hidden error-message" id="email-error"></span>
                         </div>
                     </div>
                     <div class="flex justify-between">
                         <label for="message" class="font-bold py-2" data-i18n="contact_us.label_message"></label>
                         <div class="w-3/4">
-                            <textarea class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none h-52 min-h-20 max-h-52 focus:border-primary-color" type="email" id="message"></textarea>
+                            <textarea
+                                class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none h-52 min-h-20 max-h-52 focus:border-primary-color"
+                                type="email" id="message"></textarea>
                             <span class="text-red-500 text-xs mt-1 hidden error-message" id="message-error"></span>
                         </div>
                     </div>
                     <div class="flex justify-end">
-                        <button type="submit" class=" bg-black hover:bg-primary-color text-white font-semibold py-1 px-3 rounded-md duration-300" data-i18n="contact_us.button_submit"></button>
+                        <button type="submit"
+                            class=" bg-black hover:bg-primary-color text-white font-semibold py-1 px-3 rounded-md duration-300"
+                            data-i18n="contact_us.button_submit"></button>
                     </div>
-                </form> 
+                </form>
                 <div id="alert-success-container"></div>
             </div>
         </div>
@@ -63,8 +73,11 @@
 
     <div id="footer"></div>
 
-    <script src="../../assets/js/loadlayouts.js" type="module"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/loadlayouts.js"></script>
     <script src="../../assets/js/breadcrumb.js"></script>
+    <script src="../../assets/js/jwt.js"></script>
+    <script src="../../assets/js/cart.js"></script>
     <script src="../../assets/js/contact_us.js"></script>
     <script src="../../assets/js/showAlert.js"></script>
     <script src="../../assets/js/validateForm.js"></script>

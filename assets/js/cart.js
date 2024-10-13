@@ -44,12 +44,14 @@ async function addToCart(productId) {
             price: price,
             totalPrice: formatCurrency(price)
         });
+        loadCartNumber();
     }
 
     allCarts[account] = userCart;
-
     localStorage.setItem('carts', JSON.stringify(allCarts));
-
+    if (!existingProduct) {
+        loadCartNumber();
+    }
     showAlert(t('cart.success_message'), 'success');
 }
 
@@ -224,6 +226,7 @@ function removeFromCart(productId) {
                     ${t('cart.empty')}
                 </div>`;
         }
+        loadCartNumber();
         showAlert(t('cart.success_remove_message'), 'success');
     }
 }
@@ -238,6 +241,7 @@ function clearCart() {
         allCarts[account].cart = [];
         localStorage.setItem('carts', JSON.stringify(allCarts));
         loadCart(language);
+        loadCartNumber();
         showAlert(t('cart.success_clear_message'), 'success');
     }
 }

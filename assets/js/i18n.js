@@ -44,9 +44,7 @@ function fetchLanguage(lang) {
                 loadData(lang);
             }
             if (window.location.pathname.includes('signIn.html')) {
-                import("./signIn.js").then(() => {
-                    reloadMessageSignIn();
-                })
+                reloadMessageSignIn();
             }
             if (window.location.pathname.includes('signUp.html')) {
                 reloadMessageSignUp();

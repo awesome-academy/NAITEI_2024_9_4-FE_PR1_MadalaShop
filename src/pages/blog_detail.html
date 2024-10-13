@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../assets/css/output.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
     <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
     <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
@@ -18,7 +19,7 @@
         <div class="px-2.5">
             <div class="py-5 text-sm border-b border-gray-200">
                 <nav id="breadcrumb" class="flex list-none gap-2">
-        
+
                 </nav>
             </div>
         </div>
@@ -33,40 +34,49 @@
                 <p><span id="blog-comments"></span> <span data-i18n="blog_detail.comments"></span></p>
             </div>
         </div>
-        
+
         <div class="border-b mt-8 mb-4 pb-4">
             <span class="text-gray-500" data-i18n="blog_detail.tag"></span> Men
         </div>
 
         <div class="max-w-3xl">
             <div class="text-xl mb-7" data-i18n="blog_detail.contribute_comments"></div>
-    
+
             <form class="space-y-7" id="blog-form">
                 <div class="flex justify-between">
                     <label for="username" class="font-bold py-1" data-i18n="contact_us.label_name"></label>
                     <div class="w-3/4">
-                        <input class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color" type="text" id="username">
-                        <span class="text-red-500 text-xs mt-1 hidden error-message border-red-500" id="username-error"></span>
+                        <input
+                            class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color"
+                            type="text" id="username">
+                        <span class="text-red-500 text-xs mt-1 hidden error-message border-red-500"
+                            id="username-error"></span>
                     </div>
                 </div>
                 <div class="flex justify-between">
                     <label for="email" class="font-bold py-1" data-i18n="contact_us.label_email"></label>
                     <div class="w-3/4">
-                        <input class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color" type="email" id="email">
+                        <input
+                            class="shadow border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:border-primary-color"
+                            type="email" id="email">
                         <span class="text-red-500 text-xs mt-1 hidden error-message" id="email-error"></span>
                     </div>
                 </div>
                 <div class="flex justify-between">
                     <label for="message" class="font-bold py-2" data-i18n="blog_detail.label_commment"></label>
                     <div class="w-3/4">
-                        <textarea class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none h-52 min-h-20 max-h-52 focus:border-primary-color" type="email" id="message"></textarea>
+                        <textarea
+                            class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none h-52 min-h-20 max-h-52 focus:border-primary-color"
+                            type="email" id="message"></textarea>
                         <span class="text-red-500 text-xs mt-1 hidden error-message" id="message-error"></span>
                     </div>
                 </div>
                 <div class="flex justify-between">
                     <div></div>
                     <div class="w-3/4">
-                        <button type="submit" class=" bg-black hover:bg-primary-color text-white font-semibold py-1 px-3 rounded-md duration-300" data-i18n="blog_detail.button_submit"></button>
+                        <button type="submit"
+                            class=" bg-black hover:bg-primary-color text-white font-semibold py-1 px-3 rounded-md duration-300"
+                            data-i18n="blog_detail.button_submit"></button>
                     </div>
                 </div>
             </form>
@@ -76,9 +86,12 @@
 
     <div id="footer"></div>
 
-    <script src="../../assets/js/loadlayouts.js" type="module"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/loadlayouts.js"></script>
     <script src="../../assets/js/breadcrumb.js"></script>
+    <script src="../../assets/js/cart.js"></script>
     <script src="../../assets/js/blog_detail.js"></script>
+    <script src="../../assets/js/jwt.js"></script>
     <script src="../../assets/js/showAlert.js"></script>
     <script src="../../assets/js/validateForm.js"></script>
     <script src="../../assets/js/api.js"></script>

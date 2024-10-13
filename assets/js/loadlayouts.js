@@ -1,6 +1,3 @@
-import { switchCSSLanguageButtons, setDefaultCSSLanguage } from './header.js';
-
-
 function loadLayout(elementId, filePath, contentId = null) {
 	fetch(filePath)
 		.then((response) => {
@@ -22,12 +19,16 @@ function loadLayout(elementId, filePath, contentId = null) {
 			if (elementId === 'header') {
 				switchCSSLanguageButtons();
 				setDefaultCSSLanguage();
+				checkLogin();
+				clickAccount();
+				clickLogout();
+				toggleUserInfo();
+				toggleListLink();
+				loadCartNumber();
 			}
 		})
 		.catch((error) => console.error(error));
 }
-
-export { switchCSSLanguageButtons };
 
 loadLayout('header', '../../src/layouts/header.html');
 loadLayout('footer', '../../src/layouts/footer.html');

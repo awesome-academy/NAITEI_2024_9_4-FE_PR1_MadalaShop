@@ -6,3 +6,17 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+#userInfo::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    right: -18px;
+    transform: rotate(45deg) translate(-50%);
+    bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+    border-right: 1px solid rgba(0, 0, 0, 0.16);
+}

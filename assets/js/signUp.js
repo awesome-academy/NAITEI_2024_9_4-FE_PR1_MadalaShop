@@ -1,3 +1,7 @@
+const errEmailMessage = ['sign-up.error_email', 'sign-up.error_email_double'];
+const errPasswordMessage = ['sign-up.error_password', 'sign-up.error_password_match'];
+let emailExists = false;
+let passwordMatch = true;
 document.getElementById('sign-up-form').addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -7,6 +11,9 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
     const lastNameInput = document.getElementById('lastName');
     const lastName = lastNameInput.value.trim();
 
+    const addressInput = document.getElementById('address');
+    const address = addressInput.value.trim();
+
     const emailInput = document.getElementById('emailSignUp');
     const email = emailInput.value.trim();
 
@@ -15,7 +22,6 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
 
     const passwordVerifyInput = document.getElementById('passwordVerify');
     const passwordVerify = passwordVerifyInput.value.trim();
-
     let isValid = true;
 
     document.querySelectorAll('.error-message').forEach(error => error.classList.add('hidden'));
@@ -38,6 +44,15 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
         isValid = false;
     }
 
+    // Validate last name
+    if (address.length === 0) {
+        const errorElement = document.getElementById('address-error');
+        addressInput.classList.add('border-red-500');
+        errorElement.textContent = t('sign-up.error_address');
+        errorElement.classList.remove('hidden');
+        isValid = false;
+    }
+
     // Validate email
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
@@ -46,6 +61,20 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
         errorElement.textContent = t('sign-up.error_email');
         errorElement.classList.remove('hidden');
         isValid = false;
+    }
+
+    //Check existing account
+    let accounts = JSON.parse(localStorage.getItem('accounts'));
+    if (accounts) {
+        const emailExist = accounts.some(item => item.email === email);
+        if (emailExist) {
+            const errorElement = document.getElementById('email-error');
+            emailInput.classList.add('border-red-500');
+            errorElement.textContent = t('sign-up.error_email_double');
+            errorElement.classList.remove('hidden');
+            isValid = false;
+            emailExists = true;
+        }
     }
 
     // Validate password
@@ -65,6 +94,10 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
         isValid = false;
     }
 
+    if (password.length === 0 && password.length === 0) {
+        passwordMatch = true;
+    }
+
     // Validate password confirmation
     if (password !== passwordVerify) {
         const errorElement_pw = document.getElementById('password-error');
@@ -75,6 +108,7 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
         errorElement_pw_retype.textContent = t('sign-up.error_password_match');
         errorElement_pw.classList.remove('hidden');
         errorElement_pw_retype.classList.remove('hidden');
+        passwordMatch = false;
         isValid = false;
     }
 
@@ -84,6 +118,7 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
             firstName: firstName,
             lastName: lastName,
             email: email,
+            address: address,
             checkboxStatus: document.getElementById('emailSignUp').checked,
             password: encrypt(password),
         };
@@ -96,12 +131,15 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
         accounts.push(account);
         localStorage.setItem('accounts', JSON.stringify(accounts));
         showAlert(t('sign-up.success_message'), 'success');
+
+        document.getElementById('sign-up-form').reset();
     }
 });
 
 function reloadMessageSignUp() {
     const errorFirstName = document.getElementById('first-name-error');
     const errorLastName = document.getElementById('last-name-error');
+    const errorAddress = document.getElementById('address-error');
     const errorEmail = document.getElementById('email-error');
     const errorPassword = document.getElementById('password-error');
     const errorPasswordVerify = document.getElementById('password-confirm-error');
@@ -109,10 +147,12 @@ function reloadMessageSignUp() {
 
     errorFirstName.textContent = t('sign-up.error_first_name');
     errorLastName.textContent = t('sign-up.error_last_name');
-    errorEmail.textContent = t('sign-up.error_email');
-    errorPassword.textContent = t('sign-up.error_password');
-    errorPasswordVerify.textContent = t('sign-up.error_password');
+    errorAddress.textContent = t('sign-up.error_address');
+    errorEmail.textContent = emailExists ? t(errEmailMessage[1]) : t(errEmailMessage[0]);
+    errorPassword.textContent = !passwordMatch ? t(errPasswordMessage[1]) : t(errPasswordMessage[0]);
+    errorPasswordVerify.textContent = !passwordMatch ? t(errPasswordMessage[1]) : t(errPasswordMessage[0]);
     successAlert.textContent = t('sign-up.success_message');
+
 }
 
 function validateInput(event) {
@@ -131,6 +171,15 @@ function validateInput(event) {
 
     if (inputElement.id === 'lastName') {
         errorElement = document.getElementById('last-name-error');
+        if (inputValue.length >= 0) {
+            inputElement.classList.add('focus:border-primary-color');
+            inputElement.classList.remove('border-red-500');
+            errorElement.textContent = '';
+        }
+    }
+
+    if (inputElement.id === 'address') {
+        errorElement = document.getElementById('address-error');
         if (inputValue.length >= 0) {
             inputElement.classList.add('focus:border-primary-color');
             inputElement.classList.remove('border-red-500');
@@ -175,6 +224,7 @@ function validateInput(event) {
 
 document.getElementById('firstName').addEventListener('input', validateInput);
 document.getElementById('lastName').addEventListener('input', validateInput);
+document.getElementById('address').addEventListener('input', validateInput);
 document.getElementById('emailSignUp').addEventListener('input', validateInput);
 document.getElementById('passwordSignUp').addEventListener('input', validateInput);
 document.getElementById('passwordVerify').addEventListener('input', validateInput);
