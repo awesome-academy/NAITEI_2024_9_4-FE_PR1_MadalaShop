@@ -2,7 +2,7 @@ const errEmailMessage = ['sign-up.error_email', 'sign-up.error_email_double'];
 const errPasswordMessage = ['sign-up.error_password', 'sign-up.error_password_match'];
 let emailExists = false;
 let passwordMatch = true;
-document.getElementById('sign-up-form').addEventListener('submit', function (event) {
+document.getElementById('sign-up-form').addEventListener('submit', async function (event) {
     event.preventDefault();
 
     const firstNameInput = document.getElementById('firstName');
@@ -132,7 +132,15 @@ document.getElementById('sign-up-form').addEventListener('submit', function (eve
         localStorage.setItem('accounts', JSON.stringify(accounts));
         showAlert(t('sign-up.success_message'), 'success');
 
-        document.getElementById('sign-up-form').reset();
+        const header = { alg: 'HS256', typ: 'JWT' };
+        const payload = {
+            account: account,
+            exp: Math.floor(Date.now() / 1000) + (60 * 60) // 1 giờ
+        };
+        const secretKey = "ed635f9d05cfaf483f6ee8d520b81d43c0137b5797c7b641b05291e94e3475d3";
+        const token = await createJWT(header, payload, secretKey);
+        sessionStorage.setItem('token', token);
+        window.location.href = "../../src/pages/index.html";
     }
 });
 
@@ -152,7 +160,6 @@ function reloadMessageSignUp() {
     errorPassword.textContent = !passwordMatch ? t(errPasswordMessage[1]) : t(errPasswordMessage[0]);
     errorPasswordVerify.textContent = !passwordMatch ? t(errPasswordMessage[1]) : t(errPasswordMessage[0]);
     successAlert.textContent = t('sign-up.success_message');
-
 }
 
 function validateInput(event) {
