@@ -32,11 +32,41 @@ function reloadContactMessage() {
 form.addEventListener('submit', function (event) {
     event.preventDefault();
     document.querySelectorAll('.error-message').forEach(error => error.classList.add('hidden'));
-    validateForm(validationSetUp, successAlert);
+
+    let isValid = true;
+    const formData = {};
+
+    Object.keys(validationSetUp).forEach(field => {
+        const inputElement = document.getElementById(field);
+        const value = inputElement.value.trim();
+        const { validator, errorMessageI18n, idErrorElement } = validationSetUp[field];
+
+        if (validator(value)) {
+            inputElement.classList.remove('border-red-500');
+            inputElement.classList.add('focus:border-primary-color');
+            formData[field] = value;
+        } else {
+            const errorElement = document.getElementById(idErrorElement);
+            inputElement.classList.add('border-red-500');
+            inputElement.classList.remove('focus:border-primary-color');
+            errorElement.textContent = t(errorMessageI18n);
+            errorElement.classList.remove('hidden');
+            isValid = false;
+        }
+    });
+
+    if (isValid) {
+        const userIdea = JSON.parse(localStorage.getItem('contactForms')) || [];
+        userIdea.push(formData);
+        localStorage.setItem('contactForms', JSON.stringify(userIdea));
+        showAlert(t(successAlert[0]), successAlert[1]);
+        form.reset();
+    }
 });
 
+
 Object.keys(validationSetUp).forEach(field => {
-    document.getElementById(field).addEventListener('input', function(event) {
+    document.getElementById(field).addEventListener('input', function (event) {
         const inputElement = event.target;
         validateInput(inputElement, validationSetUp);
     });
