@@ -374,13 +374,36 @@ document.querySelectorAll('.remove-product').forEach(button => {
 
 document.querySelector('#compare-btn').addEventListener('click', () => {
     if (compareProducts[0] && compareProducts[1]) {
-        document.querySelector('#compare-popup').classList.remove('hidden');
+        const modalContent = `
+            <h3 class="md:text-lg text-base font-bold" data-i18n="product.compare">${t('product.compare')}</h3>
+            <div class="grid grid-cols-2 gap-5">
+                <div id="popup-product1">
+                    <img id="popup-product1-img" src="" alt="Sản phẩm"
+                        class="object-contain md:h-96 h-48 w-auto">
+                    <h4 id="popup-product1-name" class="font-bold md:text-lg text-base"></h4>
+                    <p id="popup-product1-price" class="text-primary-color font-bold"></p>
+                    <p class="font-bold">
+                        <span id="popup-product2-purchases"></span>
+                        <span data-i18n="product.purchases">${t('product.purchases')}</span>
+                    </p>
+                </div>
+                <div id="popup-product2">
+                    <img id="popup-product2-img" src="" alt="Sản phẩm"
+                        class="object-contain md:h-96 h-48 w-auto">
+                    <h4 id="popup-product2-name" class="font-bold md:text-lg text-base"></h4>
+                    <p id="popup-product2-price" class="text-primary-color font-bold"></p>
+                    <p class="font-bold">
+                        <span id="popup-product1-purchases"></span>
+                        <span data-i18n="product.purchases">${t('product.purchases')}</span>
+                    </p>
+                </div>
+            </div>
+        `;
 
+        showModal(modalContent);
+        updateMaxWidthModal('max-w-3xl');
+        
         loadPopupData(1);
         loadPopupData(2);
     }
-});
-
-document.querySelector('#close-popup').addEventListener('click', () => {
-    document.querySelector('#compare-popup').classList.add('hidden');
 });

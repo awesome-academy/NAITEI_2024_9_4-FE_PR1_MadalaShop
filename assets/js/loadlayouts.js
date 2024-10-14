@@ -35,6 +35,7 @@ loadLayout('footer', '../../src/layouts/footer.html');
 loadLayout('alert-success-container', '../../src/components/alert.html', 'alert-success-container');
 loadLayout('alert-warning-container', '../../src/components/alert.html', 'alert-warning-container');
 loadLayout('tooltip-container', '../../src/components/tooltip.html');
+loadLayout('modal-container', '../../src/components/modal.html'),
 
 import('./i18n.js').then(() => {
 	changeLanguage(localStorage.getItem('language') || 'vi');

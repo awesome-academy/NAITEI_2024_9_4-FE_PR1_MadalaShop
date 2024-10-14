@@ -86,7 +86,12 @@
         "success_remove_message": "Xóa khỏi giỏ hàng thàng công!",
         "success_clear_message": "Xóa tất cả sản phẩm thàng công!",
         "clear_empty_message": "Giỏ hàng đã rỗng!",
-        "empty": "Giỏ hàng của bạn đang rỗng!"
+        "empty": "Giỏ hàng của bạn đang rỗng!",
+        "address": "Địa chỉ giao hàng",
+        "address_input": "Nhập địa chỉ",
+        "prepaid_amount": "Số tiền trả trước",
+        "enter_amount" : "Nhập số tiền",
+        "warning_address": "Địa chỉ ít nhất 5 ký tự"
     },
     "detail": {
         "ship": "Chở hàng",
@@ -174,8 +179,20 @@
         "remaining_debt": "Nợ còn",
         "status": "Trạng thái",
         "completed": "Hoàn thành",
-        "not_completed": "Chưa hoàn thành",
-        "account_details": "CHI TIẾT TÀI KHOẢN"
+        "pending": "Đang xử lý",
+        "account_details": "CHI TIẾT TÀI KHOẢN",
+        "empty": "HÃY MUA HÀNG ĐI!!!",
+        "not_found": "Không tìm thấy sản phẩm",
+        "order_detail": "Chi tiết đơn hàng",
+        "quantity": "Số lượng",
+        "delete_order": "Xóa đơn hàng",
+        "comfirm_delete": "Bạn có chắc chắn muốn xóa đơn hàng này không?",
+        "delete_success": "Xóa đơn hàng thành công",
+        "continue_payment" : "Tiếp tục thanh toán",
+        "enter_payment_amount" : "Nhập giá trị thanh toán",
+        "confirm_payment": "Xác nhận",
+        "invalid_payment_amount" : "Giá trị thanh toán không hợp lệ",
+        "payment_successful" : "Đã thanh toán"
     },
     "product": {
         "catalog": "Danh mục sản phẩm",

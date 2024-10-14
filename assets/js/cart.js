@@ -1,24 +1,3 @@
-function formatCurrency(price) {
-    return price.toLocaleString('it-IT', { style: 'currency', currency: 'VND' });;
-}
-
-function parseCurrency(priceStr) {
-    return priceStr.replace(/\./g, '')
-        .replace('đ', '')
-        .replace(/\s+/g, '')
-}
-
-function getAccount() {
-    const token = sessionStorage.getItem('token');
-    let account = '';
-    if (token)
-        account = decodeJWT(token).account.email;
-    else
-        account = null;
-
-    return account;
-}
-
 async function addToCart(productId) {
     const account = getAccount();
     if (!account) {
@@ -245,3 +224,131 @@ function clearCart() {
         showAlert(t('cart.success_clear_message'), 'success');
     }
 }
+
+async function initPopUpContent() {
+    const language = localStorage.getItem('language');
+    const products = await fetchData(`${language}/products`);
+    const account = getAccount();
+    const allCarts = JSON.parse(localStorage.getItem('carts')) || {};
+    const userCart = allCarts[account] ||  { cart: [] };
+
+    if (!userCart.cart || userCart.cart.length === 0) {
+        showAlert(t('cart.empty'), 'warning');
+        return;
+    }
+
+    const productsHTML = userCart.cart.map(item => {
+        const productData = products.find(product => product.id === item.id);
+        console.log(`${item.totalPrice}`)
+        if (productData) {
+            return `
+                <li>
+                    <a href="../pages/product_detail.html?id=${productData.id}"><strong class="hover:text-primary-color italic">${productData.name}</strong></a> - 
+                    ${t('account.quantity')}: ${item.quantity}, 
+                    ${t('cart.productPrice')}: ${formatCurrency(item.totalPrice)}
+                </li>
+            `;
+        } else {
+            return `
+                <li>
+                    <span>${t('account.not_found')}</span>
+                </li>
+            `;
+        }
+    }).join('');
+
+    const totalAmount = userCart.cart.reduce((total, item) => total + item.price * item.quantity, 0);
+
+    const modalContent = `
+        <h2 class="text-xl font-bold mb-4">${t('breadcrumb.cart')}</h2>
+        <ul class="mb-4 list-disc pl-5">
+            ${productsHTML}
+        </ul>
+        <div class="mb-3"><strong>${t('account.total_amount')}: ${formatCurrency(totalAmount)}</strong></div>
+        <form id="payment-form">
+            <label class="block mb-2 font-bold">${t('cart.address')}</label>
+            <input id="address" type="text" class="w-full border p-2 rounded-md mb-4" value="${getAddress()}">
+            <span class="text-red-500 text-xs hidden mb-4" id="message-error"></span>
+            <label for="prepaid" class="block mb-2 font-bold">${t('cart.prepaid_amount')}:</label>
+            <select id="prepaid" name="prepaid" class="w-full p-2 border rounded-md mb-4" required>
+                <option value="0">${formatCurrency(0)}</option>
+                <option value="0.2">${formatCurrency(totalAmount*0.2)}</option>
+                <option value="0.4">${formatCurrency(totalAmount*0.4)}</option>
+                <option value="0.6">${formatCurrency(totalAmount*0.6)}</option>
+                <option value="0.8">${formatCurrency(totalAmount*0.8)}</option>
+                <option value="1">${formatCurrency(totalAmount)}</option>
+            </select>
+
+            <button type="submit" class="bg-primary-color text-white mt-4 w-full py-2 rounded-md hover:bg-black transition duration-300">
+                ${t('cart.pay')}
+            </button>
+        </form>
+    `;
+    
+    showModal(modalContent);
+
+    const addressInput = document.getElementById('address');
+    const paymentForm = document.getElementById('payment-form');
+
+    addressInput.addEventListener('input', () => {
+        const errorMessage = document.getElementById('message-error');
+    
+        if (addressInput.value.trim().length >= 5) {
+            errorMessage.classList.add('hidden');
+        }
+    });
+    paymentForm.onsubmit = handlePaymentSubmit;
+}
+
+function handlePaymentSubmit(event) {
+    event.preventDefault();
+
+    const prepaidPercentage = parseFloat(event.target.prepaid.value);
+    const address = event.target.address.value;
+    const errorMessage = document.getElementById('message-error');
+
+    if (address.trim().length < 5) {
+        errorMessage.textContent = t('cart.warning_address');
+        errorMessage.classList.remove('hidden');
+        
+    } else {
+        errorMessage.classList.add('hidden');
+        setOrderHistory(prepaidPercentage, address);
+        window.location.href = '../../src/pages/account.html';
+    }
+}
+
+function setOrderHistory(prepaidPercentage, address) {
+    const account = getAccount();
+    let allCarts = JSON.parse(localStorage.getItem('carts')) || {};
+    let userCart = allCarts[account] || { cart: [] };
+
+    let orderHistory = JSON.parse(localStorage.getItem('orderHistory')) || {};
+    let userOrders = orderHistory[account] || [];
+
+    const nextOrderId = userOrders.length > 0 ? userOrders[userOrders.length - 1].orderId + 1 : 1001;
+    const currentDate = new Date().toISOString();
+    const totalAmount = userCart.cart.reduce((total, item) => total + item.price * item.quantity, 0);
+    const debt = totalAmount - prepaidPercentage * totalAmount;
+
+    const newOrder = {
+        orderId: nextOrderId,
+        orderDate: currentDate,
+        products: userCart.cart.map(item => ({
+            id: item.id,
+            quantity: item.quantity,
+            price: item.price
+        })),
+        totalPrice: totalAmount,
+        debt: debt,
+        address: address,
+    };
+
+    userOrders.push(newOrder);
+    orderHistory[account] = userOrders;
+    localStorage.setItem('orderHistory', JSON.stringify(orderHistory));
+
+    delete allCarts[account];
+    localStorage.setItem('carts', JSON.stringify(allCarts));
+}
+
